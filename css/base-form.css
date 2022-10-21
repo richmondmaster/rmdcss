@@ -1,0 +1,570 @@
+  ::-webkit-input-placeholder {
+    /* Edge */
+    padding: var(--default-form-placeholder-padding, 0em 0em 0em 0.25em);
+    color: var(--default-form-placeholder-font-color, #000);
+    font-weight: var(--default-form-placeholder-font-weight, normal);
+    font-style: var(--default-form-placeholder-font-style, normal);
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    padding: var(--default-form-placeholder-padding, 0em 0em 0em 0.25em);
+    color: var(--default-form-placeholder-font-color, #000);
+    font-weight: var(--default-form-placeholder-font-weight, normal);
+    font-style: var(--default-form-placeholder-font-style, normal);
+  }
+
+  ::placeholder {
+    padding: var(--default-form-placeholder-padding, 0em 0em 0em 0.25em);
+    color: var(--default-form-placeholder-font-color, #000);
+    font-weight: var(--default-form-placeholder-font-weight, normal);
+    font-style: var(--default-form-placeholder-font-style, normal);
+  }
+  
+  input[type="text"]:focus {
+    background-color:var(--focus-background-color, var(--default-form-input-focus-background-color, #fff));
+    outline-style: var(--focus-outline-style, var(--default-form-input-focus-outline-style, solid));
+    outline-width: var(--focus-outline-width, var(--default-form-input-focus-outline-width, 2px));
+    outline-color: var(--focus-outline-color, var(--default-form-input-focus-outline-color, #000));
+    border-radius: 0px;
+  }
+
+  select:focus {
+    background-color:var(--focus-background-color, var(--default-form-input-focus-background-color, #fff));
+    outline-style: var(--focus-outline-style, var(--default-form-input-focus-outline-style, solid));
+    outline-width: var(--focus-outline-width, var(--default-form-input-focus-outline-width, 2px));
+    outline-color: var(--focus-outline-color, var(--default-form-input-focus-outline-color, #000));
+    border-radius: 0px;
+  }
+
+  form {
+    display: inline-block;
+    margin-top: 0em;
+    margin-block-end: 0em;
+    box-sizing: border-box;
+  }
+
+  .form-container {
+    display: table;
+    margin: 1rem auto;
+    clear: both;
+  }
+  
+  .form-container > form {
+    width:100%;
+  }
+
+  .form-layout {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: stretch;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+    overflow: unset;
+    padding: 0rem;
+    margin: 0rem;
+  }
+  
+  .form-layout-grid {
+    display: grid;
+    grid-template-areas: 'form-header'
+                          'form-body'
+                          'form-footer';
+    grid-template-rows: auto 1fr auto;
+    align-content: stretch;
+    gap: 0rem;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+    overflow: unset;
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  .form-header {
+    display: flex;
+    flex-flow: row nowrap;
+    grid-area: form-header;
+    width: 100%;
+    min-width: 375px;
+    padding: 1em 2em;
+    box-sizing: border-box;
+  }
+
+  .form-body {
+    display: block;
+    grid-area: form-body;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    margin: 0rem;
+    box-sizing: border-box;
+  }
+  
+  .form-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    grid-area: form-footer;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+    padding: 1em 2em;
+    margin: 0rem;
+    box-sizing: border-box;
+    white-space: nowrap;
+  }
+  
+  .form-label {
+    display: block;
+    width: 0; /* this does all the magic in allowing a flex item to shrink */
+    box-sizing: border-box;
+    color: var(--default-form-font-color, #000);
+    font-weight: 700;
+    line-height: 2.5em;
+  }
+
+  .form-group {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    padding: 0.5em 0.5em; /* indents */
+    box-sizing: border-box;
+  }
+
+  .form-column { /* synonym for .form-group */
+    display: inline-flex;
+    flex-flow: column nowrap;
+    padding: 1em 1.5em; /* indents */
+    box-sizing: border-box;
+  }
+
+  .form-row {
+    display: inline-flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    box-sizing: border-box;
+  }
+
+  .form-section {
+    display: inline-flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    margin: 0.5em 0em;
+    padding: 1em 1.5em;
+    box-sizing: border-box;
+    background-color: var(--default-form-section-background-color, rgb(218, 218, 218));
+    border-style: var(--default-form-section-border-style, solid);
+    border-width: var(--default-form-section-border-width, 2px);
+    border-color: var(--default-form-section-border-color, #888);
+    border-radius: var(--default-form-section-border-radius, 0px);
+  }
+
+  .input-group {
+    display: inline-flex;
+    flex-direction: row;
+    gap: var(--default-form-input-gap, 0em 0.5em);
+    padding: 0.25em 0em;
+    box-sizing: border-box;
+  }
+
+  .input-group-compound {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: var(--default-form-input-gap, 0em 0.5em);
+    padding: 0.25em 0em;
+    box-sizing: border-box;
+  }
+
+  .input-group-column {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: var(--default-form-input-gap, 0em 0.5em);
+    padding: 0.25em 0em;
+    box-sizing: border-box;
+  }
+
+  .input-group-row {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: var(--default-form-input-gap, 0em 0.5em);
+    padding: 0.25em 0em;
+    box-sizing: border-box;
+  }
+
+  .input-column {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: var(--default-form-input-gap, 0em 0.5em);
+    padding: 0.25em 0em;
+    box-sizing: border-box;
+  }
+
+  .input-row {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: var(--default-form-input-gap, 0em 0.5em);
+    padding: 0.25em 0em;
+    box-sizing: border-box;
+  }
+
+  .input-container {
+    display: inline-flex;
+    font-size: 100%;
+  }
+
+  .form-group > label,
+  .form-group > .form-label,
+  .form-section > label,
+  .form-section > .form-label {
+    display: block; /* allows text-ellipsis to function */
+    width: 0; /* this does all the magic in allowing a flex item to shrink */
+    min-width:0;
+    color: var(--default-form-font-color, #000);
+    font-weight: 700;
+    line-height: 2.5em;
+  }
+
+  /* This is to allow quick ad-hoc form building with no groupings, rows, etc. */
+  .form-body > label, 
+  .form-body > .form-label,
+  form > label, 
+  form > .form-label {
+    display: block; /* allows text-ellipsis to function */
+    width: 100%; /* with form-body, form, you lose side-by-sideness */
+    min-width: 0;
+    color: var(--default-form-font-color, #000);
+    font-weight: 700;
+    line-height: 2em;
+  }
+
+  .input-group-row > button,
+  .input-group-row > select,
+  .input-group-row > label,
+  .input-group-row > div,
+  .input-group-row > input[type=text],
+  .input-group-row > input[type=range],
+  .input-row > button,
+  .input-row > select,
+  .input-row > label,
+  .input-row > div,
+  .input-row > input[type=text],
+  .input-row > input[type=range],
+  .input-group-compound > button,
+  .input-group-compound > select,
+  .input-group-compound > label,
+  .input-group-compound > div,
+  .input-group-compound > input[type=text],
+  .input-group-compound > input[type=range]  {
+    padding: 0em 0.5em;
+  }
+
+  .input-group-column > button,
+  .input-group-column > select,
+  .input-group-column > label,
+  .input-group-column > div,
+  .input-group-column > input[type=text],
+  .input-group-column > input[type=range],
+  .input-column > button,
+  .input-column > select,
+  .input-column > label,
+  .input-column > div,
+  .input-column > input[type=text],
+  .input-column > input[type=range] {
+    padding: 0.5em 0em;
+  }
+
+  /* makes an input-group-compound act like a row; and rows act like better rows */
+  .input-group > label,
+  .input-group > .form-label,
+  .input-group-row > label,
+  .input-group-row > .form-label,
+  .input-row > label,
+  .input-row > .form-label,
+  .input-group-column > label,
+  .input-group-column > .form-label,
+  .input-column > label,
+  .input-column > .form-label,
+  .input-group-compound > label,
+  .input-group-compound > .form-label {
+    display: block; /* allows text-ellipsis to function */
+    width: 0; /* this does all the magic in allowing a flex item to shrink (and not wrap) */
+    min-width: 0;
+    color: var(--default-form-font-color, #000);
+    font-weight: 700;
+    line-height: 2em;
+  }
+
+  .input-group-row.flex-row-item  > label,
+  .input-group-row.flex-row-item  > .form-label,
+  .input-row.flex-row-item  > label,
+  .input-row.flex-row-item  > .form-label,
+  .input-group-column.flex-row-item  > label,
+  .input-group-column.flex-row-item  > .form-label,
+  .input-column.flex-row-item  > label,
+  .input-column.flex-row-item  > .form-label,
+  .input-group.flex-row-item > label,
+  .input-group-compound.flex-row-item > label,
+  .input-group-compound > label,
+  .form-body.flex-row-item > label,
+  .form-section.flex-row-item > label { /* allows label to expand and use text ellipsis */
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .input-container > label,
+  .input-container > .form-label {
+    line-height: 2em;
+  }
+
+  /* This is to allow quick ad-hoc form building with no groupings, rows, etc. */
+  .form-body select,
+  .form-body input[type=text],
+  .form-section select,
+  .form-section input[type=text],
+  form select,
+  form input[type=text] {
+    display: block; /* default by browser is inline-block */
+    width: 100%;
+    min-width: 0;
+    border-style: var(--default-form-input-border-style, solid);
+    border-width: var(--default-form-input-border-width, 1px);
+    border-color: var(--default-form-input-border-color, #ccc);
+    border-radius: var(--default-form-input-border-radius, 0px);
+    font-size: var(--default-form-input-font-size, 1em);
+    font-family: var(--default-form-input-font-family, 'Arial', Helvetica, san-serif);
+    padding: var(--default-form-input-padding, 0.75em 0em);
+    color: var(--default-form-input-font-color, #000);
+  }
+
+  .input-group select,
+  .input-group input[type=text] {
+    width: 0%; /* needed to allow flex basis to size properly*/
+    min-width: 0;
+    border-style: var(--default-form-input-border-style, solid);
+    border-width: var(--default-form-input-border-width, 1px);
+    border-color: var(--default-form-input-border-color, #ccc);
+    border-radius: var(--default-form-input-border-radius, 0px);
+    font-size: var(--default-form-input-font-size, 1em);
+    font-family: var(--default-form-input-font-family, 'Arial', Helvetica, san-serif);
+    padding: var(--default-form-input-group-padding, 0.75em 0em);
+    color: var(--default-form-input-font-color, #000);
+  }
+  
+  .form-body input[type=checkbox],
+  .form-section input[type=checkbox],
+  .input-group input[type=checkbox] {
+    width: 20px;
+    -margin: unset;
+  }
+  
+  .input-sized {
+    width: calc(var(--input-width, 3ch) * var(--sizing-factor, var(--default-form-input-sizing-factor, 2))) !important;
+  }
+
+  .form-value {
+    padding: 0px 0px;
+    color: var(--default-form-font-color, #000);
+    font-weight: normal;
+  }
+
+/* validator support */
+
+  .input-validate {
+    display: table;
+    height: 1px;
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+    color: #921205;
+  }
+  
+  .form-result-message {
+    display: flex;
+    width: 0; /* this does all the magic in allowing a flex item to shrink */
+    min-width: 0;
+    line-height: 2rem;
+    margin: 0rem auto;
+  }
+
+  .field-validate span {
+    background-color: #dfbbb4;
+    padding: 2.5px;
+  }
+  
+  .field-validate span[style*=hidden] {
+    display: none;
+  }
+
+@media only screen and (max-width: 450px) {
+  .form-body {
+    padding: 1em 0.25em
+  }
+
+  .form-group {
+    padding: 1em 0.25em
+  }
+
+  .form-group {
+    padding: 1em 0.5em
+  }
+
+  .form-footer {
+    padding: 1em 0.5em;
+  }
+
+  .input-group-compound {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: var(--default-form-input-gap, 0em 0.5em);
+    padding: 0.25em 0em;
+    box-sizing: border-box;
+  }
+
+  .input-group-column {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: var(--default-form-input-gap, 0em 0.5em);
+    padding: 0.25em 0em;
+    box-sizing: border-box;
+  }
+
+  .input-group-row {
+    gap: var(--default-form-input-gap-for-small-down, 0em 0.125em);
+    padding: 0.125em 0em;
+  }
+
+  .input-column {
+    gap: var(--default-form-input-gap-for-small-down, 0em 0.125em);
+    padding: 0.125em 0em;
+  }
+
+  .input-row {
+    gap: var(--default-form-input-gap-for-small-down, 0em 0.125em);
+    padding: 0.125em 0em;
+  }
+
+  .input-group-row > button,
+  .input-group-row > select,
+  .input-group-row > label,
+  .input-group-row > div,
+  .input-group-row > input[type=text],
+  .input-group-row > input[type=range],
+  .input-row > button,
+  .input-row > select,
+  .input-row > label,
+  .input-row > div,
+  .input-row > input[type=text],
+  .input-row > input[type=range],
+  .input-group-compound > button,
+  .input-group-compound > select,
+  .input-group-compound > label,
+  .input-group-compound > div,
+  .input-group-compound > input[type=text],
+  .input-group-compound > input[type=range]  {
+    padding: 0em 0.20em;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  form {
+    width: 100%;
+    padding: 0em 0.25em;
+  }
+
+  .form-container {
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  .form-body {
+    width: 100%;
+  }
+
+  .form-row {
+    flex-flow: column;
+    gap: var(--default-form-input-gap-for-medium-down, 0.5em 0.5em);
+  }
+
+  .form-group > label {
+    width: unset;
+  }
+
+  .form-body > .input-group,
+  .form-group > .input-group,
+  .form-row > .input-group {
+    flex-flow: column;
+  }
+
+  .form-group,
+  .input-group {
+    width: 100%;
+  }
+
+  .input-group {
+    flex-direction: column;
+    gap: var(--default-form-input-gap-for-medium-down, 0.5em 0.5em);
+  }
+
+  .input-group > label,
+  .input-group > .form-label {
+    display: block;
+    width: unset;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .input-group > select,
+  .input-group > button,
+  .input-group > input[type=text],
+  .input-group > input[type=button],
+  .input-group > input[type=submit],
+  .input-group > input[type=reset] 
+  .input-group > .input-container {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .input-container > select,
+  .input-container > button,
+  .input-container > input[type=text],
+  .input-container > input[type=button],
+  .input-container > input[type=range],
+  .input-container > input[type=submit],
+  .input-container > input[type=reset] 
+  .input-container > div {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .form-header {
+    justify-content: center;
+  }
+
+  .form-footer {
+    justify-content: center;
+  }
+
+  .form-footer select,
+  .form-footer button,
+  .form-footer input[type=text],
+  .form-footer input[type=button],
+  .form-footer input[type=submit],
+  .form-footer input[type=reset] {
+    width: 100%;
+    clear: both;
+  }
+}

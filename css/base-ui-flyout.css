@@ -1,0 +1,275 @@
+/* flyout */
+
+
+.flyout {
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - var(--flyout-top-center-top-offset, 0.1rem));
+    right: calc(0.2% - var(--flyout-top-center-right-offset, 0.1rem));
+    width: calc(var(--flyout-width, 6rem) + 0rem);
+    height: calc(var(--flyout-height, 3rem) + 0rem);
+    justify-content: center;
+    align-items: center;
+    padding: 0.25em;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+/* position top */
+.flyout.option--position-top-left {
+    top: 0;
+    left: calc(0.2% - var(--flyout-top-center-right-offset, 0.1rem));
+}
+
+.flyout.option--position-top-center {
+    top: 0;
+    left: calc(50% - (var(--flyout-width, 0rem) * 0.5));
+}
+
+.flyout.option--position-top-right {
+    top: 0;
+    right: calc(0.2% - var(--flyout-top-center-right-offset, 0.1rem));
+}
+
+/* position bottom */
+.flyout.option--position-bottom-left {
+    top: unset;
+    bottom: 0;
+    left: calc(0.2% - var(--flyout-top-center-right-offset, 0.1rem));
+}
+
+.flyout.option--position-bottom-center {
+    top: unset;
+    bottom: 0;
+    left: calc(50% - (var(--flyout-width, 0rem) * 0.5));
+}
+
+.flyout.option--position-bottom-right {
+    top: unset;
+    bottom: 0;
+    right: calc(0.2% - var(--flyout-top-center-right-offset, 0.1rem));
+}
+
+/* position right */
+.flyout.option--position-right-top {
+    top: 0.1rem;
+    bottom: unset;
+    left: unset;
+    right: 0;
+}
+
+.flyout.option--position-right-center {
+    top: calc(50% - var(--flyout-height, 0rem));
+    right: calc(0.2% - var(--flyout-top-center-right-offset, 0.1rem));
+}
+
+.flyout.option--position-right-bottom {
+    top: unset;
+    bottom: 0;
+    left: unset;
+    right: 0;
+}
+
+/* position left */
+.flyout.option--position-left-top {
+    top: 0.1rem;
+    bottom: unset;
+    left: calc(0.2% - var(--flyout-top-center-right-offset, 0.1rem));
+}
+
+.flyout.option--position-left-center {
+    top: calc(50% - var(--flyout-height, 0rem));
+    bottom: unset;
+    left: calc(0.2% - var(--flyout-top-center-right-offset, 0.1rem));
+}
+
+.flyout.option--position-left-bottom {
+    top: unset;
+    bottom: 0;
+    left: calc(0.2% - var(--flyout-top-center-right-offset, 0.1rem));
+}
+
+
+.flyout-content {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    flex: auto 1 1;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: var(--flyout-cover-amount, 60%);
+    width: 95%;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: #eee;
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.7);
+    border-radius: 0.5rem;
+    -webkit-transition: all 0.5s cubic-bezier(0.8,0,0.025,1.105);
+    -moz-transition: all 0.5s cubic-bezier(0.8,0,0.025,1.105);
+    transition: all 0.5s cubic-bezier(0.8,0,0.025,1.105);
+}
+
+.flyout-content:hover {
+    left: 5%;
+}
+
+/* top left */
+.flyout.option--position-top-left > .flyout-content {
+    top: calc(var(--flyout-cover-amount, 60%) * -1);
+    left: 3%;
+}
+
+.flyout[class~="option--position-top-left"] > .flyout-content:hover,
+.flyout[class~="option--position-top-left"][class~="clicked"] > .flyout-content {
+    top: calc((var(--flyout-extend-amount, 90%) - 100%));
+}
+
+/* top center */
+.flyout.option--position-top-center > .flyout-content {
+    top: calc(var(--flyout-cover-amount, 60%) * -1);
+    left: 3%;
+}
+
+.flyout[class~="option--position-top-center"] > .flyout-content:hover,
+.flyout[class~="option--position-top-center"][class~="clicked"] > .flyout-content {
+    top: calc((var(--flyout-extend-amount, 90%) - 100%));
+}
+
+/* top right */
+.flyout.option--position-top-right > .flyout-content {
+    top: calc(var(--flyout-cover-amount, 60%) * -1);
+    left: 3%;
+}
+
+.flyout[class~="option--position-top-right"] > .flyout-content:hover,
+.flyout[class~="option--position-top-right"][class~="clicked"] > .flyout-content {
+    top: calc((var(--flyout-extend-amount, 90%) - 100%));
+}
+
+/* bottom left */
+.flyout.option--position-bottom-left > .flyout-content {
+    top: calc(var(--flyout-cover-amount, 60%));
+    left: 3%;
+}
+
+.flyout[class~="option--position-bottom-left"] > .flyout-content:hover,
+.flyout[class~="option--position-bottom-left"][class~="clicked"] > .flyout-content {
+    top: calc(100% - (var(--flyout-extend-amount, 90%)));
+}
+
+/* bottom center */
+.flyout.option--position-bottom-center > .flyout-content {
+    top: calc(var(--flyout-cover-amount, 60%));
+    left: 3%;
+}
+
+.flyout[class~="option--position-bottom-center"] > .flyout-content:hover,
+.flyout[class~="option--position-bottom-center"][class~="clicked"] > .flyout-content {
+    top: calc(100% - (var(--flyout-extend-amount, 90%)));
+}
+
+/* bottom right */
+.flyout.option--position-bottom-right > .flyout-content {
+    top: calc(var(--flyout-cover-amount, 60%));
+    left: 3%;
+}
+
+.flyout[class~="option--position-bottom-right"] > .flyout-content:hover,
+.flyout[class~="option--position-bottom-right"][class~="clicked"] > .flyout-content {
+    top: calc(100% - (var(--flyout-extend-amount, 90%)));
+}
+
+/* left top */
+.flyout.option--position-left-top > .flyout-content {
+    top: 3%;
+    right: unset;
+    left: calc(var(--flyout-cover-amount, 60%) * -1);
+}
+
+.flyout[class~="option--position-left-top"] > .flyout-content:hover,
+.flyout[class~="option--position-left-top"][class~="clicked"] > .flyout-content {
+    left: calc((var(--flyout-extend-amount, 90%) - 100%));
+}
+
+/* left center */
+.flyout.option--position-left-center > .flyout-content {
+    top: 3%;
+    right: unset;
+    left: calc(var(--flyout-cover-amount, 60%) * -1);
+}
+
+.flyout[class~="option--position-left-center"] > .flyout-content:hover,
+.flyout[class~="option--position-left-center"][class~="clicked"] > .flyout-content {
+    left: calc((var(--flyout-extend-amount, 90%) - 100%));
+}
+
+/* left bottom */
+.flyout.option--position-left-bottom > .flyout-content {
+    top: 3%;
+    right: unset;
+    left: calc(var(--flyout-cover-amount, 60%) * -1);
+}
+
+.flyout[class~="option--position-left-bottom"] > .flyout-content:hover,
+.flyout[class~="option--position-left-bottom"][class~="clicked"] > .flyout-content {
+    left: calc((var(--flyout-extend-amount, 90%) - 100%));
+}
+
+
+/* right top */
+.flyout.option--position-right-top > .flyout-content {
+    top: 3%;
+    left: unset;
+    right: calc(var(--flyout-cover-amount, 60%) * -1);
+}
+
+.flyout[class~="option--position-right-top"] > .flyout-content:hover,
+.flyout[class~="option--position-right-top"][class~="clicked"] > .flyout-content {
+    right: calc((var(--flyout-extend-amount, 90%) - 100%));
+}
+
+/* right center */
+.flyout.option--position-right-center > .flyout-content {
+    top: 3%;
+    left: unset;
+    right: calc(var(--flyout-cover-amount, 60%) * -1);
+}
+
+.flyout[class~="option--position-right-center"] > .flyout-content:hover,
+.flyout[class~="option--position-right-center"][class~="clicked"] > .flyout-content {
+    right: calc((var(--flyout-extend-amount, 90%) - 100%));
+}
+
+/* right bottom */
+.flyout.option--position-right-bottom > .flyout-content {
+    top: 3%;
+    left: unset;
+    right: calc(var(--flyout-cover-amount, 60%) * -1);
+}
+
+.flyout[class~="option--position-right-bottom"] > .flyout-content:hover,
+.flyout[class~="option--position-right-bottom"][class~="clicked"] > .flyout-content {
+    right: calc((var(--flyout-extend-amount, 90%) - 100%));
+}
+
+.flyout-content > div,
+.flyout-content > span,
+.flyout-content > a,
+.flyout-content > li,
+.flyout-content > p,
+.flyout-content > .flyout-item {
+    display: block;
+    flex: auto 1 1;
+    padding: 1rem;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+

@@ -1,0 +1,248 @@
+/* navigation */
+
+.nav-container {
+  display: flex;
+  flex-flow: column nowrap;
+  box-sizing: border-box;
+}
+
+.nav-row {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  clear: both;
+  padding: 0em;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.nav-row-rigid {
+  display: flex;
+  flex-flow: row nowrap;
+  width:100%;
+  clear: both;
+  padding: 0em;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+/* navify */
+
+.navify {
+  display: inline-block;
+  position: relative;
+  width:100%;
+}
+
+.navify-flex {
+  display: inline-flex;
+  position: relative;
+  flex-flow: row nowrap;
+}
+
+.navify > div,
+.navify > span,
+.navify > p,
+.navify > a {
+  float: left;
+  padding: 0.5em 1em;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: black;
+  cursor: pointer;
+}
+
+.navify-flex > div,
+.navify-flex > span,
+.navify-flex > p,
+.navify-flex > a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-family: Tahoma, Helvetica, sans-serif;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+.navify div.active,
+.navify span.active,
+.navify p.active,
+.navify a.active,
+.navify-flex div.active,
+.navify-flex span.active,
+.navify-flex p.active,
+.navify-flex a.active {
+  background-color: #ff2b83;
+  color: white;
+}
+
+.navify div:hover:not(.active),
+.navify span:hover:not(.active),
+.navify p:hover:not(.active),
+.navify a:hover:not(.active),
+.navify-flex div:hover:not(.active),
+.navify-flex  span:hover:not(.active),
+.navify-flex  p:hover:not(.active),
+.navify-flex  a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+
+
+/* pagify */
+
+.pagify {
+  display: inline-block;
+  position: relative;
+}
+
+.pagify-flex {
+  display: inline-flex;
+  position: relative;
+  flex-flow: row nowrap;
+}
+
+.pagify > div,
+.pagify > span,
+.pagify > p,
+.pagify > a,
+.pagify > li {
+  float: left;
+  color: black;
+  padding: 0.5em 1em;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+.pagify-flex > div,
+.pagify-flex > span,
+.pagify-flex > p,
+.pagify-flex > a,
+.pagify-flex > li {
+  display: inline-flex;
+  color: black;
+  padding: 0.5em 1em;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+.pagify div.active,
+.pagify span.active,
+.pagify p.active,
+.pagify a.active,
+.pagify-flex div.active,
+.pagify-flex span.active,
+.pagify-flex p.active,
+.pagify-flex a.active {
+  background-color: #ff2b83;
+  color: white;
+}
+
+.pagify div:hover:not(.active),
+.pagify span:hover:not(.active),
+.pagify p:hover:not(.active),
+.pagify a:hover:not(.active),
+.pagify-flex div:hover:not(.active),
+.pagify-flex  span:hover:not(.active),
+.pagify-flex  p:hover:not(.active),
+.pagify-flex  a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/* trail */
+
+.trail {
+  display: flex;
+  min-width: 0;
+  padding: 0.5em 1em;
+  list-style: none;
+}
+
+.trail > li,
+.trail > div,
+.trail > span,
+.trail > p,
+.trail > a {
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 0;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.trail > li+li:before,
+.trail > div+div:before,
+.trail > span+span:before,
+.trail > p+p:before,
+.trail > a+a:before {
+  padding: 0em 0.5em;
+  color: #000;
+  content: "/\00a0";
+}
+
+.trail > li > span:hover,
+.trail > div > span:hover,
+.trail > span > span:hover,
+.trail > p > span:hover,
+.trail > a > span:hover {
+  background-color: #ccc;
+}
+
+@media only screen and (max-width: 450px) {
+  .nav-row {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+    .nav-row {
+      flex-flow: column nowrap;
+      justify-content: center;
+    }
+
+    .nav-row-rigid {
+      justify-content: center;
+    }
+
+    .nav-row > li,
+    .nav-row > div,
+    .nav-row > span,
+    .nav-row > p,
+    .nav-row > a {
+      align-self: center;
+    }
+
+    .nav-row-rigid > li,
+    .nav-row-rigid > div,
+    .nav-row-rigid > span,
+    .nav-row-rigid > p,
+    .nav-row-rigid > a {
+      flex-basis: auto;
+      align-self: unset;
+    }
+
+    .nav-row-rigid > li+li:before,
+    .nav-row-rigid > div+div:before,
+    .nav-row-rigid > span+span:before,
+    .nav-row-rigid > p+p:before,
+    .nav-row-rigid > a+a:before {
+      padding: 0em 0.5em;
+      color: #000;
+      content: "\7C";
+      font-size: 2.25em;
+      font-weight: lighter;
+      color: #777;
+  }
+}

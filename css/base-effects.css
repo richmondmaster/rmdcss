@@ -1,0 +1,108 @@
+.lighten {
+    filter: brightness(var(--lighten-brightness, 50%));
+}
+
+.lighten-10-p {
+    filter: brightness(10%);
+}
+
+.lighten-20-p {
+    filter: brightness(20%);
+}
+
+.lighten-30-p {
+    filter: brightness(30%);
+}
+
+.lighten-40-p {
+    filter: brightness(40%);
+}
+
+.lighten-50-p {
+    filter: brightness(50%);
+}
+
+.lighten-60-p {
+    filter: brightness(60%);
+}
+
+.lighten-70-p {
+    filter: brightness(70%);
+}
+
+.lighten-80-p {
+    filter: brightness(80%);
+}
+
+.lighten-90-p {
+    filter: brightness(90%);
+}
+
+.lighten-100-p {
+    filter: brightness(100%);
+}
+
+.lighten {
+    filter: brightness(var(--darken-brightness, -50%));
+}
+
+.darken-10-p {
+    filter: brightness(-10%);
+}
+
+.darken-20-p {
+    filter: brightness(-20%);
+}
+
+.darken-30-p {
+    filter: brightness(-30%);
+}
+
+.darken-40-p {
+    filter: brightness(-40%);
+}
+
+.darken-50-p {
+    filter: brightness(-50%);
+}
+
+.darken-60-p {
+    filter: brightness(-60%);
+}
+
+.darken-70-p {
+    filter: brightness(-70%);
+}
+
+.darken-80-p {
+    filter: brightness(-80%);
+}
+
+.darken-90-p {
+    filter: brightness(-90%);
+}
+
+.darken-100-p {
+    filter: brightness(-100%);
+}
+
+.rotate {
+    -ms-transform: rotate(var(--rotate));
+    -webkit-transform: rotate(var(--rotate));
+    transform: rotate(var(--rotate));
+}
+
+.resizer {
+    width: var(--resizer-width, fit-content);
+    -webkit-transition: width 700ms cubic-bezier(0.8,-0.2,0.025,1);
+    -moz-transition: width 700ms cubic-bezier(0.8,-0.2,0.025,1);
+    transition: width 700ms cubic-bezier(0.8,-0.2,0.025,1);
+}
+
+.resizer[class~="option--on-focus"]:focus {
+    width: var(--resizer-focus-width, 100%) !important;
+}
+
+.resizer[class~="option--on-hover"]:hover {
+    width: var(--resizer-hover-wdith, 100%) !important;
+}

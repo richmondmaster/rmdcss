@@ -1,0 +1,112 @@
+/* balloon */
+
+.balloon {
+  display: inline-block;
+  position: relative;
+}
+
+/* balloon body */
+
+.balloon > .balloon-text {
+  display: inline-block;
+  position: absolute;
+  visibility: hidden;
+  z-index: 1;
+  padding: 0.33rem 1rem;
+  white-space: nowrap;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #1a2069;
+  font-size: 0.67rem;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.balloon > .balloon-content {
+  display: inline-flex;
+  position: absolute;
+  visibility: hidden;
+  z-index: 1;
+  padding: 0.33rem 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #1a2069;
+  font-size: 0.67rem;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.balloon:not([class*="noarrow"]) > .balloon-text::after,
+.balloon:not([class*="noarrow"]) > .balloon-content::after {
+  content: "";
+  position: absolute;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.balloon[class*="balloon-top"] > .balloon-text,
+.balloon[class*="balloon-top"] > .balloon-content {
+  bottom: 50%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.balloon[class*="balloon-right"] > .balloon-text,
+.balloon[class*="balloon-right"] > .balloon-content {
+  top: -5%;
+  left: 110%;
+}
+
+.balloon[class*="balloon-bottom"] > .balloon-text,
+.balloon[class*="balloon-bottom"] > .balloon-content {
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.balloon[class*="balloon-left"] > .balloon-text,
+.balloon[class*="balloon-left"] > .balloon-content {
+  top: -5%;
+  right: 110%;
+}
+
+/* balloon arrow */
+
+.balloon[class*="balloon-top"]:not([class*="noarrow"]) > .balloon-text::after,
+.balloon[class*="balloon-top"]:not([class*="noarrow"]) > .balloon-content::after {
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-color: #1a2069 transparent transparent transparent;
+}
+
+.balloon[class*="balloon-right"]:not([class*="noarrow"]) > .balloon-text::after,
+.balloon[class*="balloon-right"]:not([class*="noarrow"]) > .balloon-content::after {
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-color: transparent #1a2069 transparent transparent;
+}
+
+.balloon[class*="balloon-bottom"]:not([class*="noarrow"]) > .balloon-text::after,
+.balloon[class*="balloon-bottom"]:not([class*="noarrow"]) > .balloon-content::after {
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-color: transparent transparent #1a2069 transparent;
+}
+
+.balloon[class*="balloon-left"]:not([class*="noarrow"]) > .balloon-text::after,
+.balloon[class*="balloon-left"]:not([class*="noarrow"]) > .balloon-content::after {
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-color: transparent transparent transparent #1a2069;
+}
+
+.balloon:hover > .balloon-text,
+.balloon:hover > .balloon-content {
+  visibility: visible;
+}

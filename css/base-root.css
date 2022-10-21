@@ -1,0 +1,140 @@
+:root {
+
+    /* general defaults */
+    --default-modal-overlay-background-color: #00000066;
+
+
+    /* font defaults */
+    --default-font-family: 'Arial', Helvetica, sans-serif;
+    --default-font-color: #777;
+    --default-font-weight: normal;
+    --default-font-style: normal;
+
+    --default-show-display: block;
+
+    --default-border-border-color: #ccc;
+
+    --default-rule-top-border-color: #ccc;
+    --default-rule-bottom-border-color: #ccc;
+
+    --default-z-index: 1000;
+
+
+     /* form defaults */
+     --default-form-font-family: 'Arial', Helvetica, sans-serif;
+     --default-form-font-size: 1em;
+     --default-form-font-color: #444;
+     --default-form-font-weight: normal;
+     --default-form-font-style: normal;
+
+     --default-form-placeholder-padding: 0em 0em 0em 0.5em;
+     --default-form-placeholder-font-size: 1em;
+     --default-form-placeholder-font-color: #aaa;
+     --default-form-placeholder-font-weight: normal;
+     --default-form-placeholder-font-style: normal;
+
+     --default-form-input-border-width: 1px;
+     --default-form-input-border-color: #888;
+     --default-form-input-border-style: solid;
+     --default-form-input-border-radius: 0px;
+
+     --default-form-section-background-color: rgb(243, 243, 243);
+     --default-form-section-border-width: 2px;
+     --default-form-section-border-color: rgb(214, 214, 214);
+     --default-form-section-border-style: solid;
+     --default-form-section-border-radius: 0px;
+
+     --default-form-input-font-family: 'Arial', Helvetica, sans-serif;
+     --default-form-input-font-size: 1em;
+     --default-form-input-font-color: #444;
+     --default-form-input-font-weight: normal;
+     --default-form-input-font-style: normal;
+
+     --default-form-input-focus-background-color: rgb(228, 243, 250);
+     --default-form-input-focus-outline-style: solid;
+     --default-form-input-focus-outline-width: 1px;
+     --default-form-input-focus-outline-color: #888;
+
+     --default-form-input-padding: 0.5em 0em;
+     --default-form-input-sizing-factor: 2;
+
+     --default-form-input-group-padding: 0.5em 0em;
+
+     --default-form-input-gap: 0em 0.5em;
+     --default-form-input-gap-for-small-down: 0.125em 0.125em;
+     --default-form-input-gap-for-medium-down: 0.5em 0.5em;
+
+
+     /* notifier defaults */
+     --default-notifier-strip-font-color: #fff;
+     --default-notifier-strip-background-color: #db1dac;
+     --default-notifier-strip-button-font-color: #db1dac;
+     --default-notifier-strip-button-background-color: #fff;
+
+     --default-notifier-block-font-color: #fff;
+     --default-notifier-block-background-color: #db1dac;
+     --default-notifier-block-button-font-color: #db1dac;
+     --default-notifier-block-button-background-color: #fff;
+
+     --default-notifier-feature-font-color: #fff;
+     --default-notifier-feature-background-color: #db1dac;
+     --default-notifier-feature-button-font-color: #db1dac;
+     --default-notifier-feature-button-background-color: #fff;
+
+     --default-notifier-badge-font-color: #fff;
+     --default-notifier-badge-background-color: #db1dac;
+
+    /* progressbar defaults */
+    --default-progressbar-top-offset: 6rem;
+    --default-progressbar-left-offset: 9rem;
+    --default-progressbar-z-index: 2;
+    --default-progressbar-width: 250px;
+    --default-progressbar-min-width: 250px;
+    --default-progressbar-max-width: 250px;
+    --default-progressbar-height: 2rem;
+    --default-progressbar-padding: 0.5rem;
+    --default-progressbar-background-color: #ff00bf;
+    --default-progressbar-meter-color: rgb(255, 255, 255);
+    --default-progressbar-meter-animation-direction: normal;
+    --default-progressbar-meter-animation-duration: 2s;
+    --default-progressbar-meter-animation-delay: 0.1s;
+    --default-progressbar-meter-animation-content: '\25AE';
+    --default-progressbar-meter-font-size: 1.75rem;
+    --default-progressbar-meter-letter-spacing: -6px;
+
+    --default-progressbar-tiny-top-offset: 4rem;
+    --default-progressbar-tiny-left-offset: 10rem;
+    --default-progressbar-tiny-z-index: 2;
+    --default-progressbar-tiny-width: 75px;
+    --default-progressbar-tiny-min-width: 75px;
+    --default-progressbar-tiny-max-width: 75px;
+    --default-progressbar-tiny-height: 2rem;
+    --default-progressbar-tiny-padding: 0rem;
+    --default-progressbar-tiny-background-color: transparent;
+    --default-progressbar-tiny-meter-color: rgb(0, 0, 0);
+    --default-progressbar-tiny-meter-animation-direction: normal;
+    --default-progressbar-tiny-meter-animation-duration: 1.0s;
+    --default-progressbar-tiny-meter-animation-delay: 0.1s;
+    --default-progressbar-tiny-meter-animation-content: '\25CF';
+    --default-progressbar-tiny-meter-font-size: 1rem;
+    --default-progressbar-tiny-meter-letter-spacing: 5px;
+
+    /* tracker defaults */
+    --default-tracker-top-offset: 4rem;
+    --default-tracker-left-offset: 10rem;
+    --default-tracker-z-index: 2;
+    --default-tracker-width: 75px;
+    --default-tracker-height: 2rem;
+    --default-tracker-padding: 0rem;
+    --default-tracker-background-color: transparent;
+    --default-tracker-font-size: 1rem;
+    --default-tracker-mark-background-color: #aaa;
+    --default-tracker-mark-animation-direction: normal;
+    --default-tracker-mark-animation-duration: 1.0s;
+    --default-tracker-mark-animation-delay: 0.1s;
+
+    /* animation defaults */
+    --default-bounce-x-start: 30px;
+    --default-bounce-y-start: 30px;
+}
+

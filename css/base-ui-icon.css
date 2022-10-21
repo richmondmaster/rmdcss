@@ -1,0 +1,183 @@
+.icon-empty::before {
+    font-family: "rmd-icons-1";	
+    content: "";
+}
+
+.icon-calendar::before {
+    font-family: "rmd-icons-1";
+    content: "C";
+}
+
+.icon-gear::before {
+  font-family: "rmd-icons-1";
+  content: '"';
+}
+
+.icon-clock::before {
+  font-family: "rmd-icons-1";
+  font-weight: bold;
+  content: "@";
+}
+
+.icon-flag::before {
+  font-family: "rmd-icons-1";
+  content: "f";
+}
+
+.icon-exchange::before {
+  font-family: "rmd-icons-1";
+  content: "x";
+}
+
+.icon-icon-view::before {
+  font-family: "rmd-icons-1";
+  content: "4";
+}
+
+.icon-list-view::before {
+  font-family: "rmd-icons-1";
+  content: "L";
+}
+
+.icon-view::before {
+  font-family: "rmd-icons-1";
+  content: "V";
+}
+
+.icon-lightbulb::before {
+  font-family: "rmd-icons-1";
+  content: "i";
+}
+
+.icon-phone::before {
+  font-family: "rmd-icons-1";
+  content: "T";
+}
+
+.icon-truck::before {
+  font-family: "rmd-icons-1";
+  content: "t";
+}
+
+.icon-globe::before {
+  font-family: "rmd-icons-1";
+  content: "g";
+}
+
+.icon-plus::before {
+  font-family: "rmd-icons-1";
+  content: "+";
+}
+
+.icon-minus::before {
+  font-family: "rmd-icons-1";
+  content: "-";
+}
+
+.icon-mappoint:before {
+  font-family: "rmd-icons-1";
+  content: "l";
+}
+
+.icon-heart::before {
+  font-family: "rmd-icons-1";
+  content: "h";
+}
+
+.icon-message::before {
+  font-family: "rmd-icons-1";
+  content: "m";
+}
+
+.icon-message-ltr::before {
+  font-family: "rmd-icons-1";
+  content: "m";
+}
+
+.icon-message-rtl::before {
+  font-family: "rmd-icons-1";
+  content: "n";
+}
+
+.icon-megaphone::before {
+  font-family: "rmd-icons-1";
+  content: "p";
+}
+
+.icon-pencil::before {
+  font-family: "rmd-icons-1";
+  content: "u";
+}
+
+.icon-pencil-writing::before {
+  font-family: "rmd-icons-1";
+  content: "w";
+}
+
+.icon-star::before {
+  font-family: "rmd-icons-1";
+  content: "s";
+}
+
+.icon-square-dashed::before {
+  font-family: "rmd-icons-1";
+  content: "d";
+}
+
+.button-menu::after {
+  font-family: "rmd-icons-1";
+  content: "#";
+}
+
+.button-menu.active::after {
+  font-family: "rmd-icons-1";
+  content: "$";
+}
+
+.icon-chart-bar::before {
+  font-family: "rmd-icons-1";
+  content: "!";
+  padding:0px 5px;
+}
+
+.icon-chart-line::before {
+  font-family: "rmd-icons-1";
+  content: "%";
+  padding:0px 5px;
+}
+
+.icon-circle-checkmark::before {
+  font-family: "rmd-icons-1";
+  content: "v";
+  padding:0px 5px;
+}
+
+.icon-arrow-left::after {
+  font-family: "rmd-icons-1";
+  content: "<";
+}
+
+.icon-arrow-right::after {
+  font-family: "rmd-icons-1";
+  content: ">";
+}
+
+.icon-document::before {
+  font-family: "rmd-icons-1";
+  content: "D";
+}
+
+.icon-document-exchange::before {
+  font-family: "rmd-icons-1";
+  content: "c";
+}
+
+.icon-magnifier::before {
+  font-family: "rmd-icons-1";
+  content: "s";
+}
+
+.icon-pdf::before {
+  font-family: "rmd-icons-1";
+  content: "P";
+}

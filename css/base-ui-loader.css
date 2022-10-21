@@ -1,0 +1,21 @@
+.loader {
+    display: none;
+}
+
+.site-loader {
+    display: none;
+    width: 375px;
+    height: 375px;
+    z-index: 1500;
+}
+
+.loading .site-loader {
+    display: block;
+}
+
+.loading .loading-placeholder {
+    color: #aaa !important;
+    background-color: #aaa !important;
+    background-clip: content-box;
+    border-radius: 0px;
+}

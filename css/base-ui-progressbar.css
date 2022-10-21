@@ -1,0 +1,285 @@
+/* progress bar */
+
+.progressbar {
+    display: flex;
+    position: absolute;
+    top: calc(50% - var(--progressbar-top-offset, var(--default-progressbar-top-offset, 15rem)));
+    left: calc(50% - var(--progressbar-left-offset, var(--default-progressbar-left-offset, 10rem)));
+    z-index: var(--default-progressbar-z-index, 2);
+    width: var(--progressbar-width, var(--default-progressbar-width, 275px));
+    min-width: var(--progressbar-min-width, var(--default-progressbar-min-width, 275px));
+    max-width: var(--progressbar-max-width, var(--default-progressbar-max-width, 275px));
+    height: var(--progressbar-height, var(--default-progressbar-height, 2rem));
+    flex-flow: row nowrap;
+    overflow: hidden;
+    padding: 0.25rem;
+    margin: 0rem;
+    box-sizing: border-box;
+    background-color: var(--progressbar-background-color, var(--default-progressbar-background-color, #fddef5));
+    -webkit-box-shadow: 0px 0px 3px rgba(94, 16, 87, 0.75);
+    -moz-box-shadow: 0px 0px 3px rgba(94, 16, 87, 0.75);
+    box-shadow: 0px 0px 3px rgba(94, 16, 87, 0.75);
+    align-items: center;
+    border-radius: 2rem;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(228, 25, 160);
+}
+
+.progressbar-meter-container {
+    display: block;
+    width: 100%;
+    height: 75%;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    padding: 0.25rem 0.75rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+.progressbar-meter {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbar-meter::after {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    font-size: var(--progressbar-meter-font-size, var(--default-progressbar-meter-font-size, 1.5rem));
+    letter-spacing: var(--progressbar-meter-letter-spacing, var(--default-progressbar-meter-letter-spacing, 1px));
+    content:'';
+    color: var(--progressbar-meter-color, var(--default-progressbar-meter-color, rgb(228, 25, 160)));
+    animation-name: progressbar-keyframes;
+    animation-direction: var(--progressbar-meter-animation-direction, var(--default-progressbar-meter-animation-direction, normal));
+    animation-duration: var(--progressbar-meter-animation-duration, var(--default-progressbar-meter-animation-duration, 1.5s));
+    animation-iteration-count: infinite;
+    animation-delay: var(--progressbar-meter-animation-delay, var(--default-progressbar-meter-animation-delay, 0.1s));
+    animation-timing-function: linear;
+}
+
+.progressbar-tiny {
+    display: flex;
+    position: absolute;
+    top: calc(50% - var(--progressbar-top-offset, var(--default-progressbar-tiny-top-offset, 15rem)));
+    left: calc(50% - var(--progressbar-left-offset, var(--default-progressbar-tiny-left-offset, 10rem)));
+    z-index: var(--default-progressbar-z-index, 2);
+    width: var(--progressbar-width, var(--default-progressbar-tiny-width, 125px));
+    min-width: var(--progressbar-min-width, var(--default-progressbar-tiny-min-width, 125px));
+    max-width: var(--progressbar-max-width, var(--default-progressbar-tiny-max-width, 125px));
+    height: var(--progressbar-height, var(--default-progressbar-tiny-height, 1rem));
+    flex-flow: row nowrap;
+    overflow: hidden;
+    padding: var(--progressbar-padding, var(--default-progressbar-tiny-padding, 0.25rem));
+    margin: 0rem;
+    box-sizing: border-box;
+    background-color: var(--progressbar-background-color, var(--default-progressbar-tiny-background-color, transparent));
+    align-items: center;
+    border-radius: 0rem;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+}
+
+.progressbar-tiny-meter-container {
+    display: block;
+    width: 100%;
+    height: 75%;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    padding: 0.125rem 0.25rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+.progressbar-tiny-meter {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbar-tiny-meter::after {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    font-size: var(--progressbar-meter-font-size, var(--default-progressbar-tiny-meter-font-size, 3rem));
+    letter-spacing: var(--progressbar-meter-letter-spacing, var(--default-progressbar-tiny-meter-letter-spacing, 5px));
+    content:'';
+    color: var(--progressbar-meter-color, var(--default-progressbar-tiny-meter-color, rgb(0, 0, 0)));
+    animation-name: progressbar-tiny-keyframes;
+    animation-direction: var(--progressbar-meter-animation-direction, var(--default-progressbar-tiny-meter-animation-direction, normal));
+    animation-fill-mode: forwards;
+    animation-duration: var(--progressbar-meter-animation-duration, var(--default-progressbar-tiny-meter-animation-duration, 1.5s));
+    animation-iteration-count: infinite;
+    animation-delay: var(--progressbar-meter-animation-delay, var(--default-progressbar-tiny-meter-animation-delay, 0.1s));
+    animation-timing-function: linear;
+}
+
+
+@keyframes progressbar-keyframes {
+    0% {
+        content: '\0020';
+    }
+
+    8.3% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+
+    16.6% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+
+    24.9% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+
+    33.2% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+
+    41.5% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+
+    49.8% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+
+    58.1% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+
+    66.4% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+
+    74.7% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+
+    83% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+
+    /*
+    91.3% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+
+    99.6% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-meter-animation-content, '\25AE'));
+    }
+    */
+}
+
+
+@keyframes progressbar-tiny-keyframes {
+    0% {
+        content: '\0020';
+    }
+
+    20% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+
+    40% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+
+    60% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+
+    80% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+
+    100% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+}

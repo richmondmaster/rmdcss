@@ -1,0 +1,277 @@
+.row-container {
+    display: table;
+    padding: 0rem;
+    margin: 0rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    min-height: 1.5em;
+    clear: both;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.row-header {
+    width:100%;
+    height:100%;
+    background-color: #eee;
+    padding: 0.25em 0.75em;
+    box-sizing: border-box;
+}
+
+.row-item {
+    display: inline-block;
+    flex: 1 1 var(--flex-basis, content);
+}
+
+.row-item-1 {
+    display: inline-block;
+    width: 99%;
+    flex: 1 1 100%;
+}
+
+.row-item-2 {
+    display: inline-block;
+    width: 49%;
+    flex: 1 1 50%;
+}
+
+.row-item-3 {
+    display: inline-block;
+    width: 32.333%;
+    flex: 1 1 33.333%;
+}
+
+.row-item-4 {
+    display: inline-block;
+    width: 24%;
+    flex: 1 1 25%;
+}
+
+.row-item-5 {
+    display: inline-block;
+    width: 19%;
+    flex: 1 1 20%;
+}
+
+.row-item-6 {
+    display: inline-block;
+    width: 15.667%;
+    flex: 1 1 16.667%;
+}
+
+.row-item-7 {
+    display: inline-block;
+    width: 13.286%;
+    flex: 1 1 14.286%;
+}
+
+.row-item-8 {
+    display: inline-block;
+    width: 11.5%;
+    flex: 1 1 12.5%;
+}
+
+.row-item-9 {
+    display: inline-block;
+    width: 10.111%;
+    flex: 1 1 11.111%;
+}
+
+.row-item-10 {
+    display: inline-block;
+    width: 9%;
+    flex: 1 1 10%;
+}
+
+.row > div,
+.row > span {
+    display: inline-block;
+}
+
+.flex-row-container {
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    padding: 0rem;
+    margin: 0rem;
+    -gap: 0.5rem; /* hide for now - gap doesn't animate on hover */
+    font-size: 1rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+    width:100%;
+    clear: both;
+    padding: 0em 0em;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.flex-row-header{
+    display: flex;
+    background-color:#eee;
+    -padding: 0.25em 0.75em;
+    box-sizing: border-box;
+}
+
+.flex-column-header{
+    display: flex;
+    background-color:#eee;
+    padding: 0.25em 0.75em;
+    box-sizing: border-box;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column;
+    width:100%;
+    clear: both;
+    padding: 0.25em 0.75em;
+    box-sizing: border-box;
+}
+
+.flex-row-item {
+    display: flex;
+    flex: 1 1 var(--flex-basis, content);
+}
+
+.flex-row-item-1 {
+    display: flex;
+    flex: 1 1 100%;
+}
+
+.flex-row-item-2 {
+    display: flex;
+    flex: 1 1 50%;
+}
+
+.flex-row-item-3 {
+    display: flex;
+    flex: 1 1 33.333%;
+}
+
+.flex-row-item-4 {
+    display: flex;
+    flex: 1 1 25%;
+}
+
+.flex-row-item-5 {
+    display: flex;
+    flex: 1 1 20%;
+}
+
+.flex-row-item-6 {
+    display: flex;
+    flex: 1 1 16.667%;
+}
+
+.flex-row-item-7 {
+    display: flex;
+    flex: 1 1 14.286%;
+}
+
+.flex-row-item-8 {
+    display: flex;
+    flex: 1 1 12.5%;
+}
+
+.flex-row-item-9 {
+    display: flex;
+    flex: 1 1 11.111%;
+}
+
+.flex-row-item-10 {
+    display: flex;
+    flex: 1 1 10%;
+}
+
+.flex-row > div[class*="flex-row-item"],
+.flex-row > div[class*="flex-item"] {
+    padding: 0.5em 0.25em;
+}
+
+div[class*="flex-row-item-"],
+span[class*="flex-row-item-"],
+a[class*="flex-row-item-"],
+p[class*="flex-row-item-"] {
+    width: 0; /* this does all the magic in allowing a flex item to shrink */
+    min-width: 0;
+}
+
+.sheet {
+    display: grid;
+}
+
+.sheet-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.sheet-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.sheet-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.sheet-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.sheet-5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.sheet-5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.sheet-6 {
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.sheet-7 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.sheet-8 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.sheet-9 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.sheet-10 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.sheet-item {
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sheet-item-grow {
+    display: table;
+    padding: 1rem;
+    box-sizing: border-box;
+}

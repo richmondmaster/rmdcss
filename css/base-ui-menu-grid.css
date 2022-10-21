@@ -1,0 +1,135 @@
+
+/* menu grid */
+
+.menu-grid {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: unset;
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+.menu-grid-header {
+    display: flex;
+    flex-flow: row nowrap;
+    grid-area: menu-header;
+    width: 100%;
+    padding: 1em 1em;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+
+.menu-grid-title {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: 80%;
+    justify-content: center;
+    overflow: unset;
+    padding: 0em 0em;
+    margin: 0rem;
+    box-sizing: border-box;
+    line-height: 2.5em;
+    font-size: 1em;
+    font-weight: 900;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.menu-grid-controls {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: 20%;
+    justify-content: center;
+    overflow: unset;
+    padding: 0em 0em;
+    box-sizing: border-box;
+}
+
+.menu-grid-control {
+    padding: 0.25em;
+    font-size: 1.5em;
+    font-weight: 900;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-grid-content {
+    display: grid;
+    flex: auto 1 1;
+    grid-auto-flow: dense;
+    grid-auto-columns: var(--menu-grid-item-size, unset);
+    grid-auto-rows: minmax(var(--menu-grid-item-size, unset), auto);
+    grid-template-columns: var(--menu-grid-columns, repeat(auto-fill, minmax(var(--menu-grid-item-size, var(--menu-grid-column-width, 4em)), 0.25fr)));
+    grid-template-rows: var(--menu-grid-rows, repeat(auto-fill, minmax(var(--menu-grid-item-size, var(--menu-grid-row-height, 2em)), 0.25fr)));
+    width: 100%;
+    height: var(--menu-grid-item-size, 100%);
+    list-style-type: none;
+    padding: 0em;
+    gap: 0.5em;
+    box-sizing: border-box;
+}
+
+.menu-grid-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    padding: 1em 1em;
+    margin: 0rem;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.menu-grid-content > div,
+.menu-grid-content > span,
+.menu-grid-content > a,
+.menu-grid-content > p,
+.menu-grid-content > li {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1em;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #fff;
+    background-color: #1288d6;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    cursor: pointer;
+}
+
+.menu-grid-content > div:hover,
+.menu-grid-content > span:hover,
+.menu-grid-content > a:hover,
+.menu-grid-content > p:hover,
+.menu-grid-content > li:hover {
+    background-color: #243a82;
+}
+
+.menu-grid.option--items-circular > .menu-grid-content > div,
+.menu-grid.option--items-circular > .menu-grid-content > span,
+.menu-grid.option--items-circular > .menu-grid-content > a,
+.menu-grid.option--items-circular > .menu-grid-content > p,
+.menu-grid.option--items-circular > .menu-grid-content > li {
+    border-radius: 100em;
+}
+
+.menu-grid.option--items-rounded > .menu-grid-content > div,
+.menu-grid.option--items-rounded > .menu-grid-content > span,
+.menu-grid.option--items-rounded > .menu-grid-content > a,
+.menu-grid.option--items-rounded > .menu-grid-content > p,
+.menu-grid.option--items-rounded > .menu-grid-content > li {
+    border-radius: 0.5em;
+}

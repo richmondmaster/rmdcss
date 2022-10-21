@@ -1,0 +1,156 @@
+/* menu context */
+
+.menu-context {
+    display: inline-block;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.menu-context-content {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    white-space: nowrap;
+    padding: 0.25em 0.5em;
+    gap: 0.5em;
+    box-sizing: border-box;
+    background-color: #8dccf7;
+    -background-color: #f78bee;
+}
+
+.menu-context-content > div,
+.menu-context-content > span,
+.menu-context-content > a,
+.menu-context-content > li,
+.menu-context-content > p,
+.menu-context-content > .menu-context-item {
+    display: block;
+    flex: auto 1 1;
+    padding: 0em 0.5em;
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 0.75em;
+    color: #fff;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    background-color: #0482d6;
+    -background-color: #ff07c9;
+    cursor: pointer;
+}
+
+.menu-context .menu-context-content {
+    display: none;
+}
+
+.menu-context:hover .menu-context-content {
+    display: inline-flex;
+    position: absolute;
+    margin-top: calc(-1 * 2.25em);
+}
+
+/* picker boxes - default style */
+.menu-context > .menu-context-content > div:hover:not([class~="clicked"]),
+.menu-context > .menu-context-content > span:hover:not([class~="clicked"]),
+.menu-context > .menu-context-content > a:hover:not([class~="clicked"]),
+.menu-context > .menu-context-content > li:hover:not([class~="clicked"]),
+.menu-context > .menu-context-content > p:hover:not([class~="clicked"]),
+.menu-context > .menu-context-content > .menu-context-item:hover:not([class~="clicked"]) {
+    background-color: #243a82;
+}
+
+.menu-context .menu-context-content > div:hover:not([class~="clicked"]),
+.menu-context .menu-context-content > span:hover:not([class~="clicked"]),
+.menu-context .menu-context-content > a:hover:not([class~="clicked"]),
+.menu-context .menu-context-content > li:hover:not([class~="clicked"]),
+.menu-context .menu-context-content > p:hover:not([class~="clicked"]),
+.menu-context .menu-context-content > .menu-context-item:hover:not([class~="clicked"]) {
+    background-color: #243a82;
+}
+
+/* picker boxes - circular style */
+.menu-context.option--items-circular > .menu-context-content > div,
+.menu-context.option--items-circular > .menu-context-content > span,
+.menu-context.option--items-circular > .menu-context-content > a,
+.menu-context.option--items-circular > .menu-context-content > li,
+.menu-context.option--items-circular > .menu-context-content > p,
+.menu-context.option--items-circular > .menu-context-content > .menu-context-item {
+    border-radius: 50em;
+}
+
+.menu-context[class~="option--items-circular"] .menu-context-content > div,
+.menu-context[class~="option--items-circular"] .menu-context-content > span,
+.menu-context[class~="option--items-circular"] .menu-context-content > a,
+.menu-context[class~="option--items-circular"] .menu-context-content > li,
+.menu-context[class~="option--items-circular"] .menu-context-content > p,
+.menu-context[class~="option--items-circular"] .menu-context-content > .menu-context-item {
+    border-radius: 50em;
+}
+
+.menu-context.option--items-circular > .menu-context-content > div:hover:not([class~="clicked"]),
+.menu-context.option--items-circular > .menu-context-content > span:hover:not([class~="clicked"]),
+.menu-context.option--items-circular > .menu-context-content > a:hover:not([class~="clicked"]),
+.menu-context.option--items-circular > .menu-context-content > li:hover:not([class~="clicked"]),
+.menu-context.option--items-circular > .menu-context-content > p:hover:not([class~="clicked"]),
+.menu-context.option--items-circular > .menu-context-content > .menu-context-item:hover:not([class~="clicked"]) {
+    background-color: #243a82;
+}
+
+.menu-context[class~="option--items-circular"] .menu-context-content > div:hover,
+.menu-context[class~="option--items-circular"] .menu-context-content > span:hover,
+.menu-context[class~="option--items-circular"] .menu-context-content > a:hover,
+.menu-context[class~="option--items-circular"] .menu-context-content > li:hover,
+.menu-context[class~="option--items-circular"] .menu-context-content > p:hover,
+.menu-context[class~="option--items-circular"] .menu-context-content > .menu-context-item:hover {
+    background-color: #243a82;
+}
+
+
+/* picker boxes - rounded style */
+.menu-context.option--items-rounded > .menu-context-content > div,
+.menu-context.option--items-rounded > .menu-context-content > span,
+.menu-context.option--items-rounded > .menu-context-content > a,
+.menu-context.option--items-rounded > .menu-context-content > li,
+.menu-context.option--items-rounded > .menu-context-content > p,
+.menu-context.option--items-rounded > .menu-context-content > .menu-context-item {
+    border-radius: 0.5em;
+}
+
+.menu-context[class~="option--items-rounded"] .menu-context-content > div,
+.menu-context[class~="option--items-rounded"] .menu-context-content > span,
+.menu-context[class~="option--items-rounded"] .menu-context-content > a,
+.menu-context[class~="option--items-rounded"] .menu-context-content > li,
+.menu-context[class~="option--items-rounded"] .menu-context-content > p,
+.menu-context[class~="option--items-rounded"] .menu-context-content > .menu-context-item {
+    border-radius: 50em;
+}
+
+.menu-context.option--items-rounded > .menu-context-content > div:hover:not([class~="clicked"]),
+.menu-context.option--items-rounded > .menu-context-content > span:hover:not([class~="clicked"]),
+.menu-context.option--items-rounded > .menu-context-content > a:hover:not([class~="clicked"]),
+.menu-context.option--items-rounded > .menu-context-content > li:hover:not([class~="clicked"]),
+.menu-context.option--items-rounded > .menu-context-content > p:hover:not([class~="clicked"]),
+.menu-context.option--items-rounded > .menu-context-content > .menu-context-item:hover:not([class~="clicked"]) {
+    background-color: #243a82;
+}
+
+.menu-context[class~="option--items-rounded"] .menu-context-content > div:hover,
+.menu-context[class~="option--items-rounded"] .menu-context-content > span:hover,
+.menu-context[class~="option--items-rounded"] .menu-context-content > a:hover,
+.menu-context[class~="option--items-rounded"] .menu-context-content > li:hover,
+.menu-context[class~="option--items-rounded"] .menu-context-content > p:hover,
+.menu-context[class~="option--items-rounded"] .menu-context-content > .menu-context-item:hover {
+    background-color: #243a82;
+}
+
+
+/* picker boxes - clicked */
+
+.menu-context-content > div.clicked,
+.menu-context-content > span.clicked,
+.menu-context-content > a.clicked,
+.menu-context-content > li.clicked,
+.menu-context-content > p.clicked,
+.menu-context-content > .menu-context-item.clicked {
+    background-color: transparent;
+    cursor: unset;
+}

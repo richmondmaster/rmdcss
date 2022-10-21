@@ -1,0 +1,99 @@
+/* dialog */
+
+.dialog {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: stretch;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 300px;
+    height: 300px;
+    min-width: 375px;
+    overflow: unset;
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.dialog-header {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    grid-area: dialog-header;
+    padding: 0em 0em;
+    box-sizing: border-box;
+    background-color: #efefef;
+}
+
+.dialog-title {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: 80%;
+    justify-content: center;
+    padding: 0em 0em;
+    margin: 0rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2.5em;
+    font-size: 1em;
+    font-weight: 900;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.dialog-controls {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: 20%;
+    justify-content: center;
+    overflow: unset;
+    padding: 0em 0em;
+    box-sizing: border-box;
+}
+
+.dialog-control {
+    padding: 0.25em;
+    font-size: 1.5em;
+    font-weight: 900;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dialog-body {
+    display: block;
+    grid-area: dialog-body;
+    width: 100%;
+    height: 100%;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+.dialog-footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;
+    flex-flow: row nowrap;
+    justify-content: end;
+    grid-area: dialog-footer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.5em 0.5em;
+    margin: 0rem;
+    box-sizing: border-box;
+    white-space: nowrap;
+    border-style: solid;
+    border-width: 0.0625em;
+    border-color: #ccc;
+    background-color: #efefef;
+}
