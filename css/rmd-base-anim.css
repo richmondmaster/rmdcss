@@ -34,6 +34,13 @@
 }
 
 /* hover */
+.hover-circle-fill {
+  background-image: radial-gradient(circle, #3498db 100%,transparent 1%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
+}
+
 .hover-darken:hover {
   filter: brightness(var(--darken-amount, -50%));
 }
@@ -157,6 +164,16 @@
   animation-timing-function: cubic-bezier(0.8,-0.27,0.025,1.105);
 }
 
+.hover-circle-fill:hover {
+  animation-name: keyframes-circle-fill;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-duration: 0.125s;
+  animation-iteration-count: 1;
+  animation-delay: 0.0s;
+  -animation-timing-function: cubic-bezier(0.8,-0.27,0.025,1.105);
+  /* background-image: radial-gradient(circle, #3498db 99%,transparent 100%); */
+}
 
 /* animation */
 .anim-width.run {
@@ -586,3 +603,12 @@
   }
 }
 
+@keyframes keyframes-circle-fill {
+  0% {
+    background-size: 0%;
+  }
+
+  100% {
+    background-size: 100%;
+  }
+}

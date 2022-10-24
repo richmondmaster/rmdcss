@@ -1,0 +1,62 @@
+.more {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    vertical-align: top;
+    overflow: unset;
+    padding: 1em;
+    margin: 0rem;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: transparent;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.more:hover {
+    background-color: #f2f2f2;
+    color: #777;
+}
+
+.more .more-header {
+    display: inline-block;
+    width: 100%;
+    height: 0.5em;
+    padding: 0em 1em;
+    box-sizing: border-box;
+    white-space: nowrap;
+    line-height: 0;
+    text-align: right;
+}
+
+/* for javascript only interaction */
+.more:not(.option--use-header)::before {
+    height: 1.25em;
+    content:'...';
+    padding: 0em;
+    margin-top: -75%;
+    box-sizing: border-box;
+    font-size: 2em;
+    text-align: right;
+    cursor: pointer;
+}
+
+/* for pure css and javascript interaction */
+.more .more-header::after {
+    display: inline-block;
+    position: relative;
+    width: 0.5em;
+    content:'...';
+    padding: 0em;
+    margin-top: -1em;
+    margin-right: -0.5em;
+    box-sizing: border-box;
+    white-space: nowrap;
+    line-height: 0;
+    font-size: 1.5em;
+    text-align: right;
+    vertical-align: middle;
+    cursor: pointer;
+}

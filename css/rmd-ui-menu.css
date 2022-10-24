@@ -172,36 +172,41 @@
     display: none;
     position: absolute;
     z-index: 1;
-    width: 100%;
+    flex-flow: column nowrap;
+    -width: 100%; /* this prevents auto width */
     min-width: 100px;
     background-color: #f9f9f9;
-    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-.menu-drop-content > div,
-.menu-drop-content > span,
-.menu-drop-content > a,
-.menu-drop-content > li,
-.menu-drop-content > p,
-.menu-drop-content > .menu-drop-item {
+.menu-drop .menu-drop-content > div,
+.menu-drop .menu-drop-content > span,
+.menu-drop .menu-drop-content > a,
+.menu-drop .menu-drop-content > li,
+.menu-drop .menu-drop-content > p,
+.menu-drop .menu-drop-content > .menu-drop-item {
     display: block;
+    flex-basis: auto 1 1;
     padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .menu-drop-content > a:hover {
-    background-color: #daf6ff
+    background-color: #daf6ff;
 }
 
-.menu-drop:hover > .menu-drop-content {
-    display: block;
+.menu-drop:hover .menu-drop-content {
+    display: inline-flex;
 }
 
-.menu-drop.clicked > .menu-drop-content {
-    display: block;
+.menu-drop.clicked .menu-drop-content {
+    display: inline-flex;
 }
 
 

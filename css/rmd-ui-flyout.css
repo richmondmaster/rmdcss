@@ -129,7 +129,7 @@
 
 .flyout[class~="option--position-top-left"] > .flyout-content:hover,
 .flyout[class~="option--position-top-left"][class~="clicked"] > .flyout-content {
-    top: calc((var(--flyout-extend-amount, 90%) - 100%));
+    top: calc((var(--flyout-reveal-amount, 90%) - 100%));
 }
 
 /* top center */
@@ -140,7 +140,7 @@
 
 .flyout[class~="option--position-top-center"] > .flyout-content:hover,
 .flyout[class~="option--position-top-center"][class~="clicked"] > .flyout-content {
-    top: calc((var(--flyout-extend-amount, 90%) - 100%));
+    top: calc((var(--flyout-reveal-amount, 90%) - 100%));
 }
 
 /* top right */
@@ -151,7 +151,7 @@
 
 .flyout[class~="option--position-top-right"] > .flyout-content:hover,
 .flyout[class~="option--position-top-right"][class~="clicked"] > .flyout-content {
-    top: calc((var(--flyout-extend-amount, 90%) - 100%));
+    top: calc((var(--flyout-reveal-amount, 90%) - 100%));
 }
 
 /* bottom left */
@@ -162,7 +162,7 @@
 
 .flyout[class~="option--position-bottom-left"] > .flyout-content:hover,
 .flyout[class~="option--position-bottom-left"][class~="clicked"] > .flyout-content {
-    top: calc(100% - (var(--flyout-extend-amount, 90%)));
+    top: calc(100% - (var(--flyout-reveal-amount, 90%)));
 }
 
 /* bottom center */
@@ -173,7 +173,7 @@
 
 .flyout[class~="option--position-bottom-center"] > .flyout-content:hover,
 .flyout[class~="option--position-bottom-center"][class~="clicked"] > .flyout-content {
-    top: calc(100% - (var(--flyout-extend-amount, 90%)));
+    top: calc(100% - (var(--flyout-reveal-amount, 90%)));
 }
 
 /* bottom right */
@@ -184,7 +184,7 @@
 
 .flyout[class~="option--position-bottom-right"] > .flyout-content:hover,
 .flyout[class~="option--position-bottom-right"][class~="clicked"] > .flyout-content {
-    top: calc(100% - (var(--flyout-extend-amount, 90%)));
+    top: calc(100% - (var(--flyout-reveal-amount, 90%)));
 }
 
 /* left top */
@@ -196,7 +196,7 @@
 
 .flyout[class~="option--position-left-top"] > .flyout-content:hover,
 .flyout[class~="option--position-left-top"][class~="clicked"] > .flyout-content {
-    left: calc((var(--flyout-extend-amount, 90%) - 100%));
+    left: calc((var(--flyout-reveal-amount, 90%) - 100%));
 }
 
 /* left center */
@@ -208,7 +208,7 @@
 
 .flyout[class~="option--position-left-center"] > .flyout-content:hover,
 .flyout[class~="option--position-left-center"][class~="clicked"] > .flyout-content {
-    left: calc((var(--flyout-extend-amount, 90%) - 100%));
+    left: calc((var(--flyout-reveal-amount, 90%) - 100%));
 }
 
 /* left bottom */
@@ -220,7 +220,7 @@
 
 .flyout[class~="option--position-left-bottom"] > .flyout-content:hover,
 .flyout[class~="option--position-left-bottom"][class~="clicked"] > .flyout-content {
-    left: calc((var(--flyout-extend-amount, 90%) - 100%));
+    left: calc((var(--flyout-reveal-amount, 90%) - 100%));
 }
 
 
@@ -233,7 +233,7 @@
 
 .flyout[class~="option--position-right-top"] > .flyout-content:hover,
 .flyout[class~="option--position-right-top"][class~="clicked"] > .flyout-content {
-    right: calc((var(--flyout-extend-amount, 90%) - 100%));
+    right: calc((var(--flyout-reveal-amount, 90%) - 100%));
 }
 
 /* right center */
@@ -245,7 +245,7 @@
 
 .flyout[class~="option--position-right-center"] > .flyout-content:hover,
 .flyout[class~="option--position-right-center"][class~="clicked"] > .flyout-content {
-    right: calc((var(--flyout-extend-amount, 90%) - 100%));
+    right: calc((var(--flyout-reveal-amount, 90%) - 100%));
 }
 
 /* right bottom */
@@ -257,7 +257,7 @@
 
 .flyout[class~="option--position-right-bottom"] > .flyout-content:hover,
 .flyout[class~="option--position-right-bottom"][class~="clicked"] > .flyout-content {
-    right: calc((var(--flyout-extend-amount, 90%) - 100%));
+    right: calc((var(--flyout-reveal-amount, 90%) - 100%));
 }
 
 .flyout-content > div,
