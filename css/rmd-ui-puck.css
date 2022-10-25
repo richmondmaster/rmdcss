@@ -1,8 +1,8 @@
 .puck {
     display: inline-block;
     position: relative;
-    min-width: 2rem;
-    min-height: 2rem;
+    min-width: 1rem;
+    min-height: 1rem;
     aspect-ratio: 1;
     line-height: normal;
     text-align: center;

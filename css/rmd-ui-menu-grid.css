@@ -68,6 +68,7 @@
     grid-auto-rows: minmax(var(--menu-grid-item-size, unset), auto);
     grid-template-columns: var(--menu-grid-columns, repeat(auto-fill, minmax(var(--menu-grid-item-size, var(--menu-grid-column-width, 4em)), 0.25fr)));
     grid-template-rows: var(--menu-grid-rows, repeat(auto-fill, minmax(var(--menu-grid-item-size, var(--menu-grid-row-height, 2em)), 0.25fr)));
+    justify-content: center;
     -width: 100%; /* the grid should auto size to its container */
     -height: var(--menu-grid-item-size, 100%); /* the grid should auto size to its container */
     list-style-type: none;
