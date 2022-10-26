@@ -106,8 +106,16 @@ p {
     flex-flow: row nowrap !important;
 }
 
+.flow-row-reverse {
+    flex-flow: row-reverse nowrap !important;
+}
+
 .flow-column {
     flex-flow: column nowrap !important;
+}
+
+.flow-column-reverse {
+    flex-flow: column-reverse nowrap !important;
 }
 
 .flex-grow {
@@ -1333,8 +1341,6 @@ p {
 }
 
 @media only screen and (max-width: 850px) {
-    /*780*/
-    /*850*/
 
     .font-auto-size {
         font-size: 85%;
@@ -1390,6 +1396,10 @@ p {
 
     .center-for-medium-down {
         margin: auto;
+    }
+
+    .justify-center-medium-down {
+        justify-content: center;
     }
 
     .cover-width-for-medium-down {
@@ -2235,7 +2245,7 @@ p {
 }
 
 .circle {
-    border-radius: var(--circle-border-radius, 5rem);
+    border-radius: var(--circle-border-radius, 50rem);
 }
 
 .relative-center {
