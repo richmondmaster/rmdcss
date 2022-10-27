@@ -153,50 +153,53 @@ body {
 
 @media only screen and (max-width: 850px) {
     .site-header {
-        display: inline-flex;
-        height: unset;
-        flex-flow: column nowrap;
-        -gap: 2rem;
-        text-align: center;
+        display: var(--for-medium-down-display, inline-flex);
+        height: var(--for-medium-down-height, unset);
+        flex-direction: var(--for-medium-down-flex-direction, column);
+        flex-wrap: var(--for-medium-down-flex-wrap, nowrap);
+        gap: var(--for-medium-down-gap, initial);
+        text-align: var(--for-medium-down-text-align, center);
     }
 
     .site-header > div {
-        margin: 0rem auto;
-        text-align: center;
+        margin: var(--for-medium-down-margin, 0rem auto);
+        text-align: var(--for-medium-down-text-align, center);
     }
 
     .site-header-logo {
-        text-align: center;
+        text-align: var(--for-medium-down-text-align, center);
     }
 
     .site-footer {
-        display: table;
-        flex-flow: column nowrap;
-        text-align: center;
+        display: var(--for-medium-down-display, table);
+        flex-direction: var(--for-medium-down-flex-direction, column);
+        flex-wrap: var(--for-medium-down-flex-wrap, nowrap);
+        text-align: var(--for-medium-down-text-align, center);
     }
 
     .site-footer > div {
-        width: 100%;
-        text-align: center;
+        width: var(--for-medium-down-width, 100%);
+        text-align: var(--for-medium-down-text-align, center);
     }
 
     .site-footer-title {
-        text-align: center;
+        text-align: var(--for-medium-down-text-align, center);
     }
 
     .site-footer-nav {
-        display: table;
-        flex-flow: column nowrap;
-        padding: 0rem;
-        text-align: center;
-        font-size: 1rem;
+        display: var(--for-medium-down-display, table);
+        flex-direction: var(--for-medium-down-flex-direction, column);
+        flex-wrap: var(--for-medium-down-flex-wrap, nowrap);
+        padding: var(--for-medium-down-padding, 0rem);
+        text-align: var(--for-medium-down-text-align, center);
+        font-size: var(--for-medium-down-padding, 1rem);
     }
 
     .site-footer-nav div {
-        padding: 1rem 0rem;
-        border-bottom: #ccc;
-        border-bottom-style: solid;
-        border-bottom-width: 1px;
+        padding: var(--for-medium-down-padding, 1rem 0rem);
+        border-bottom: var(--for-medium-down-border-bottom-color, #ccc);
+        border-bottom-style: var(--for-medium-down-border-bottom-style, solid);
+        border-bottom-width: var(--for-medium-down-border-bottom-width, 1px);
     }
 }
 

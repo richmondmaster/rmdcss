@@ -125,7 +125,7 @@
 .menu-grid.option--items-circular > .menu-grid-content > a,
 .menu-grid.option--items-circular > .menu-grid-content > p,
 .menu-grid.option--items-circular > .menu-grid-content > li {
-    border-radius: 100em;
+    border-radius: var(--default-circle-border-radius, 50rem) !important;
 }
 
 .menu-grid.option--items-rounded > .menu-grid-content > div,

@@ -1135,15 +1135,15 @@ p {
     }
 
     .padding-lr-md-for-medium-up {
-        padding: 0em 0.5rem;
+        padding: 0rem 0.5rem;
     }
 
     .padding-tb-md-for-medium-up {
-        padding: 0.5em 0rem;
+        padding: 0.5rem 0rem;
     }
 
     .padding-tb-md-lg-for-medium-up {
-        padding: 0.75em 0rem;
+        padding: 0.75rem 0rem;
     }
 
     .padding-lg-for-medium-up {
@@ -1151,11 +1151,11 @@ p {
     }
 
     .padding-lr-lg-for-medium-up {
-        padding: 0em 1rem;
+        padding: 0rem 1rem;
     }
 
     .padding-tb-lg-for-medium-up {
-        padding: 1em 0rem;
+        padding: 1rem 0rem;
     }
 
     .hide-for-medium-up {
@@ -1238,15 +1238,15 @@ p {
     }
 
     .padding-lr-md-for-large-up {
-        padding: 0em 0.5rem;
+        padding: 0rem 0.5rem;
     }
 
     .padding-tb-md-for-large-up {
-        padding: 0.5em 0rem;
+        padding: 0.5rem 0rem;
     }
 
     .padding-tb-md-lg-for-large-up {
-        padding: 0.75em 0rem;
+        padding: 0.75rem 0rem;
     }
 
     .padding-lg-for-large-up {
@@ -1254,11 +1254,11 @@ p {
     }
 
     .padding-lr-lg-for-large-up {
-        padding: 0em 1rem;
+        padding: 0rem 1rem;
     }
 
     .padding-tb-lg-for-large-up {
-        padding: 1em 0rem;
+        padding: 1rem 0rem;
     }
 
     .hide-for-large-up {
@@ -1514,6 +1514,10 @@ p {
         text-align: right !important;
     }
 
+    .justify-center-small-down {
+        justify-content: center;
+    }
+
     .center-for-small-down {
         margin: auto;
     }
@@ -1548,7 +1552,7 @@ p {
 }
 
 .no-clear {
-    clear: none;
+    clear: none !important;
 }
 
 .no-margin {
@@ -1561,7 +1565,7 @@ p {
 
 .no.bold,
 .no-weight {
-    font-weight: unset;
+    font-weight: unset !important;
 }
 
 .no-width {
@@ -1602,11 +1606,11 @@ p {
 }
 
 .no-style {
-    border: 0px;
-    background-color: transparent;
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
+    border: 0px !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 .font-family {
@@ -1823,11 +1827,19 @@ p {
 }
 
 .padding-tb-xlg {
-    padding: 1.25em 0rem;
+    padding: 1.25rem 0rem;
 }
 
 .padding-tb-xxlg {
-    padding: 1.5em 0rem;
+    padding: 1.5rem 0rem;
+}
+
+.padding-tb-xxxlg {
+    padding: 1.75rem 0rem;
+}
+
+.padding-tb-xxxxlg {
+    padding: 2rem 0rem;
 }
 
 .padding-tb-lg {
@@ -2022,6 +2034,10 @@ p {
 
 .letterspacing-xlg {
     letter-spacing: 0.4rem;
+}
+
+.cursor {
+    cursor: var(--cursor, default);
 }
 
 .cursor-pointer {
@@ -2246,7 +2262,7 @@ p {
 }
 
 .circle {
-    border-radius: var(--circle-border-radius, 50rem);
+    border-radius: var(--circle-border-radius, var(--default-circle-border-radius, 50rem));
 }
 
 .relative-center {
