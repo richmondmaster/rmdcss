@@ -145,6 +145,15 @@
   animation-iteration-count: 1;
 }
 
+.hover-font-wobble:hover {
+  animation-name: keyframes-font-wobble;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-duration: 750ms;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+}
+
 .hover-bounce-y:hover {
   animation-name: keyframes-bounce-y;
   animation-direction: normal;
