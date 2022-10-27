@@ -1535,15 +1535,15 @@ p {
     }
 }
 
-.zerowidth {
-    width: 0px;
+.zero-width {
+    width: 0;
 }
 
-.zeroheight {
-    height: 0px;
+.zero-height {
+    height: 0;
 }
 
-.zeroopacity {
+.zero-opacity {
     opacity: 0.0;
 }
 
@@ -1559,6 +1559,7 @@ p {
     padding: 0px !important;
 }
 
+.no.bold,
 .no-weight {
     font-weight: unset;
 }

@@ -3,10 +3,10 @@
 .slider {
   display: block;
   position: absolute;
-  top: calc(50% - 40%);
+  top: calc(50% - 25%);
   left: 0;
   right: 0;
-  height: 75%;
+  height: 50%;
   z-index: 10 !important;
   overflow: hidden;
   margin: 0rem auto;
