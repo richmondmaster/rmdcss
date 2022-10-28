@@ -140,8 +140,11 @@ p {
     and positions to fit into a well defined structure.
 */
 
-.flex-container {
+.flex-container,
+.container-flex {
     display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     padding: 0rem;
     margin: 0rem;
     gap: 0.25rem;
@@ -149,7 +152,8 @@ p {
     box-sizing: border-box;
 }
 
-.flex-group {
+.flex-group,
+.group-flex {
     display: inline-flex;
     flex-flow: row wrap;
     box-sizing: border-box;
@@ -159,7 +163,8 @@ p {
     padding: 0.75em 1.5em;
 } */
 
-.flex-content {
+.flex-content,
+.content-flex {
     display: inline-flex;
     flex-flow: row wrap;
     flex: 1 1 var(--flex-basis, min-content);
@@ -175,7 +180,8 @@ p {
     line-height: 1.5em;
 }
 
-.flex-item {
+.flex-item,
+.item-flex {
     display: flex;
     flex: 1 1 var(--flex-basis, content);
 }
@@ -879,15 +885,15 @@ p {
 }
 
 .text-right {
-    text-align: right;
+    text-align: right !important;
 }
 
 .text-center {
-    text-align: center;
+    text-align: center !important;
 }
 
 .text-left {
-    text-align: left;
+    text-align: left !important;
 }
 
 .indent-left {
@@ -986,7 +992,8 @@ p {
     padding-right: 10em !important;
 }
 
-.opacity-0 {
+.opacity-0,
+.opacity-zero {
     opacity: 0;
 }
 
@@ -994,15 +1001,15 @@ p {
     cursor: pointer;
 }
 
+.not-clickable {
+    cursor: normal !important;
+}
+
 .clickable-children > div,
 .clickable-children > span,
 .clickable-children > a,
 .clickable-children > p {
     cursor: pointer;
-}
-
-.notclickable {
-    cursor: unset !important;
 }
 
 .mobile .cover-height-for-mobile {

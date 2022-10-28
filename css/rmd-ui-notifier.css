@@ -8,7 +8,7 @@
 /* notifier strip */
 
 .notifier-strip {
-  display: flex;
+  display: none;
   position: absolute;
   width: 100%;
   left: 0;
@@ -66,7 +66,7 @@
 /* notifier block */
 
 .notifier-block {
-  display: inline-block;
+  display: none;
   position: absolute;
   z-index: 10 !important;
   top: calc(99% - 17.5rem);
@@ -109,7 +109,7 @@
 /* notifier feature */
 
 .notifier-feature {
-  display: block;
+  display: none;
   position: absolute;
   overflow: auto; /* in case there's non-breaking horizontal content; or, break-all can be used to resolve */
   top: calc(50% - 6rem);
@@ -148,23 +148,24 @@
 /* notifier badge */
 
 .notifier-badge {
-  display: block;
+  display: none;
   position: absolute;
   top: calc(50% - 12rem);
   left: calc(50% - 6rem);
-  z-index: 10 !important;
-  width: 12rem;
-  height: 12rem;
+  z-index: 20 !important;
+  width: var(--notifier-badge-width, var(--default-notifier-badge-width, 12rem));
+  height: var(--notifier-badge-height, var(--default-notifier-badge-height, 12rem));
   margin: 0rem auto;
   box-sizing: border-box;
-  background-color: var(--default-notifier-strip-background-color, #db1dac);
+  background-color: var(--notifier-badge-background-color, var(--default-notifier-badge-background-color, #db1dac));
   border-radius: var(--default-circle-border-radius, 50rem);
-  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  -box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.notifier-badge > .notifier-badge-content {
+.notifier-badge > .notifier-badge-content,
+.notifier-badge > .notifier-badge-content > * {
   box-sizing: border-box;
   line-height: 12rem;
   font-weight: bold;
