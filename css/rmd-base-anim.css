@@ -306,6 +306,15 @@
   animation-timing-function: ease-in;
 }
 
+.anim-size-opacity-pulse.run {
+  animation-name: keyframes-size-opacity-pulse;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-duration: 700ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
 .anim-bounce-y.run {
   animation-name: keyframes-bounce-y;
   animation-direction: normal;
@@ -623,6 +632,38 @@
   }
 
   100% {
+    -webkit-transform: scale(1.0, 1.0);
+    -moz-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+}
+
+@keyframes keyframes-size-opacity-pulse {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(calc(1.5 * var(--size-factor, 1)), calc(1.5 * var(--size-factor, 1)));
+    -moz-transform: scale(calc(1.5 * var(--size-factor, 1)), calc(1.5 * var(--size-factor, 1)));
+    transform: scale(calc(1.5 * var(--size-factor, 1)), calc(1.5 * var(--size-factor, 1)));
+  }
+
+  25% {
+    opacity: 0.75;
+    -webkit-transform: scale(1.0, 1.0);
+    -moz-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+
+  75% {
+    opacity: 0.50;
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
     -webkit-transform: scale(1.0, 1.0);
     -moz-transform: scale(1.0, 1.0);
     transform: scale(1.0, 1.0);
