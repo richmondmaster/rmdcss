@@ -329,17 +329,29 @@
   .slider > .slider-content {
     padding: 0rem 20vw;
   }
+
+  .slider.option--mode-inline > .slider-content {
+    padding: 0rem 0vw;
+  }
 }
 
 @media only screen and (min-width: 1600px) {
   .slider > .slider-content {
     padding: 0rem 40vw;
   }
+
+  .slider.option--mode-inline > .slider-content {
+    padding: 0rem 0vw;
+  }
 }
 
 @media only screen and (min-width: 2048px) {
   .slider > .slider-content {
     padding: 0rem 50vw;
+  }
+
+  .slider.option--mode-inline > .slider-content {
+    padding: 0rem 0vw;
   }
 }
 

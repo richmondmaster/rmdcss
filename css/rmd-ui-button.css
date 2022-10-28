@@ -87,7 +87,6 @@
 .button-swap {
     display: inline-flex;
     position: relative;
-    padding: 0.25em;
     justify-content: center;
     align-items: center;
     line-height: normal;
@@ -95,11 +94,11 @@
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out;
-    -webkit-appearance: none;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.button-swap.option--buttonize {
+    padding: 0.25em;
     font-family: "Montserrat", Arial, serif;
     font-weight: 700;
     font-size: 2em;
@@ -109,10 +108,14 @@
     border-width: 0px;
     border-color: #5b9bd5;
     border-radius: 0.25em;
-    cursor: pointer;
+    -webkit-appearance: none;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-.button-swap:hover {
+.button-swap.option--buttonize:hover {
     background-color: #243a82;
 }
 

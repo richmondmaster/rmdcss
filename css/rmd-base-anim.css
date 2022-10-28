@@ -133,7 +133,7 @@
   animation-direction: normal;
   animation-duration: 750ms;
   animation-timing-function: ease-out;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
 }
 
 .hover-wobble:hover {

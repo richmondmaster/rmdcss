@@ -113,6 +113,7 @@
   display: table;
   width: 100%;
   min-width: 375px;
+  height: 100%;
   padding: 0rem;
   margin: 0rem;
   box-sizing: border-box;
