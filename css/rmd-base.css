@@ -2471,6 +2471,8 @@ p {
     justify-content: baseline !important;
 }
 
+/* affects rows in a column */
+
 .lines-stretch,
 .align-content-stretch {
     align-content: stretch !important;
@@ -2516,6 +2518,7 @@ p {
     align-content: space-evenly !important;
 }
 
+/* affects items in a row */
 .items-stretch {
     align-items: stretch !important;
 }

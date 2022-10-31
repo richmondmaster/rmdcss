@@ -119,7 +119,7 @@
 
 .flyout-content:hover,
 .flyout-content.flyout-activated {
-    left: 5%;
+    left: 5% !important;
 }
 
 /* top left */
