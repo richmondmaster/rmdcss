@@ -283,3 +283,78 @@
         var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
     }
 }
+
+@keyframes progressbar-marks-4-keyframes {
+    0% {
+        content: '\0020';
+    }
+
+    25% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+
+    50% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+
+    75% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+
+    100% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+}
+
+@keyframes progressbar-marks-3-keyframes {
+    0% {
+        content: '\0020';
+    }
+
+    33% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+
+    66% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+
+    100% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+}
+
+@keyframes progressbar-marks-2-keyframes {
+    0% {
+        content: '\0020';
+    }
+
+    50% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+
+    100% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF')) 
+        var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+}
+
+@keyframes progressbar-marks-2-keyframes {
+    0% {
+        content: '\0020';
+    }
+
+    100% {
+        content: var(--progressbar-meter-animation-content, var(--default-progressbar-tiny-meter-animation-content, '\25CF'));
+    }
+}
+

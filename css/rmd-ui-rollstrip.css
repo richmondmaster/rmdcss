@@ -37,6 +37,7 @@
     content: '\A9';
   }
 
-  .rollstrip:hover > .rollstrip-content {
+  .rollstrip:hover > .rollstrip-content,
+  .rollstrip.rollstrip-activated > .rollstrip-content {
     width: var(--width-end, 10em);
   }

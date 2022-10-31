@@ -107,6 +107,8 @@
 }
 
 .balloon:hover > .balloon-text,
-.balloon:hover > .balloon-content {
+.balloon:hover > .balloon-content,
+.balloon.balloon-activated > .balloon-text,
+.balloon.balloon-activated > .balloon-content {
   visibility: visible;
 }

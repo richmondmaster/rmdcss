@@ -117,7 +117,8 @@
     transition: all 0.5s cubic-bezier(0.8,0,0.025,1.105);
 }
 
-.flyout-content:hover {
+.flyout-content:hover,
+.flyout-content.flyout-activated {
     left: 5%;
 }
 
