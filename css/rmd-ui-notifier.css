@@ -166,6 +166,7 @@
 
 .notifier-badge > .notifier-badge-content {
   display: inline-block;
+  width: 100%;
   vertical-align: middle;
 }
 
