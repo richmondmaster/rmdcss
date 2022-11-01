@@ -59,7 +59,7 @@
 .slider-panel {
   display: inline-flex;
   flex-flow: column nowrap;
-  width: 100%;
+  width: 90%;
   height: 90%;
   padding: 0.25rem;
   margin: 0rem 0rem;
