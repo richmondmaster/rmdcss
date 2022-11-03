@@ -118,6 +118,18 @@
   transform: scale(var(--zoom-scale-x-to, 1.1), var(--zoom-scale-y-to, 1.1));
 }
 
+hover-rotate-x:hover {
+  transform: rotateX(var(--rotate-x,90deg));
+}
+
+hover-rotate-y:hover {
+  transform: rotateY(var(--rotate-y,90deg));
+}
+
+hover-rotate-z:hover {
+  transform: rotateZ(var(--rotate-z,90deg));
+}
+
 .hover-size-pulse:hover {
   animation-name: keyframes-size-pulse;
   animation-direction: normal;
@@ -448,6 +460,36 @@
   animation-direction: normal;
   animation-fill-mode: forwards;
   animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 0.1s;
+  animation-timing-function: ease-in-out;
+}
+
+.anim-flip-and-back-x.run {
+  animation-name: keyframes-flip-and-back-x;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-duration: var(--anim-duration, 1200ms);
+  animation-iteration-count: 1;
+  animation-delay: 0.1s;
+  animation-timing-function: ease-in-out;
+}
+
+.anim-flip-and-back-y.run {
+  animation-name: keyframes-flip-and-back-y;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-duration: var(--anim-duration, 1200ms);
+  animation-iteration-count: 1;
+  animation-delay: 0.1s;
+  animation-timing-function: ease-in-out;
+} 
+
+.anim-flip-and-back-z.run {
+  animation-name: keyframes-flip-and-back-z;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-duration: var(--anim-duration, 1200ms);
   animation-iteration-count: 1;
   animation-delay: 0.1s;
   animation-timing-function: ease-in-out;
@@ -813,5 +855,65 @@
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     transform: rotate(0deg);
+  }
+}
+
+@keyframes keyframes-flip-and-back-x {
+  0% {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+  }
+
+  50% {
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+  }
+
+  100% {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+
+@keyframes keyframes-flip-and-back-y {
+  0% {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes keyframes-flip-and-back-z {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+
+  50% {
+    -webkit-transform: rotateZ(180deg);
+    -moz-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+  }
+
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
   }
 }
