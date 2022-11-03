@@ -113,7 +113,9 @@
 }
 
 .hover-zoom:hover {
-  transform: scale(1.5, 1.5);
+  -webkit-transform: scale(var(--zoom-scale-x-to, 1.1), var(--zoom-scale-y-to, 1.1));
+  -moz-transform: scale(var(--zoom-scale-x-to, 1.1), var(--zoom-scale-y-to, 1.1));
+  transform: scale(var(--zoom-scale-x-to, 1.1), var(--zoom-scale-y-to, 1.1));
 }
 
 .hover-size-pulse:hover {
@@ -788,9 +790,9 @@
   }
 
   100% {
-    -webkit-transform: scale(var(--zoom-scale-x-to, 1.5), var(--zoom-scale-y-to, 1.5));
-    -moz-transform: scale(var(--zoom-scale-x-to, 1.5), var(--zoom-scale-y-to, 1.5));
-    transform: scale(var(--zoom-scale-x-to, 1.5), var(--zoom-scale-y-to, 1.5));
+    -webkit-transform: scale(var(--zoom-scale-x-to, 1.1), var(--zoom-scale-y-to, 1.1));
+    -moz-transform: scale(var(--zoom-scale-x-to, 1.1), var(--zoom-scale-y-to, 1.1));
+    transform: scale(var(--zoom-scale-x-to, 1.1), var(--zoom-scale-y-to, 1.1));
   }
 }
 

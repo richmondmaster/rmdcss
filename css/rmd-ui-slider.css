@@ -63,6 +63,7 @@
   height: 90%;
   padding: 0.25rem;
   margin: 0rem 0rem;
+  overflow: hidden;
   box-sizing: border-box;
   align-content: stretch;
   font-size: 1rem;
