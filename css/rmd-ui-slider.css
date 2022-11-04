@@ -177,7 +177,8 @@
 
 .slider-panel .slider-panel-content {
   display: inline-flex;
-  flex-direction: row nowrap;
+  position: relative; /* to support absolute positioned elements */
+  flex-direction: column nowrap;
   grid-area: slider-panel-content;
   width: 100%;
   height: 100%;
@@ -186,7 +187,8 @@
 }
 
 .slider.option--mode-inline .slider-panel .slider-panel-content {
-
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .slider > .slider-area-backward {
