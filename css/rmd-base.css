@@ -120,27 +120,45 @@ p {
 }
 
 .flow-row {
-    flex-flow: row nowrap !important;
+    flex-flow: row !important;
 }
 
-.flow-row-reverse {
-    flex-flow: row-reverse nowrap !important;
+.flow-row-reverse,
+.flex-flow-row-reverse {
+    flex-flow: row-reverse !important;
 }
 
-.flow-column {
-    flex-flow: column nowrap !important;
+.flow-column,
+.flex-flow-column {
+    flex-flow: column !important;
 }
 
-.flow-column-reverse {
-    flex-flow: column-reverse nowrap !important;
+.flow-column-reverse,
+.flex-flow-column-reverse {
+    flex-flow: column-reverse !important;
+}
+
+.flex-nowrap,
+.flex-wrap-nowrap {
+    flex-wrap: nowrap !important;
+}
+
+.flex-wrap,
+.flex-wrap-wrap {
+    flex-wrap: wrap !important;
+}
+
+.flex-wrap-reverse,
+.flex-wrap-wrap-reverse {
+    flex-wrap: wrap-reverse !important;
 }
 
 .flex-grow {
-    flex-grow: 1;
+    flex-grow: 1 !important;
 }
 
 .flex-shrink {
-    flex-shrink: 1;
+    flex-shrink: 1 !important;
 }
 
 .flex-no-grow {
@@ -2553,52 +2571,74 @@ p {
 }
 
 /* affects items in a row */
-.items-stretch {
+.items-stretch,
+.align-items-stretch {
     align-items: stretch !important;
 }
 
-.items-center {
+.items-center,
+.align-items-center {
     align-items: center !important;
 }
 
-.items-flex-start {
+.items-flex-start,
+.align-items-flex-start {
     align-items: flex-start !important;
 }
 
-.items-flex-end {
+.items-flex-end,
+.align-items-flex-end {
     align-items: flex-end !important;
 }
 
-.items-start {
+.items-start,
+.align-items-start {
     align-items: start !important;
 }
 
-.items-end {
+.items-end,
+.align-items-end {
     align-items: end !important;
 }
 
-.items-baseline {
+.items-baseline,
+.align-items-baseline {
     align-items: baseline !important;
 }
 
-.self-stretch {
-    align-items: stretch !important;
+.self-stretch,
+.align-self-stretch {
+    align-self: stretch !important;
 }
 
-.self-center {
-    align-items: center !important;
+.self-center,
+.align-self-center {
+    align-self: center !important;
 }
 
-.self-start {
-    align-items: flex-start !important;
+.self-flex-start,
+.align-self-flex-start {
+    align-self: flex-start !important;
 }
 
-.self-end {
-    align-items: flex-end !important;
+.self-flex-end,
+.align-self-flex-end {
+    align-self: flex-end !important;
 }
 
-.self-baseline {
-    align-items: baseline !important;
+.self-start,
+.align-self-start {
+    align-self: start !important;
+}
+
+.self-end,
+.align-self-end {
+    align-self: end !important;
+}
+
+.self-baseline,
+.align-self-baseline {
+    align-self: baseline !important;
 }
 
 .whisper {
