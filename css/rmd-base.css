@@ -200,142 +200,142 @@ p {
 .flex-item,
 .item-flex {
     display: flex;
-    flex: 1 1 var(--flex-basis, content) !important;
+    flex-basis: var(--flex-basis, content) !important;
 }
 
 .flex-item-1 {
     display: flex;
-    flex: 1 1 100% !important;
+    flex-basis: 100% !important;
 }
 
 .flex-item-2 {
     display: flex;
-    flex: 1 1 50% !important;
+    flex-basis: 50% !important;
 }
 
 .flex-item-3 {
     display: flex;
-    flex: 1 1 33.333% !important;
+    flex-basis: 33.333% !important;
 }
 
 .flex-item-4 {
     display: flex;
-    flex: 1 1 25% !important;
+    flex-basis: 25% !important;
 }
 
 .flex-item-5 {
     display: flex;
-    flex: 1 1 20% !important;
+    flex-basis: 20% !important;
 }
 
 .flex-item-6 {
     display: flex;
-    flex: 1 1 16.667% !important;
+    flex-basis: 16.667% !important;
 }
 
 .flex-item-7 {
     display: flex;
-    flex: 1 1 14.286% !important;
+    flex-basis: 14.286% !important;
 }
 
 .flex-item-8 {
     display: flex;
-    flex: 1 1 12.5% !important;
+    flex-basis: 12.5% !important;
 }
 
 .flex-item-9 {
     display: flex;
-    flex: 1 1 11.111% !important;
+    flex-basis: 11.111% !important;
 }
 
 .flex-item-10 {
     display: flex;
-    flex: 1 1 10% !important;
+    flex-basis: 10% !important;
 }
 
 .flex-item-p5-p {
     display: flex;
-    flex: 1 1 0.5% !important;
+    flex-basis: 0.5% !important;
 }
 
 .flex-item-2p5-p {
     display: flex;
-    flex: 1 1 2.5% !important;
+    flex-basis: 2.5% !important;
 }
 
 .flex-item-5-p {
     display: flex;
-    flex: 1 1 10% !important;
+    flex-basis: 10% !important;
 }
 
 .flex-item-10-p {
     display: flex;
-    flex: 1 1 10% !important;
+    flex-basis: 10% !important;
 }
 
 .flex-item-15-p {
     display: flex;
-    flex: 1 1 15% !important;
+    flex-basis: 15% !important;
 }
 
 .flex-item-20-p {
     display: flex;
-    flex: 1 1 25% !important;
+    flex-basis: 25% !important;
 }
 
 .flex-item-25-p {
     display: flex;
-    flex: 1 1 25% !important;
+    flex-basis: 25% !important;
 }
 
 .flex-item-33-p {
     display: flex;
-    flex: 1 1 33.333% !important;
+    flex-basis: 33.333% !important;
 }
 
 .flex-item-50-p {
     display: flex;
-    flex: 1 1 50% !important;
+    flex-basis: 50% !important;
 }
 
 .flex-item-67-p {
     display: flex;
-    flex: 1 1 67.667% !important;
+    flex-basis: 67.667% !important;
 }
 
 .flex-item-70-p {
     display: flex;
-    flex: 1 1 70% !important;
+    flex-basis: 70% !important;
 }
 
 .flex-item-75-p {
     display: flex;
-    flex: 1 1 75% !important;
+    flex-basis: 75% !important;
 }
 
 .flex-item-80-p {
     display: flex;
-    flex: 1 1 80% !important;
+    flex-basis: 80% !important;
 }
 
 .flex-item-90-p {
     display: flex;
-    flex: 1 1 90% !important;
+    flex-basis: 90% !important;
 }
 
 .flex-item-95-p {
     display: flex;
-    flex: 1 1 95% !important;
+    flex-basis: 95% !important;
 }
 
 .flex-item-99-p {
     display: flex;
-    flex: 1 1 99% !important;
+    flex-basis: 99% !important;
 }
 
 .flex-item-100-p {
     display: flex;
-    flex: 1 1 100% !important;
+    flex-basis: 100% !important;
 }
 
 .grid {
