@@ -32,40 +32,43 @@
   display: inline-block;
   position: relative;
   width:100%;
+  list-style-type: none;
 }
 
 .navify-flex {
   display: inline-flex;
   position: relative;
   flex-flow: row nowrap;
+  gap: 1em;
+  list-style-type: none;
 }
 
 .navify > div,
 .navify > span,
 .navify > p,
+.navify > li,
 .navify > a {
-  float: left;
+  display: inline-block;
   padding: 0.5em 1em;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  font-size: 1.25em;
-  color: black;
+  font-size: 1.5em;
   cursor: pointer;
 }
 
 .navify-flex > div,
 .navify-flex > span,
 .navify-flex > p,
+.navify-flex > li,
 .navify-flex > a {
   display: inline-flex;
+  flex: auto 0 0;
   justify-content: center;
   align-items: center;
-  color: black;
-  padding: 0.5em 1em;
+  padding: 0.25em 0.5em;
   text-decoration: none;
-  font-family: Tahoma, Helvetica, sans-serif;
-  font-size: 1.25em;
+  font-size: 1.75em;
   cursor: pointer;
 }
 
@@ -77,18 +80,18 @@
 .navify-flex span.active,
 .navify-flex p.active,
 .navify-flex a.active {
-  background-color: #ff2b83;
-  color: white;
+  background-color: var(--navify-active-background-color, initial);
+  color: var(--navify-active-color, initial);
 }
 
-.navify div:hover:not(.active),
-.navify span:hover:not(.active),
-.navify p:hover:not(.active),
-.navify a:hover:not(.active),
-.navify-flex div:hover:not(.active),
-.navify-flex  span:hover:not(.active),
-.navify-flex  p:hover:not(.active),
-.navify-flex  a:hover:not(.active) {
+.navify:not(.option--no-hover-background) div:hover:not(.active),
+.navify:not(.option--no-hover-background) span:hover:not(.active),
+.navify:not(.option--no-hover-background) p:hover:not(.active),
+.navify:not(.option--no-hover-background) a:hover:not(.active),
+.navify-flex:not(.option--no-hover-background) div:hover:not(.active),
+.navify-flex:not(.option--no-hover-background) span:hover:not(.active),
+.navify-flex:not(.option--no-hover-background) p:hover:not(.active),
+.navify-flex:not(.option--no-hover-background) a:hover:not(.active) {
   background-color: #ddd;
 }
 
@@ -112,8 +115,7 @@
 .pagify > p,
 .pagify > a,
 .pagify > li {
-  float: left;
-  color: black;
+  display: inline-block;
   padding: 0.5em 1em;
   list-style-type: none;
   text-decoration: none;
@@ -127,7 +129,6 @@
 .pagify-flex > a,
 .pagify-flex > li {
   display: inline-flex;
-  color: black;
   padding: 0.5em 1em;
   list-style-type: none;
   text-decoration: none;
@@ -143,8 +144,8 @@
 .pagify-flex span.active,
 .pagify-flex p.active,
 .pagify-flex a.active {
-  background-color: #ff2b83;
-  color: white;
+  background-color: var(--pagify-active-background-color, initial);
+  color: var(--pagify-active-color, initial);
 }
 
 .pagify div:hover:not(.active),
