@@ -185,6 +185,7 @@ p {
     gap: 0.25rem;
     overflow: hidden;
     box-sizing: border-box;
+    line-height: 1.5em;
 }
 
 .flex-group,
@@ -192,6 +193,7 @@ p {
     display: inline-flex;
     flex-flow: row wrap;
     box-sizing: border-box;
+    line-height: 1.5em;
 }
 
 /* .flex-container > .flex-group {
@@ -204,7 +206,7 @@ p {
     flex-flow: row wrap;
     flex: 1 1 var(--flex-basis, min-content);
     width: 100%;
-    height: 100%;
+    height: fit-content;
     word-wrap: normal;
     -word-break: break-all; /* affects text alignments negatively */
     white-space: normal;
@@ -841,12 +843,37 @@ p {
     font-weight: bold !important;
 }
 
+.bolder {
+    font-weight: bolder !important;
+}
+
 .italic {
     font-style: italic !important;
 }
 
-.bolder {
-    font-weight: bolder !important;
+.underline,
+.underlined {
+    text-decoration: underline !important;
+}
+
+.overline {
+    text-decoration: overline !important;
+}
+
+.text-dotted { 
+    text-decoration: dotted !important;
+}
+
+.text-wavy { 
+    text-decoration: wavy !important;
+}
+
+.text-double { 
+    text-decoration: double !important;
+}
+
+.strikethrough { 
+    text-decoration: line-through !important;
 }
 
 .uppercase {
@@ -1666,6 +1693,14 @@ p {
 
 .no-resize {
     resize: none !important;
+}
+
+.no-repeat {
+    background-repeat: no-repeat !important;
+}
+
+.no-events {
+    pointer-events: none;
 }
 
 .no-style {
