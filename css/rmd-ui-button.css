@@ -36,50 +36,56 @@
 .button-circle,
 .button-pianokey,
 .button-leaf {
-    display: inline-flex;
-    position: relative;
+    display: var(--button-display, var(--default-button-display, inline-flex));
+    position: var(--button-position, var(--default-button-position, relative));
     justify-content: center;
     align-items: center;
-    font-family: "Montserrat", Arial, serif;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
+    font-family: var(--button-font-family, var(--default-button-font-family, "Montserrat", Arial, serif));
+    font-weight: var(--button-font-weight, var(--default-button-font-weight, 700));
+    line-height: var(--button-line-height, var(--default-button-line-height, normal));
+    text-decoration: var(--button-text-decoration, var(--default-button-text-decoration, none));
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    text-transform: var(--button-text-transform, var(--default-button-text-transform, 700));
+    letter-spacing: var(--button-letter-spacing, var(--default-button-letter-spacing, 1rem));
     white-space: nowrap;
-    font-size: 1rem;
-    background-color: #0089cf;
-    color: #fff;
-    -webkit-transition: background-color 300ms ease-out;
-    -moz-transition: background-color 300ms ease-out;
-    transition: background-color 300ms ease-out;
+    font-size: var(--button-font-size, var(--default-button-font-size, 1rem));
+    background-color: var(--button-background-color, var(--default-button-background-color, #0089cf));
+    color: var(--button-color, var(--default-button-color, #ffffff));
+    -webkit-transition-property: background-color; 
+    -webkit-transition-duration: var(--button-transition-duration, var(--default-button-transition-duration, 300ms));
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-property: background-color; 
+    -moz-transition-duration: var(--button-transition-duration, var(--default-button-transition-duration, 300ms));
+    -moz-transition-timing-function: ease-out;
+    transition-property: background-color; 
+    transition-duration: var(--button-transition-duration, var(--default-button-transition-duration, 300ms));
+    transition-timing-function: ease-out;
     -webkit-appearance: none;
-    border-style: solid;
-    border-width: 0px;
-    border-color: #5b9bd5;
+    border-style: var(--button-border-style, var(--default-button-border-style, solid));
+    border-width: var(--button-border-width, var(--default-button-border-width, 0px));
+    border-color: var(--button-border-color, var(--default-button-border-color, #5b9bd5));
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #243a82;
+    background-color: var(--button-hover-background-color, var(--default-button-hover-background-color, #243a82));
 }
 
 .button-rounded:hover {
-    background-color: #243a82;
+    background-color: var(--button-hover-background-color, var(--default-button-hover-background-color, #243a82));
 }
 
 
 .button-circle:hover {
-    background-color: #243a82;
+    background-color: var(--button-hover-background-color, var(--default-button-hover-background-color, #243a82));
 }
 
 .button-pianokey:hover {
-    background-color: #243a82;
+    background-color: var(--button-hover-background-color, var(--default-button-hover-background-color, #243a82));
 }
 
 .button-leaf:hover {
-    background-color: #243a82;
+    background-color: var(--button-hover-background-color, var(--default-button-hover-background-color, #243a82));
 }
 
 /* button swap */
@@ -102,11 +108,11 @@
     font-family: "Montserrat", Arial, serif;
     font-weight: 700;
     font-size: 2em;
-    background-color: #0089cf;
-    color: #fff;
+    background-color: var(--button-background-color, var(--default-button-background-color, #0089cf));
+    color: var(--button-color, var(--default-button-color, #ffffff));
     border-style: solid;
     border-width: 0px;
-    border-color: #5b9bd5;
+    border-color: var(--button-border-color, var(--default-button-border-color, #5b9bd5));
     border-radius: 0.25em;
     -webkit-appearance: none;
     text-decoration: none;
@@ -116,7 +122,7 @@
 }
 
 .button-swap.option--buttonize:hover {
-    background-color: #243a82;
+    background-color: var(--button-hover-background-color, var(--default-button-hover-background-color, #243a82));
 }
 
 .button-swap > div,

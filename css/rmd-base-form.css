@@ -2,6 +2,7 @@
     /* Edge */
     padding: var(--default-form-placeholder-padding, 0em 0em 0em 0.25em);
     color: var(--default-form-placeholder-font-color, #000);
+    font-family: var(--default-form-placeholder-font-family, 'Arial', Helvetica, sans-serif);
     font-weight: var(--default-form-placeholder-font-weight, normal);
     font-style: var(--default-form-placeholder-font-style, normal);
   }
@@ -10,6 +11,7 @@
     /* Internet Explorer 10-11 */
     padding: var(--default-form-placeholder-padding, 0em 0em 0em 0.25em);
     color: var(--default-form-placeholder-font-color, #000);
+    font-family: var(--default-form-placeholder-font-family, 'Arial', Helvetica, sans-serif);
     font-weight: var(--default-form-placeholder-font-weight, normal);
     font-style: var(--default-form-placeholder-font-style, normal);
   }
@@ -17,6 +19,7 @@
   ::placeholder {
     padding: var(--default-form-placeholder-padding, 0em 0em 0em 0.25em);
     color: var(--default-form-placeholder-font-color, #000);
+    font-family: var(--default-form-placeholder-font-family, 'Arial', Helvetica, sans-serif);
     font-weight: var(--default-form-placeholder-font-weight, normal);
     font-style: var(--default-form-placeholder-font-style, normal);
   }
@@ -51,7 +54,7 @@
   }
   
   .form-container > form {
-    width:100%;
+    width: 100%;
   }
 
   .form-layout {

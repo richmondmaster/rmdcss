@@ -22,8 +22,11 @@
 }
 
 .slider.option--mode-inline {
+  top: 0;
+  height: 85%;
   position: relative;
   margin: 0rem 0rem;
+  padding: 0em 0em;
 }
 
 .slider > .slider-content {
@@ -58,6 +61,7 @@
 
 .slider-panel {
   display: inline-flex;
+  position: relative; /* to allow absolute elements to be contained */
   flex-flow: column nowrap;
   width: 90%;
   height: 90%;
@@ -81,7 +85,7 @@
 .slider-panel-background {
   display: inline-flex;
   flex-flow: column nowrap;
-  flex: auto 0 0;
+  flex: auto 1 1; /* Firefox will not allow this to stretch if growth is 0 */
   width: 100%;
   height: 100%;
   border-radius: 1rem;

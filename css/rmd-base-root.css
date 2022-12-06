@@ -4,6 +4,36 @@
     --default-modal-overlay-background-color: #00000066;
     --default-circle-border-radius: 50rem;
 
+    --default-h1-color: #555;
+    --default-h2-color: #555;
+    --default-h3-color: #555;
+    --default-h4-color: #555;
+    --default-h5-color: #555;
+
+    --default-h1-background-color: transparent;
+    --default-h2-background-color: transparent;
+    --default-h3-background-color: transparent;
+    --default-h4-background-color: transparent;
+    --default-h5-background-color: transparent;
+
+    --default-button-display: inline-flex;
+    --default-button-position: relative;
+    --default-button-font-family: "Arial", Helvetica, san-serif;
+    --default-button-font-size: 1rem;
+    --default-button-font-weight: 700;
+    --default-button-line-height: normal;
+    --default-button-text-transform: uppercase;
+    --default-button-text-decoration: none;
+    --default-button-letter-spacing: 1rem;
+    --default-button-color: #ffffff;
+    --default-button-background-color: #0089cf;
+    --default-button-hover-background-color: #243a82;
+    --default-button-border-style: solid;
+    --default-button-border-width: 0px;
+    --default-button-border-color: #5b9bd5;
+
+    --default-button-transition-duration: 300ms;
+
 
     /* font defaults */
     --default-font-family: 'Arial', Helvetica, sans-serif;
@@ -29,6 +59,7 @@
      --default-form-font-style: normal;
 
      --default-form-placeholder-padding: 0em 0em 0em 0.5em;
+     --default-form-placeholder-font-family: 'Arial', Helvetica, sans-serif;
      --default-form-placeholder-font-size: 1em;
      --default-form-placeholder-font-color: #aaa;
      --default-form-placeholder-font-weight: normal;
