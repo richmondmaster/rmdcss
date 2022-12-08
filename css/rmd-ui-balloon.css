@@ -74,40 +74,40 @@
 
 /* balloon arrow */
 
-.balloon[class*="balloon-top"]:not([class*="noarrow"]) > .balloon-text::after,
-.balloon[class*="balloon-top"]:not([class*="noarrow"]) > .balloon-content::after {
+.balloon[class*="balloon-top"]:not([class*="balloon-noarrow"]) > .balloon-text::after,
+.balloon[class*="balloon-top"]:not([class*="balloon-noarrow"]) > .balloon-content::after {
   top: 100%;
   left: 50%;
   margin-left: -5px;
   border-color: var(--balloon-arrow-color, var(--default-balloon-arrow-color,#1a2069)) transparent transparent transparent;
 }
 
-.balloon[class*="balloon-right"]:not([class*="noarrow"]) > .balloon-text::after,
-.balloon[class*="balloon-right"]:not([class*="noarrow"]) > .balloon-content::after {
+.balloon[class*="balloon-right"]:not([class*="balloon-noarrow"]) > .balloon-text::after,
+.balloon[class*="balloon-right"]:not([class*="balloon-noarrow"]) > .balloon-content::after {
   top: 50%;
   right: 100%;
   margin-top: -5px;
   border-color: transparent var(--balloon-arrow-color, var(--default-balloon-arrow-color,#1a2069)) transparent transparent;
 }
 
-.balloon[class*="balloon-bottom"]:not([class*="noarrow"]) > .balloon-text::after,
-.balloon[class*="balloon-bottom"]:not([class*="noarrow"]) > .balloon-content::after {
+.balloon[class*="balloon-bottom"]:not([class*="balloon-noarrow"]) > .balloon-text::after,
+.balloon[class*="balloon-bottom"]:not([class*="balloon-noarrow"]) > .balloon-content::after {
   bottom: 100%;
   left: 50%;
   margin-left: -5px;
   border-color: transparent transparent var(--balloon-arrow-color, var(--default-balloon-arrow-color,#1a2069)) transparent;
 }
 
-.balloon[class*="balloon-left"]:not([class*="noarrow"]) > .balloon-text::after,
-.balloon[class*="balloon-left"]:not([class*="noarrow"]) > .balloon-content::after {
+.balloon[class*="balloon-left"]:not([class*="balloon-noarrow"]) > .balloon-text::after,
+.balloon[class*="balloon-left"]:not([class*="balloon-noarrow"]) > .balloon-content::after {
   top: 50%;
   left: 100%;
   margin-top: -5px;
   border-color: transparent transparent transparent var(--balloon-arrow-color, var(--default-balloon-arrow-color,#1a2069));
 }
 
-.balloon:hover > .balloon-text,
-.balloon:hover > .balloon-content,
+.balloon:not([class*="balloon-nohover"]):hover > .balloon-text,
+.balloon:not([class*="balloon-nohover"]):hover > .balloon-content,
 .balloon.balloon-activated > .balloon-text,
 .balloon.balloon-activated > .balloon-content {
   visibility: visible;
