@@ -19,7 +19,7 @@
   background-color: var(--balloon-background-color, var(--default-balloon-background-color,#1a2069));
   font-size: 0.67rem;
   font-weight: 500;
-  color: var(--balloon-background-color, var(--default-balloon-background-color,#ffffff));
+  color: var(--balloon-color, var(--default-balloon-color,#ffffff));
   border-radius: 6px;
 }
 
@@ -34,7 +34,7 @@
   background-color: var(--balloon-background-color, var(--default-balloon-background-color,#1a2069));
   font-size: 0.67rem;
   font-weight: 500;
-  color: var(--balloon-background-color, var(--default-balloon-background-color,#ffffff));
+  color: var(--balloon-color, var(--default-balloon-color,#ffffff));
   border-radius: 6px;
 }
 
