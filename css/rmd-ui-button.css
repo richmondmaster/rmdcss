@@ -46,7 +46,7 @@
     text-decoration: var(--button-text-decoration, var(--default-button-text-decoration, none));
     text-align: center;
     text-transform: var(--button-text-transform, var(--default-button-text-transform, 700));
-    letter-spacing: var(--button-letter-spacing, var(--default-button-letter-spacing, 1rem));
+    letter-spacing: var(--button-letter-spacing, var(--default-button-letter-spacing, 0.125em));
     white-space: nowrap;
     font-size: var(--button-font-size, var(--default-button-font-size, 1rem));
     background-color: var(--button-background-color, var(--default-button-background-color, #0089cf));

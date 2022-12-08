@@ -16,10 +16,10 @@
   white-space: nowrap;
   box-sizing: border-box;
   text-align: center;
-  background-color: #1a2069;
+  background-color: var(--balloon-background-color, var(--default-balloon-background-color,#1a2069));
   font-size: 0.67rem;
   font-weight: 500;
-  color: #fff;
+  color: var(--balloon-background-color, var(--default-balloon-background-color,#ffffff));
   border-radius: 6px;
 }
 
@@ -31,10 +31,10 @@
   padding: 0.33rem 1rem;
   box-sizing: border-box;
   text-align: center;
-  background-color: #1a2069;
+  background-color: var(--balloon-background-color, var(--default-balloon-background-color,#1a2069));
   font-size: 0.67rem;
   font-weight: 500;
-  color: #fff;
+  color: var(--balloon-background-color, var(--default-balloon-background-color,#ffffff));
   border-radius: 6px;
 }
 
@@ -79,7 +79,7 @@
   top: 100%;
   left: 50%;
   margin-left: -5px;
-  border-color: #1a2069 transparent transparent transparent;
+  border-color: var(--balloon-arrow-color, var(--default-balloon-arrow-color,#1a2069)) transparent transparent transparent;
 }
 
 .balloon[class*="balloon-right"]:not([class*="noarrow"]) > .balloon-text::after,
@@ -87,7 +87,7 @@
   top: 50%;
   right: 100%;
   margin-top: -5px;
-  border-color: transparent #1a2069 transparent transparent;
+  border-color: transparent var(--balloon-arrow-color, var(--default-balloon-arrow-color,#1a2069)) transparent transparent;
 }
 
 .balloon[class*="balloon-bottom"]:not([class*="noarrow"]) > .balloon-text::after,
@@ -95,7 +95,7 @@
   bottom: 100%;
   left: 50%;
   margin-left: -5px;
-  border-color: transparent transparent #1a2069 transparent;
+  border-color: transparent transparent var(--balloon-arrow-color, var(--default-balloon-arrow-color,#1a2069)) transparent;
 }
 
 .balloon[class*="balloon-left"]:not([class*="noarrow"]) > .balloon-text::after,
@@ -103,7 +103,7 @@
   top: 50%;
   left: 100%;
   margin-top: -5px;
-  border-color: transparent transparent transparent #1a2069;
+  border-color: transparent transparent transparent var(--balloon-arrow-color, var(--default-balloon-arrow-color,#1a2069));
 }
 
 .balloon:hover > .balloon-text,

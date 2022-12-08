@@ -19,12 +19,12 @@
     --default-button-display: inline-flex;
     --default-button-position: relative;
     --default-button-font-family: "Arial", Helvetica, san-serif;
-    --default-button-font-size: 1rem;
+    --default-button-font-size: 1em;
     --default-button-font-weight: 700;
     --default-button-line-height: normal;
     --default-button-text-transform: uppercase;
     --default-button-text-decoration: none;
-    --default-button-letter-spacing: 1rem;
+    --default-button-letter-spacing: 0.125em;
     --default-button-color: #ffffff;
     --default-button-background-color: #0089cf;
     --default-button-hover-background-color: #243a82;
