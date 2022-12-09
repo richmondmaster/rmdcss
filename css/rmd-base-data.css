@@ -156,57 +156,46 @@
 }
 
 .flex-row-item {
-    display: flex;
     flex: 1 1 var(--flex-basis, content);
 }
 
 .flex-row-item-1 {
-    display: flex;
     flex: 1 1 100%;
 }
 
 .flex-row-item-2 {
-    display: flex;
     flex: 1 1 50%;
 }
 
 .flex-row-item-3 {
-    display: flex;
     flex: 1 1 33.333%;
 }
 
 .flex-row-item-4 {
-    display: flex;
     flex: 1 1 25%;
 }
 
 .flex-row-item-5 {
-    display: flex;
     flex: 1 1 20%;
 }
 
 .flex-row-item-6 {
-    display: flex;
     flex: 1 1 16.667%;
 }
 
 .flex-row-item-7 {
-    display: flex;
     flex: 1 1 14.286%;
 }
 
 .flex-row-item-8 {
-    display: flex;
     flex: 1 1 12.5%;
 }
 
 .flex-row-item-9 {
-    display: flex;
     flex: 1 1 11.111%;
 }
 
 .flex-row-item-10 {
-    display: flex;
     flex: 1 1 10%;
 }
 
@@ -336,52 +325,42 @@ p[class*="flex-row-item-"] {
     }
 
     .flex-row-item-1-for-small-down {
-        display: flex;
         flex-basis: 100% !important;
     }
     
     .flex-row-item-2-for-small-down {
-        display: flex;
         flex-basis: 50% !important;
     }
     
     .flex-row-item-3-for-small-down {
-        display: flex;
         flex-basis: 33.333% !important;
     }
     
     .flex-row-item-4-for-small-down {
-        display: flex;
         flex-basis: 25% !important;
     }
     
     .flex-row-item-5-for-small-down {
-        display: flex;
         flex-basis: 20% !important;
     }
     
     .flex-row-item-6-for-small-down {
-        display: flex;
         flex-basis: 16.667% !important;
     }
     
     .flex-row-item-7-for-small-down {
-        display: flex;
         flex-basis: 14.286% !important;
     }
     
     .flex-row-item-8-for-small-down {
-        display: flex;
         flex-basis: 12.5% !important;
     }
     
     .flex-row-item-9-for-small-down {
-        display: flex;
         flex-basis: 11.111% !important;
     }
     
     .flex-row-item-10-for-small-down {
-        display: flex;
         flex-basis: 10% !important;
     }
     
@@ -397,52 +376,42 @@ p[class*="flex-row-item-"] {
 /* medium down */
 @media only screen and (max-width: 850px) {
     .flex-row-item-1-for-medium-down {
-        display: flex;
         flex-basis: 100% !important;
     }
     
     .flex-row-item-2-for-medium-down {
-        display: flex;
         flex-basis: 50% !important;
     }
     
     .flex-row-item-3-for-medium-down {
-        display: flex;
         flex-basis: 33.333% !important;
     }
     
     .flex-row-item-4-for-medium-down {
-        display: flex;
         flex-basis: 25% !important;
     }
     
     .flex-row-item-5-for-medium-down {
-        display: flex;
         flex-basis: 20% !important;
     }
     
     .flex-row-item-6-for-medium-down {
-        display: flex;
         flex-basis: 16.667% !important;
     }
     
     .flex-row-item-7-for-medium-down {
-        display: flex;
         flex-basis: 14.286% !important;
     }
     
     .flex-row-item-8-for-medium-down {
-        display: flex;
         flex-basis: 12.5% !important;
     }
     
     .flex-row-item-9-for-medium-down {
-        display: flex;
         flex-basis: 11.111% !important;
     }
     
     .flex-row-item-10-for-medium-down {
-        display: flex;
         flex-basis: 10% !important;
     }
 
