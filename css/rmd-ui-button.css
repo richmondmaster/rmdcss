@@ -1,34 +1,27 @@
 /* button */
 
 .button {
-    padding-top: 0.75em;
-    padding-right: 1em;
-    padding-bottom: 0.75em;
-    padding-left: 1em;
+    padding: var(--button-padding, var(--default-button-padding, 0.75em 1em));
 }
 
 .button-rounded {
-    padding-top: 0.75em;
-    padding-right: 1em;
-    padding-bottom: 0.75em;
-    padding-left: 1em;
-    border-radius: 0.75em;
+    padding: var(--button-rounded-padding, var(--default-button-rounded-padding, 0.75em 1em));
 }
 
 .button-circle {
-    padding: 1em;
+    padding: var(--button-circle-padding, var(--default-circle-padding, 1em));
     border-radius: var(--button-circle-border-radius, 50em);
 }
 
 .button-pianokey {
-    height: 5em;
-    padding: 1em;
-    border-radius: var(--button-circle-border-radius, 50em);
+    height: var(--button-pianokey-height, 5em);
+    padding: var(--button-pianokey-padding, var(--default-pianokey-padding, 1em));
+    border-radius: var(--button-pianokey-border-radius, 50em);
 }
 
 .button-leaf {
-    padding: 1em;
-    border-radius: 0.25em 1em;
+    padding: var(--button-leaf-padding, var(--default-leaf-padding, 1em));
+    border-radius: var(--button-leaf-border-radius, 0.25em 1em);
 }
 
 .button,

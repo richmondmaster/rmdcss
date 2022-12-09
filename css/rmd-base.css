@@ -2589,7 +2589,7 @@ p {
     
     .flex-item-20-p-for-medium-down {
         display: flex;
-        flex-basis: 25% !important;
+        flex-basis: 20% !important;
     }
     
     .flex-item-25-p-for-medium-down {
@@ -2662,7 +2662,7 @@ p {
         flex-flow: column nowrap;
     }
 
-    .flex-row-medium-down
+    .flex-row-medium-down,
     .flex-flow-row-medium-down {
         flex-flow: row;
     }
