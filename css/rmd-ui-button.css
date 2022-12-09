@@ -2,26 +2,31 @@
 
 .button {
     padding: var(--button-padding, var(--default-button-padding, 0.75em 1em));
+    box-sizing: var(--button-box-sizing, var(--default-button-box-sizing, border-box));
 }
 
 .button-rounded {
     padding: var(--button-rounded-padding, var(--default-button-rounded-padding, 0.75em 1em));
+    box-sizing: var(--button-rounded-box-sizing, var(--default-button-rounded-box-sizing, border-box));
 }
 
 .button-circle {
     padding: var(--button-circle-padding, var(--default-circle-padding, 1em));
-    border-radius: var(--button-circle-border-radius, 50em);
+    border-radius: var(--button-circle-border-radius, var(--default-circle-border-radius, 50em));
+    box-sizing: var(--button-circle-box-sizing, var(--default-button-circle-box-sizing, border-box));
 }
 
 .button-pianokey {
     height: var(--button-pianokey-height, 5em);
     padding: var(--button-pianokey-padding, var(--default-pianokey-padding, 1em));
-    border-radius: var(--button-pianokey-border-radius, 50em);
+    border-radius: var(--button-pianokey-border-radius, var(--default-pianokey-border-radius, 50em));
+    box-sizing: var(--button-pianokey-box-sizing, var(--default-button-pianokey-box-sizing, border-box));
 }
 
 .button-leaf {
     padding: var(--button-leaf-padding, var(--default-leaf-padding, 1em));
-    border-radius: var(--button-leaf-border-radius, 0.25em 1em);
+    border-radius: var(--button-leaf-border-radius, var(--default-leaf-border-radius, 0.25em 1em));
+    box-sizing: var(--button-leaf-box-sizing, var(--default-button-leaf-box-sizing, border-box));
 }
 
 .button,
