@@ -1219,17 +1219,17 @@ p {
         display: inline;
     }
 
-    .flex-columm-for-medium-up,
+    .flex-column-for-medium-up,
     .flex-flow-column-medium-up {
         flex-flow: column;
     }
 
-    .flex-columm-wrap-medium-up,
+    .flex-column-wrap-medium-up,
     .flex-flow-column-wrap-medium-up {
         flex-flow: column wrap;
     }
 
-    .flex-columm-nowrap-medium-up,
+    .flex-column-nowrap-medium-up,
     .flex-flow-column-nowrap-medium-up {
         flex-flow: column nowrap;
     }
@@ -1349,17 +1349,17 @@ p {
         display: inline;
     }
 
-    .flex-columm-for-large-up,
+    .flex-column-for-large-up,
     .flex-flow-column-large-up {
         flex-flow: column;
     }
 
-    .flex-columm-wrap-large-up,
+    .flex-column-wrap-large-up,
     .flex-flow-column-wrap-large-up {
         flex-flow: column wrap;
     }
 
-    .flex-columm-nowrap-large-up,
+    .flex-column-nowrap-large-up,
     .flex-flow-column-nowrap-large-up {
         flex-flow: column nowrap;
     }
@@ -1673,17 +1673,17 @@ p {
         flex-basis: 100% !important;
     }
 
-    .flex-columm-for-medium-down,
+    .flex-column-for-medium-down,
     .flex-flow-column-medium-down {
         flex-flow: column;
     }
 
-    .flex-columm-wrap-medium-down,
+    .flex-column-wrap-medium-down,
     .flex-flow-column-wrap-medium-down {
         flex-flow: column wrap;
     }
 
-    .flex-columm-nowrap-medium-down,
+    .flex-column-nowrap-medium-down,
     .flex-flow-column-nowrap-medium-down {
         flex-flow: column nowrap;
     }
@@ -1986,17 +1986,17 @@ p {
         flex-basis: 100% !important;
     }
 
-    .flex-columm-for-small-down,
+    .flex-column-for-small-down,
     .flex-flow-column-for-small-down {
         flex-flow: column;
     }
 
-    .flex-columm-wrap-for-small-down,
+    .flex-column-wrap-for-small-down,
     .flex-flow-column-wrap-for-small-down {
         flex-flow: column wrap;
     }
 
-    .flex-columm-nowrap-for-small-down,
+    .flex-column-nowrap-for-small-down,
     .flex-flow-column-nowrap-for-small-down {
         flex-flow: column nowrap;
     }
