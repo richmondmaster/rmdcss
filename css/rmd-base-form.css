@@ -591,6 +591,7 @@ input[type="text"] {
   outline-width: var(--input-text-outline-width, var(--default-input-text-outline-width, initial));
   outline-color: var(--input-text-outline-color, var(--default-input-text-outline-color, initial));
   border-radius: var(--input-text-border-radius, var(--default-input-text-border-radius, 0));
+  box-sizing: border-box;
 }
 
 input[type="password"] {
@@ -606,6 +607,7 @@ input[type="password"] {
   outline-width: var(--input-password-outline-width, var(--default-input-password-outline-width, initial));
   outline-color: var(--input-password-outline-color, var(--default-input-password-outline-color, initial));
   border-radius: var(--input-password-border-radius, var(--default-input-password-border-radius, 0));
+  box-sizing: border-box;
 }
 
 input[type="radio"] {
@@ -617,6 +619,7 @@ input[type="radio"] {
   outline-width: var(--input-radio-outline-width, var(--default-input-radio-outline-width, initial));
   outline-color: var(--input-radio-outline-color, var(--default-input-radio-outline-color, initial));
   border-radius: var(--input-radio-border-radius, var(--default-input-radio-border-radius, 0));
+  box-sizing: border-box;
 }
 
 input[type="checkbox"] {
@@ -628,6 +631,7 @@ input[type="checkbox"] {
   outline-width: var(--input-checkbox-outline-width, var(--default-input-checkbox-outline-width, initial));
   outline-color: var(--input-checkbox-outline-color, var(--default-input-checkbox-outline-color, initial));
   border-radius: var(--input-checkbox-border-radius, var(--default-input-checkbox-border-radius, 0));
+  box-sizing: border-box;
 }
 
 select {
@@ -643,6 +647,7 @@ select {
   outline-width: var(--input-select-outline-width, var(--default-input-select-outline-width, initial));
   outline-color: var(--input-select-outline-color, var(--default-input-select-outline-color, initial));
   border-radius: var(--input-select-border-radius, var(--default-input-select-border-radius, 0));
+  box-sizing: border-box;
 }
 
 select:focus {
