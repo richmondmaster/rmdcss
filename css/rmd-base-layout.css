@@ -33,6 +33,7 @@
 
 .site-layout-shift {
   display: grid;
+  position: fixed; /* This does the magic in forcing the grid to resize fully upon column expansion */
   grid-template-areas: 'left top right'
                         'left main right'
                         'left bottom right';
@@ -90,18 +91,22 @@
 }
 
 .mode--layout-shift-left .site-layout-shift > div[style*="grid-area:left"] {
+  left: 0;
   width: 22rem;
 }
 
 .mode--layout-shift-right .site-layout-shift > div[style*="grid-area:right"] {
+  right: 0;
   width: 22rem;
 }
 
 .mode--layout-shift-top .site-layout-shift > div[style*="grid-area:top"] {
+  top: 0;
   height: 12rem;
 }
 
 .mode--layout-shift-bottom .site-layout-shift > div[style*="grid-area:bottom"] {
+  bottom: 0;
   height: 12rem;
 }
 
