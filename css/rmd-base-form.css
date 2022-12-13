@@ -214,18 +214,21 @@
   .input-group-row > label,
   .input-group-row > div,
   .input-group-row > input[type=text],
+  .input-group-row > input[type=password],
   .input-group-row > input[type=range],
   .input-row > button,
   .input-row > select,
   .input-row > label,
   .input-row > div,
   .input-row > input[type=text],
+  .input-row > input[type=password],
   .input-row > input[type=range],
   .input-group-compound > button,
   .input-group-compound > select,
   .input-group-compound > label,
   .input-group-compound > div,
   .input-group-compound > input[type=text],
+  .input-group-compound > input[type=password],
   .input-group-compound > input[type=range]  {
     padding: 0em 0.5em;
   }
@@ -235,12 +238,14 @@
   .input-group-column > label,
   .input-group-column > div,
   .input-group-column > input[type=text],
+  .input-group-column > input[type=password],
   .input-group-column > input[type=range],
   .input-column > button,
   .input-column > select,
   .input-column > label,
   .input-column > div,
   .input-column > input[type=text],
+  .input-column > input[type=password],
   .input-column > input[type=range] {
     padding: 0.5em 0em;
   }
@@ -291,10 +296,13 @@
   /* This is to allow quick ad-hoc form building with no groupings, rows, etc. */
   .form-body select,
   .form-body input[type=text],
+  .form-body input[type=password],
   .form-section select,
   .form-section input[type=text],
+  .form-section input[type=password],
   form select,
-  form input[type=text] {
+  form input[type=text],
+  form input[type=password] {
     display: block; /* default by browser is inline-block */
     width: 100%;
     min-width: 0;
@@ -309,7 +317,8 @@
   }
 
   .input-group select,
-  .input-group input[type=text] {
+  .input-group input[type=text],
+  .input-group input[type=password] {
     width: 0%; /* needed to allow flex basis to size properly*/
     min-width: 0;
     border-style: var(--default-input-border-style, solid);
@@ -422,18 +431,21 @@
   .input-group-row > label,
   .input-group-row > div,
   .input-group-row > input[type=text],
+  .input-group-row > input[type=password],
   .input-group-row > input[type=range],
   .input-row > button,
   .input-row > select,
   .input-row > label,
   .input-row > div,
   .input-row > input[type=text],
+  .input-row > input[type=password],
   .input-row > input[type=range],
   .input-group-compound > button,
   .input-group-compound > select,
   .input-group-compound > label,
   .input-group-compound > div,
   .input-group-compound > input[type=text],
+  .input-group-compound > input[type=password],
   .input-group-compound > input[type=range]  {
     padding: 0em 0.20em;
   }
@@ -491,6 +503,7 @@
   .input-group > select,
   .input-group > button,
   .input-group > input[type=text],
+  .input-group > input[type=password],
   .input-group > input[type=button],
   .input-group > input[type=submit],
   .input-group > input[type=reset] 
@@ -502,6 +515,7 @@
   .input-container > select,
   .input-container > button,
   .input-container > input[type=text],
+  .input-container > input[type=password],
   .input-container > input[type=button],
   .input-container > input[type=range],
   .input-container > input[type=submit],
@@ -522,6 +536,7 @@
   .form-footer select,
   .form-footer button,
   .form-footer input[type=text],
+  .form-footer input[type=password],
   .form-footer input[type=button],
   .form-footer input[type=submit],
   .form-footer input[type=reset] {
@@ -576,6 +591,21 @@ input[type="text"] {
   outline-width: var(--input-text-outline-width, var(--default-input-text-outline-width, initial));
   outline-color: var(--input-text-outline-color, var(--default-input-text-outline-color, initial));
   border-radius: var(--input-text-border-radius, var(--default-input-text-border-radius, 0));
+}
+
+input[type="password"] {
+  font-family: var(--input-password-font-family, var(--default-input-password-font-family, 'Arial', Helvetica, sans-serif));
+  font-weight: var(--input-password-font-weight, var(--default-input-password-font-weight, normal));
+  font-style: var(--input-password-font-style, var(--default-input-password-font-style, bold));
+  letter-spacing: var(--input-password-letter-spacing, var(--default-input-password-letter-spacing, normal));
+  background-color: var(--input-password-background-color, var(--default-input-password-background-color, #fff));
+  padding: var(--input-password-padding, var(--default-input-password-padding, initial));
+  margin: var(--input-password-margin, var(--default-input-password-margin, initial));
+  color: var(--input-password-color, var(--default-input-password-color, #777));
+  outline-style: var(--input-password-outline-style, var(--default-input-password-outline-style, initial));
+  outline-width: var(--input-password-outline-width, var(--default-input-password-outline-width, initial));
+  outline-color: var(--input-password-outline-color, var(--default-input-password-outline-color, initial));
+  border-radius: var(--input-password-border-radius, var(--default-input-password-border-radius, 0));
 }
 
 input[type="radio"] {

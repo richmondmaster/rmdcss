@@ -97,6 +97,21 @@
      --default-input-text-focus-outline-width: 1px;
      --default-input-text-focus-outline-color: #888;
 
+     --default-input-password-border-width: 1px;
+     --default-input-password-border-color: #888;
+     --default-input-password-border-style: solid;
+     --default-input-password-border-radius: 0px;
+     --default-input-password-font-family: 'Arial', Helvetica, sans-serif;
+     --default-input-password-font-size: 1em;
+     --default-input-password-font-color: #444;
+     --default-input-password-font-weight: normal;
+     --default-input-password-font-style: normal;
+
+     --default-input-password-focus-background-color: rgb(228, 243, 250);
+     --default-input-password-focus-outline-style: solid;
+     --default-input-password-focus-outline-width: 1px;
+     --default-input-password-focus-outline-color: #888;
+
      --default-input-radio-border-width: 1px;
      --default-input-radio-border-color: #888;
      --default-input-radio-border-style: solid;
