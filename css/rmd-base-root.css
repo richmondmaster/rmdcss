@@ -65,6 +65,23 @@
      --default-placeholder-font-weight: normal;
      --default-placeholder-font-style: normal;
 
+    /* generic input styling -- applies to all input types */
+     --default-input-border-width: 1px;
+     --default-input-border-color: #888;
+     --default-input-border-style: solid;
+     --default-input-border-radius: 0px;
+     --default-input-font-family: 'Arial', Helvetica, sans-serif;
+     --default-input-font-size: 1em;
+     --default-input-font-color: #444;
+     --default-input-font-weight: normal;
+     --default-input-font-style: normal;
+
+     --default-input-focus-background-color: rgb(228, 243, 250);
+     --default-input-focus-outline-style: solid;
+     --default-input-focus-outline-width: 1px;
+     --default-input-focus-outline-color: #888;
+
+    /* specific input styling */
      --default-input-text-border-width: 1px;
      --default-input-text-border-color: #888;
      --default-input-text-border-style: solid;
