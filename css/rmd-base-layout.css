@@ -39,7 +39,7 @@
                         'left bottom right';
   grid-template-rows: auto 1fr auto;
   grid-template-columns: auto 1fr auto;
-  width: 100%;
+  -width: 100%; /* This disrupts grid resizing on column expansion */
   height: 100%;
   overflow-x: hidden;
   gap: 0em;
@@ -63,7 +63,7 @@
 }
 
 .site-layout-shift > div[style*="grid-area:main"] {
-  -min-width:100vw; /* stabilizies main's width but causes space on the left */
+  min-width:100vw; /* stabilizies main's width but causes space on the left */
 }
 
 .option--layout-effects .site-layout-shift > div[style*="grid-area:left"] {
