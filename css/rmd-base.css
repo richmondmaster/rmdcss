@@ -348,6 +348,78 @@ p {
     flex-shrink: 0;
 }
 
+.gap {
+    gap: var(--default-gap, var(--gap, 0.33rem));
+}
+
+.gap-xlg {
+    gap: 1.25rem;
+}
+
+.gap-lg {
+    gap: 1rem;
+}
+
+.gap-md {
+    gap: 0.5rem;
+}
+
+.gap-sm {
+    gap: 0.33rem;
+}
+
+.gap-xsm {
+    gap: 0.25rem;
+}
+
+.gap-row {
+    row-gap: var(--default-gap-row, var(--gap-row, 0.33rem));
+}
+
+.gap-row-xlg {
+    row-gap: 1.25rem;
+}
+
+.gap-row-lg {
+    row-gap: 1rem;
+}
+
+.gap-row-md {
+    row-gap: 0.5rem;
+}
+
+.gap-row-sm {
+    row-gap: 0.33rem;
+}
+
+.gap-row-xsm {
+    row-gap: 0.25rem;
+}
+
+.gap-column {
+    column-gap: var(--default-gap-column, var(--gap-column, 0.33rem));
+}
+
+.gap-column-xlg {
+    column-gap: 1.25rem;
+}
+
+.gap-column-lg {
+    column-gap: 1rem;
+}
+
+.gap-column-md {
+    column-gap: 0.5rem;
+}
+
+.gap-column-sm {
+    column-gap: 0.33rem;
+}
+
+.gap-column-xsm {
+    column-gap: 0.25rem;
+}
+
 .grid {
     display: grid;
 }
@@ -484,6 +556,11 @@ p {
 .cover-40x40 {
     width: 40px;
     height: 40px;
+}
+
+.cover-45x45 {
+    width: 45px;
+    height: 45px;
 }
 
 .cover-50x50 {
@@ -945,111 +1022,111 @@ p {
 }
 
 .text-right {
-    text-align: right !important;
+    text-align: right;
 }
 
 .text-center {
-    text-align: center !important;
+    text-align: center;
 }
 
 .text-left {
-    text-align: left !important;
+    text-align: left;
 }
 
 .indent-left {
-    padding-left: var(--index-left-amount, 1em) !important;
+    padding-left: var(--index-left-amount, 1em);
 }
 
 .indent-left-0 {
-    padding-left: 0em !important;
+    padding-left: 0em;
 }
 
 .indent-left-1 {
-    padding-left: 1em !important;
+    padding-left: 1em;
 }
 
 .indent-left-2 {
-    padding-left: 2em !important;
+    padding-left: 2em;
 }
 
 .indent-left-3 {
-    padding-left: 3em !important;
+    padding-left: 3em;
 }
 
 .indent-left-4 {
-    padding-left: 4em !important;
+    padding-left: 4em;
 }
 
 .indent-left-5 {
-    padding-left: 5em !important;
+    padding-left: 5em;
 }
 
 .indent-left-6 {
-    padding-left: 6em !important;
+    padding-left: 6em;
 }
 
 .indent-left-7 {
-    padding-left: 7em !important;
+    padding-left: 7em;
 }
 
 .indent-left-8 {
-    padding-left: 8em !important;
+    padding-left: 8em;
 }
 
 .indent-left-9 {
-    padding-left: 9em !important;
+    padding-left: 9em;
 }
 
 .indent-left-10 {
-    padding-left: 10em !important;
+    padding-left: 10em;
 }
 
 .indent-right {
-    padding-right: var(--index-left-right, 1em) !important;
+    padding-right: var(--index-left-right, 1em);
 }
 
 .indent-right-0 {
-    padding-right: 0em !important;
+    padding-right: 0em;
 }
 
 .indent-right-1 {
-    padding-right: 1em !important;
+    padding-right: 1em;
 }
 
 .indent-right-2 {
-    padding-right: 2em !important;
+    padding-right: 2em;
 }
 
 .indent-right-3 {
-    padding-right: 3em !important;
+    padding-right: 3em;
 }
 
 .indent-right-4 {
-    padding-right: 4em !important;
+    padding-right: 4em;
 }
 
 .indent-right-5 {
-    padding-right: 5em !important;
+    padding-right: 5em;
 }
 
 .indent-right-6 {
-    padding-right: 6em !important;
+    padding-right: 6em;
 }
 
 .indent-right-7 {
-    padding-right: 7em !important;
+    padding-right: 7em;
 }
 
 .indent-right-8 {
-    padding-right: 8em !important;
+    padding-right: 8em;
 }
 
 .indent-right-9 {
-    padding-right: 9em !important;
+    padding-right: 9em;
 }
 
 .indent-right-10 {
-    padding-right: 10em !important;
+    padding-right: 10em;
 }
 
 .opacity-0,
@@ -2394,6 +2471,18 @@ p {
     .show-for-large-down {
         display: block;
     }
+
+    .text-center-for-large-down {
+        text-align: center !important;
+    }
+
+    .text-left-for-large-down {
+        text-align: left !important;
+    }
+
+    .text-right-for-large-down {
+        text-align: right !important;
+    }
 }
 
 @media only screen and (max-width: 1600px) {
@@ -2462,11 +2551,15 @@ p {
         font-size: 0.5rem !important;
     }
 
-    .textalign-center-for-medium-down {
+    .text-center-for-medium-down {
         text-align: center !important;
     }
 
-    .textalign-right-for-medium-down {
+    .text-left-for-medium-down {
+        text-align: left !important;
+    }
+
+    .text-right-for-medium-down {
         text-align: right !important;
     }
 
@@ -2753,11 +2846,15 @@ p {
         padding: 1.5rem;
     }
 
-    .text-align-center-for-small-down {
+    .text-center-for-small-down {
         text-align: center !important;
     }
 
-    .text-align-right-for-small-down {
+    .text-left-for-small-down {
+        text-align: left !important;
+    }
+
+    .text-right-for-small-down {
         text-align: right !important;
     }
 
