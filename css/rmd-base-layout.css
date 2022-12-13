@@ -89,7 +89,7 @@
   transition: height 400ms ease-in-out;
 }
 
-.mode--layout-shift-top .site-layout-shift > div[style*="grid-area:left"] {
+.mode--layout-shift-left .site-layout-shift > div[style*="grid-area:left"] {
   width: 22rem;
 }
 
@@ -98,11 +98,11 @@
 }
 
 .mode--layout-shift-top .site-layout-shift > div[style*="grid-area:top"] {
-  height: 18rem;
+  height: 12rem;
 }
 
 .mode--layout-shift-bottom .site-layout-shift > div[style*="grid-area:bottom"] {
-  height: 18rem;
+  height: 12rem;
 }
 
 .site-header {
