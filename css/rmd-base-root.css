@@ -58,37 +58,81 @@
      --default-form-font-weight: normal;
      --default-form-font-style: normal;
 
-     --default-form-placeholder-padding: 0em 0em 0em 0.5em;
-     --default-form-placeholder-font-family: 'Arial', Helvetica, sans-serif;
-     --default-form-placeholder-font-size: 1em;
-     --default-form-placeholder-font-color: #aaa;
-     --default-form-placeholder-font-weight: normal;
-     --default-form-placeholder-font-style: normal;
+     --default-placeholder-padding: 0em 0em 0em 0.5em;
+     --default-placeholder-font-family: 'Arial', Helvetica, sans-serif;
+     --default-placeholder-font-size: 1em;
+     --default-placeholder-font-color: #aaa;
+     --default-placeholder-font-weight: normal;
+     --default-placeholder-font-style: normal;
 
-     --default-form-input-border-width: 1px;
-     --default-form-input-border-color: #888;
-     --default-form-input-border-style: solid;
-     --default-form-input-border-radius: 0px;
+     --default-input-text-border-width: 1px;
+     --default-input-text-border-color: #888;
+     --default-input-text-border-style: solid;
+     --default-input-text-border-radius: 0px;
+     --default-input-text-font-family: 'Arial', Helvetica, sans-serif;
+     --default-input-text-font-size: 1em;
+     --default-input-text-font-color: #444;
+     --default-input-text-font-weight: normal;
+     --default-input-text-font-style: normal;
+
+     --default-input-text-focus-background-color: rgb(228, 243, 250);
+     --default-input-text-focus-outline-style: solid;
+     --default-input-text-focus-outline-width: 1px;
+     --default-input-text-focus-outline-color: #888;
+
+     --default-input-radio-border-width: 1px;
+     --default-input-radio-border-color: #888;
+     --default-input-radio-border-style: solid;
+     --default-input-radio-border-radius: 0px;
+     --default-input-radio-font-family: 'Arial', Helvetica, sans-serif;
+     --default-input-radio-font-size: 1em;
+     --default-input-radio-font-color: #444;
+     --default-input-radio-font-weight: normal;
+     --default-input-radio-font-style: normal;
+
+     --default-input-radio-focus-background-color: rgb(228, 243, 250);
+     --default-input-radio-focus-outline-style: solid;
+     --default-input-radio-focus-outline-width: 1px;
+     --default-input-radio-focus-outline-color: #888;
+
+     --default-input-checkbox-border-width: 1px;
+     --default-input-checkbox-border-color: #888;
+     --default-input-checkbox-border-style: solid;
+     --default-input-checkbox-border-radius: 0px;
+     --default-input-checkbox-font-family: 'Arial', Helvetica, sans-serif;
+     --default-input-checkbox-font-size: 1em;
+     --default-input-checkbox-font-color: #444;
+     --default-input-checkbox-font-weight: normal;
+     --default-input-checkbox-font-style: normal;
+
+     --default-input-checkbox-focus-background-color: rgb(228, 243, 250);
+     --default-input-checkbox-focus-outline-style: solid;
+     --default-input-checkbox-focus-outline-width: 1px;
+     --default-input-checkbox-focus-outline-color: #888;
+
+     --default-input-select-border-width: 1px;
+     --default-input-select-border-color: #888;
+     --default-input-select-border-style: solid;
+     --default-input-select-border-radius: 0px;
+     --default-input-select-font-family: 'Arial', Helvetica, sans-serif;
+     --default-input-select-font-size: 1em;
+     --default-input-select-font-color: #444;
+     --default-input-select-font-weight: normal;
+     --default-input-select-font-style: normal;
+
+     --default-input-select-focus-background-color: rgb(228, 243, 250);
+     --default-input-select-focus-outline-style: solid;
+     --default-input-select-focus-outline-width: 1px;
+     --default-input-select-focus-outline-color: #888;
+
+     --default-input-padding: 0.5em 0em;
+     --default-input-sizing-factor: 2;
 
      --default-form-section-background-color: rgb(243, 243, 243);
      --default-form-section-border-width: 2px;
      --default-form-section-border-color: rgb(214, 214, 214);
      --default-form-section-border-style: solid;
      --default-form-section-border-radius: 0px;
-
-     --default-form-input-font-family: 'Arial', Helvetica, sans-serif;
-     --default-form-input-font-size: 1em;
-     --default-form-input-font-color: #444;
-     --default-form-input-font-weight: normal;
-     --default-form-input-font-style: normal;
-
-     --default-form-input-focus-background-color: rgb(228, 243, 250);
-     --default-form-input-focus-outline-style: solid;
-     --default-form-input-focus-outline-width: 1px;
-     --default-form-input-focus-outline-color: #888;
-
-     --default-form-input-padding: 0.5em 0em;
-     --default-form-input-sizing-factor: 2;
 
      --default-form-input-group-padding: 0.5em 0em;
 

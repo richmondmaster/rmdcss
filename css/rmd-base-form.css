@@ -1,43 +1,93 @@
   ::-webkit-input-placeholder {
     /* Edge */
-    padding: var(--default-form-placeholder-padding, 0em 0em 0em 0.25em);
-    color: var(--default-form-placeholder-font-color, #000);
-    font-family: var(--default-form-placeholder-font-family, 'Arial', Helvetica, sans-serif);
-    font-weight: var(--default-form-placeholder-font-weight, normal);
-    font-style: var(--default-form-placeholder-font-style, normal);
+    padding: var(--placeholder-padding, var(--default-placeholder-padding, 0em 0em 0em 0.25em));
+    color: var(--placeholder-color, var(--default-placeholder-font-color, #000));
+    font-family: var(--placeholder-font-family, var(--default-placeholder-font-family, 'Arial', Helvetica, sans-serif));
+    font-weight: var(--placeholder-font-weight, var(--default-placeholder-font-weight, normal));
+    font-style: var(--placeholder-font-style, var(--default-placeholder-font-style, normal));
   }
 
   :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    padding: var(--default-form-placeholder-padding, 0em 0em 0em 0.25em);
-    color: var(--default-form-placeholder-font-color, #000);
-    font-family: var(--default-form-placeholder-font-family, 'Arial', Helvetica, sans-serif);
-    font-weight: var(--default-form-placeholder-font-weight, normal);
-    font-style: var(--default-form-placeholder-font-style, normal);
+    padding: var(--placeholder-padding, var(--default-placeholder-padding, 0em 0em 0em 0.25em));
+    color: var(--placeholder-color, var(--default-placeholder-font-color, #000));
+    font-family: var(--placeholder-font-family, var(--default-placeholder-font-family, 'Arial', Helvetica, sans-serif));
+    font-weight: var(--placeholder-font-weight, var(--default-placeholder-font-weight, normal));
+    font-style: var(--placeholder-font-style, var(--default-placeholder-font-style, normal));
   }
 
   ::placeholder {
-    padding: var(--default-form-placeholder-padding, 0em 0em 0em 0.25em);
-    color: var(--default-form-placeholder-font-color, #000);
-    font-family: var(--default-form-placeholder-font-family, 'Arial', Helvetica, sans-serif);
-    font-weight: var(--default-form-placeholder-font-weight, normal);
-    font-style: var(--default-form-placeholder-font-style, normal);
+    padding: var(--placeholder-padding, var(--default-placeholder-padding, 0em 0em 0em 0.25em));
+    color: var(--placeholder-color, var(--default-placeholder-font-color, #000));
+    font-family: var(--placeholder-font-family, var(--default-placeholder-font-family, 'Arial', Helvetica, sans-serif));
+    font-weight: var(--placeholder-font-weight, var(--default-placeholder-font-weight, normal));
+    font-style: var(--placeholder-font-style, var(--default-placeholder-font-style, normal));
   }
   
   input[type="text"]:focus {
-    background-color:var(--focus-background-color, var(--default-form-input-focus-background-color, #fff));
-    outline-style: var(--focus-outline-style, var(--default-form-input-focus-outline-style, solid));
-    outline-width: var(--focus-outline-width, var(--default-form-input-focus-outline-width, 2px));
-    outline-color: var(--focus-outline-color, var(--default-form-input-focus-outline-color, #000));
-    border-radius: 0px;
+    background-color:var(--input-text-focus-background-color, var(--default-input-text-focus-background-color, #fff));
+    outline-style: var(--input-text-focus-outline-style, var(--default-input-text-focus-outline-style, solid));
+    outline-width: var(--input-text-focus-outline-width, var(--default-input-text-focus-outline-width, 2px));
+    outline-color: var(--input-text-focus-outline-color, var(--default-input-text-focus-outline-color, #000));
+  }
+
+  input[type="text"] {
+    font-family: var(--input-text-font-family, var(--default-input-text-font-family, 'Arial', Helvetica, sans-serif));
+    font-weight: var(--input-text-font-weight, var(--default-input-text-font-weight, normal));
+    font-style: var(--input-text-font-style, var(--default-input-text-font-style, bold));
+    letter-spacing: var(--input-text-letter-spacing, var(--default-input-text-letter-spacing, normal));
+    background-color: var(--input-text-background-color, var(--default-input-text-background-color, #fff));
+    padding: var(--input-text-padding, var(--default-input-text-padding, initial));
+    margin: var(--input-text-margin, var(--default-input-text-margin, initial));
+    color: var(--input-text-color, var(--default-input-text-color, #777));
+    outline-style: var(--input-text-outline-style, var(--default-input-text-outline-style, initial));
+    outline-width: var(--input-text-outline-width, var(--default-input-text-outline-width, initial));
+    outline-color: var(--input-text-outline-color, var(--default-input-text-outline-color, initial));
+    border-radius: var(--input-text-border-radius, var(--default-input-text-border-radius, 0));
+  }
+
+  input[type="radio"] {
+    background-color: var(--input-radio-background-color, var(--default-input-radio-background-color, #fff));
+    padding: var(--input-radio-padding, var(--default-input-radio-padding, initial));
+    margin: var(--input-radio-margin, var(--default-input-radio-margin, initial));
+    color: var(--input-radio-color, var(--default-input-radio-color, #777));
+    outline-style: var(--input-radio-outline-style, var(--default-input-radio-outline-style, initial));
+    outline-width: var(--input-radio-outline-width, var(--default-input-radio-outline-width, initial));
+    outline-color: var(--input-radio-outline-color, var(--default-input-radio-outline-color, initial));
+    border-radius: var(--input-radio-border-radius, var(--default-input-radio-border-radius, 0));
+  }
+
+  input[type="checkbox"] {
+    background-color: var(--input-checkbox-background-color, var(--default-input-checkbox-background-color, #fff));
+    padding: var(--input-checkbox-padding, var(--default-input-checkbox-padding, initial));
+    margin: var(--input-checkbox-margin, var(--default-input-checkbox-margin, initial));
+    color: var(--input-checkbox-color, var(--default-input-checkbox-color, #777));
+    outline-style: var(--input-checkbox-outline-style, var(--default-input-checkbox-outline-style, initial));
+    outline-width: var(--input-checkbox-outline-width, var(--default-input-checkbox-outline-width, initial));
+    outline-color: var(--input-checkbox-outline-color, var(--default-input-checkbox-outline-color, initial));
+    border-radius: var(--input-checkbox-border-radius, var(--default-input-checkbox-border-radius, 0));
+  }
+  
+  select {
+    font-family: var(--input-select-font-family, var(--default-input-select-font-family, 'Arial', Helvetica, sans-serif));
+    font-weight: var(--input-select-font-weight, var(--default-input-select-font-weight, normal));
+    font-style: var(--input-select-font-style, var(--default-input-select-font-style, bold));
+    letter-spacing: var(--input-select-letter-spacing, var(--default-input-select-letter-spacing, normal));
+    background-color: var(--input-select-background-color, var(--default-default-input-select-background-color, #fff));
+    padding: var(--input-select-padding, var(--default-input-select-padding, initial));
+    margin: var(--input-select-margin, var(--default-input-select-margin, initial));
+    color: var(--input-select-color, var(--default-input-select-color, #777));
+    outline-style: var(--input-select-outline-style, var(--default-input-select-outline-style, initial));
+    outline-width: var(--input-select-outline-width, var(--default-input-select-outline-width, initial));
+    outline-color: var(--input-select-outline-color, var(--default-input-select-outline-color, initial));
+    border-radius: var(--input-select-border-radius, var(--default-input-select-border-radius, 0));
   }
 
   select:focus {
-    background-color:var(--focus-background-color, var(--default-form-input-focus-background-color, #fff));
-    outline-style: var(--focus-outline-style, var(--default-form-input-focus-outline-style, solid));
-    outline-width: var(--focus-outline-width, var(--default-form-input-focus-outline-width, 2px));
-    outline-color: var(--focus-outline-color, var(--default-form-input-focus-outline-color, #000));
-    border-radius: 0px;
+    background-color:var(--input-select-focus-background-color, var(--default-input-select-focus-background-color, #fff));
+    outline-style: var(--input-select-focus-outline-style, var(--default-input-select-focus-outline-style, solid));
+    outline-width: var(--input-select-focus-outline-width, var(--default-input-select-focus-outline-width, 2px));
+    outline-color: var(--input-select-focus-outline-color, var(--default-input-select-focus-outline-color, #000));
   }
 
   form {
@@ -372,7 +422,7 @@
   }
   
   .input-sized {
-    width: calc(var(--input-width, 3ch) * var(--sizing-factor, var(--default-form-input-sizing-factor, 2))) !important;
+    width: calc(var(--input-width, 3ch) * var(--sizing-factor, var(--default-input-sizing-factor, 2))) !important;
   }
 
   .form-value {

@@ -21,3 +21,11 @@
     display: block;
     background-color: #ffffff77;
 }
+
+body.mode--noscroll-x  {
+	overflow-x: hidden;
+}
+
+body.mode--noscroll-y {
+	overflow-y: hidden;
+}

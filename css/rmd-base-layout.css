@@ -66,27 +66,43 @@
 }
 
 .option--layout-effects .site-layout-shift > div[style*="grid-area:left"] {
-  -webkit-transition: width 200ms ease-in-out;
-  -moz-transition: width 200ms ease-in-out;
-  transition: width 200ms ease-in-out;
+  -webkit-transition: width 400ms ease-in-out;
+  -moz-transition: width 400ms ease-in-out;
+  transition: width 400ms ease-in-out;
 }
 
 .option--layout-effects .site-layout-shift > div[style*="grid-area:right"] {
-  -webkit-transition: width 200ms ease-in-out;
-  -moz-transition: width 200ms ease-in-out;
-  transition: width 200ms ease-in-out;
+  -webkit-transition: width 400ms ease-in-out;
+  -moz-transition: width 400ms ease-in-out;
+  transition: width 400ms ease-in-out;
 }
 
 .option--layout-effects .site-layout-shift > div[style*="grid-area:top"] {
-  -webkit-transition: height 200ms ease-in-out;
-  -moz-transition: height 200ms ease-in-out;
-  transition: height 200ms ease-in-out;
+  -webkit-transition: height 400ms ease-in-out;
+  -moz-transition: height 400ms ease-in-out;
+  transition: height 400ms ease-in-out;
 }
 
 .option--layout-effects .site-layout-shift > div[style*="grid-area:bottom"] {
-  -webkit-transition: height 200ms ease-in-out;
-  -moz-transition: height 200ms ease-in-out;
-  transition: height 200ms ease-in-out;
+  -webkit-transition: height 400ms ease-in-out;
+  -moz-transition: height 400ms ease-in-out;
+  transition: height 400ms ease-in-out;
+}
+
+.mode--layout-shift-top .site-layout-shift > div[style*="grid-area:left"] {
+  width: 22rem;
+}
+
+.mode--layout-shift-right .site-layout-shift > div[style*="grid-area:right"] {
+  width: 22rem;
+}
+
+.mode--layout-shift-top .site-layout-shift > div[style*="grid-area:top"] {
+  height: 18rem;
+}
+
+.mode--layout-shift-bottom .site-layout-shift > div[style*="grid-area:bottom"] {
+  height: 18rem;
 }
 
 .site-header {
