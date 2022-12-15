@@ -86,6 +86,30 @@
     filter: brightness(-100%);
 }
 
+.hue-rotate {
+    filter: hue-rotate(var(--hue-rotate-degrees, 180deg));
+}
+
+.blur {
+    filter: blur(var(--blur, 3px));
+}
+
+.contrast {
+    filter: contrast(var(--contrast, 120%));
+}
+
+.grayscale {
+    filter: grayscale(var(--grayscale, 100%));
+}
+
+.saturate {
+    filter: saturate(var(--saturate, 5));
+}
+
+.sepia {
+    filter: sepia(var(--sepia, 100%));
+}
+
 .rotate {
     -ms-transform: rotate(var(--rotate));
     -webkit-transform: rotate(var(--rotate));
