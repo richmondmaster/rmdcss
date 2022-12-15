@@ -67,27 +67,59 @@
 }
 
 .option--layout-effects .site-layout-shift > div[style*="grid-area:left"] {
-  -webkit-transition: width 400ms ease-in-out;
-  -moz-transition: width 400ms ease-in-out;
-  transition: width 400ms ease-in-out;
+  -webkit-transition-property: width;
+  -webkit-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  -webkit-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
+
+  -moz-transition-property: width;
+  -moz-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  -moz-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
+
+  transition-property: width;
+  transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
 }
 
 .option--layout-effects .site-layout-shift > div[style*="grid-area:right"] {
-  -webkit-transition: width 400ms ease-in-out;
-  -moz-transition: width 400ms ease-in-out;
-  transition: width 400ms ease-in-out;
+  -webkit-transition-property: width;
+  -webkit-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  -webkit-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
+
+  -moz-transition-property: width;
+  -moz-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  -moz-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
+
+  transition-property: width;
+  transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
 }
 
 .option--layout-effects .site-layout-shift > div[style*="grid-area:top"] {
-  -webkit-transition: height 400ms ease-in-out;
-  -moz-transition: height 400ms ease-in-out;
-  transition: height 400ms ease-in-out;
+  -webkit-transition-property: height;
+  -webkit-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  -webkit-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
+
+  -moz-transition-property: height;
+  -moz-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  -moz-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
+
+  transition-property: height;
+  transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
 }
 
 .option--layout-effects .site-layout-shift > div[style*="grid-area:bottom"] {
-  -webkit-transition: height 400ms ease-in-out;
-  -moz-transition: height 400ms ease-in-out;
-  transition: height 400ms ease-in-out;
+  -webkit-transition-property: height;
+  -webkit-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  -webkit-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
+
+  -moz-transition-property: height;
+  -moz-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  -moz-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
+
+  transition-property: height;
+  transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
+  transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
 }
 
 .mode--layout-shift-left .site-layout-shift > div[style*="grid-area:left"] {
