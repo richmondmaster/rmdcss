@@ -86,8 +86,8 @@
     filter: brightness(-100%);
 }
 
-.hue-rotate {
-    filter: hue-rotate(var(--hue-rotate-degrees, 180deg));
+.huerotate {
+    filter: hue-rotate(var(--huerotate, 180deg));
 }
 
 .blur {

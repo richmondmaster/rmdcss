@@ -1015,6 +1015,14 @@ p {
     clear: both;
 }
 
+.clear-right {
+    clear: right;
+}
+
+.clear-left {
+    clear: left;
+}
+
 .text-right {
     text-align: right;
 }
@@ -1028,7 +1036,7 @@ p {
 }
 
 .indent-left {
-    padding-left: var(--index-left-amount, 1em);
+    padding-left: var(--indent-left, 1em);
 }
 
 .indent-left-0 {
@@ -1076,7 +1084,7 @@ p {
 }
 
 .indent-right {
-    padding-right: var(--index-left-right, 1em);
+    padding-right: var(--indent-right, 1em);
 }
 
 .indent-right-0 {
@@ -1122,6 +1130,75 @@ p {
 .indent-right-10 {
     padding-right: 10em;
 }
+
+.line-height {
+    line-height: var(--line-height, 1em);
+}
+
+.line-height-sm,
+.line-height-small {
+    line-height: 0.5em;
+}
+
+.line-height-md,
+.line-height-medium {
+    line-height: 1em;
+}
+
+.line-height-lg,
+.line-height-large {
+    line-height: 1.5em;
+}
+
+.line-height-xlg,
+.line-height-extralarge {
+    line-height: 2em;
+}
+
+.line-height-0 {
+    line-height: 0em;
+}
+
+.line-height-1 {
+    line-height: 1em;
+}
+
+.line-height-2 {
+    line-height: 2em;
+}
+
+.line-height-3 {
+    line-height: 3em;
+}
+
+.line-height-4 {
+    line-height: 4em;
+}
+
+.line-height-5 {
+    line-height: 5em;
+}
+
+.line-height-6 {
+    line-height: 6em;
+}
+
+.line-height-7 {
+    line-height: 7em;
+}
+
+.line-height-8 {
+    line-height: 8em;
+}
+
+.line-height-9 {
+    line-height: 9em;
+}
+
+.line-height-10 {
+    line-height: 10em;
+}
+
 
 .opacity-0,
 .opacity-zero {
