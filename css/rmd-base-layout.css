@@ -46,27 +46,33 @@
   justify-content: center;
 }
 
-.site-layout-shift > div[style*="grid-area:left"] {
+.site-layout-shift > div[style*="grid-area:left"],
+.site-layout-shift > div[style*="grid-area: left"] {
   width: 0px;
 }
 
-.site-layout-shift > div[style*="grid-area:right"] {
+.site-layout-shift > div[style*="grid-area:right"],
+.site-layout-shift > div[style*="grid-area: right"] {
   width: 0px;
 }
 
-.site-layout-shift > div[style*="grid-area:top"] {
+.site-layout-shift > div[style*="grid-area:top"],
+.site-layout-shift > div[style*="grid-area: top"] {
   height: 0px;
 }
 
-.site-layout-shift > div[style*="grid-area:bottom"] {
+.site-layout-shift > div[style*="grid-area:bottom"],
+.site-layout-shift > div[style*="grid-area: bottom"] {
   height: 0px;
 }
 
-.site-layout-shift > div[style*="grid-area:main"] {
+.site-layout-shift > div[style*="grid-area:main"],
+.site-layout-shift > div[style*="grid-area: main"] {
   min-width:100vw; /* stabilizies main's width but causes space on the left */
 }
 
-.option--layout-effects .site-layout-shift > div[style*="grid-area:left"] {
+.option--layout-effects .site-layout-shift > div[style*="grid-area:left"],
+.option--layout-effects .site-layout-shift > div[style*="grid-area: left"] {
   -webkit-transition-property: width;
   -webkit-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
   -webkit-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
@@ -80,7 +86,8 @@
   transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
 }
 
-.option--layout-effects .site-layout-shift > div[style*="grid-area:right"] {
+.option--layout-effects .site-layout-shift > div[style*="grid-area:right"],
+.option--layout-effects .site-layout-shift > div[style*="grid-area: right"] {
   -webkit-transition-property: width;
   -webkit-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
   -webkit-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
@@ -94,7 +101,8 @@
   transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
 }
 
-.option--layout-effects .site-layout-shift > div[style*="grid-area:top"] {
+.option--layout-effects .site-layout-shift > div[style*="grid-area:top"],
+.option--layout-effects .site-layout-shift > div[style*="grid-area: top"] {
   -webkit-transition-property: height;
   -webkit-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
   -webkit-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
@@ -108,7 +116,8 @@
   transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
 }
 
-.option--layout-effects .site-layout-shift > div[style*="grid-area:bottom"] {
+.option--layout-effects .site-layout-shift > div[style*="grid-area:bottom"],
+.option--layout-effects .site-layout-shift > div[style*="grid-area: bottom"] {
   -webkit-transition-property: height;
   -webkit-transition-duration: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, 900ms));
   -webkit-transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
@@ -122,22 +131,26 @@
   transition-timing-function: var(--layout-shift-anim-duration, var( --default-layout-shift-anim-duration, cubic-bezier(0.8,-0.27,0.025,1.105)));
 }
 
-.mode--layout-shift-left .site-layout-shift > div[style*="grid-area:left"] {
+.mode--layout-shift-left .site-layout-shift > div[style*="grid-area:left"],
+.mode--layout-shift-left .site-layout-shift > div[style*="grid-area: left"] {
   left: 0;
   width: 22rem;
 }
 
-.mode--layout-shift-right .site-layout-shift > div[style*="grid-area:right"] {
+.mode--layout-shift-right .site-layout-shift > div[style*="grid-area:right"],
+.mode--layout-shift-right .site-layout-shift > div[style*="grid-area: right"] {
   right: 0;
   width: 22rem;
 }
 
-.mode--layout-shift-top .site-layout-shift > div[style*="grid-area:top"] {
+.mode--layout-shift-top .site-layout-shift > div[style*="grid-area:top"],
+.mode--layout-shift-top .site-layout-shift > div[style*="grid-area: top"] {
   top: 0;
   height: 12rem;
 }
 
-.mode--layout-shift-bottom .site-layout-shift > div[style*="grid-area:bottom"] {
+.mode--layout-shift-bottom .site-layout-shift > div[style*="grid-area:bottom"],
+.mode--layout-shift-bottom .site-layout-shift > div[style*="grid-area: bottom"] {
   bottom: 0;
   height: 12rem;
 }
