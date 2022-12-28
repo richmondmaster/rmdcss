@@ -87,6 +87,7 @@
 .hover-anim.hovered-anim,
 .hover-anim:hover {
   animation-name: --keyframe-name;
+  animation-fill-mode: forwards;
   animation-direction: normal;
   animation-duration: 750ms;
   animation-timing-function: ease-out;
@@ -97,6 +98,7 @@
 .hover-rotate.hovered-rotate,
 .hover-rotate:hover {
   animation-name: keyframes-rotate;
+  animation-fill-mode: forwards;
   animation-direction: normal;
   animation-duration: 750ms;
   animation-timing-function: ease-out;
@@ -107,8 +109,9 @@
 .hover-background-color-to-color.hovered-background-color-to-color,
 .hover-background-color-to-color:hover {
   animation-name: keyframes-background-color-to-color;
+  animation-fill-mode: forwards;
   animation-direction: normal;
-  animation-duration: 750ms;
+  animation-duration: 500ms;
   animation-timing-function: ease-out;
   animation-iteration-count: 1;
 }
