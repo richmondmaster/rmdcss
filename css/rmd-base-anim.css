@@ -34,6 +34,8 @@
 }
 
 /* hover */
+.hover-circle-fill.hovered-all,
+.hover-circle-fill.hovered-circle-fill,
 .hover-circle-fill {
   background-image: radial-gradient(circle, #3498db 100%,transparent 1%);
   background-repeat: no-repeat;
@@ -41,23 +43,33 @@
   background-clip: border-box;
 }
 
+.hover-darken.hovered-all,
+.hover-darken.hovered-darken,
 .hover-darken:hover {
   filter: brightness(var(--darken-amount, -50%));
 }
 
+.hover-bold.hovered-all,
+.hover-bold.hovered-bold,
 .hover-bold:hover {
   font-weight: bold;
 }
 
+.hover-underline.hovered-all,
+.hover-underline.hovered-underline,
 .hover-underline:hover {
   text-decoration: underline;
 }
 
+.hover-opacity.hovered-all,
+.hover-opacity.hovered-opacity,
 .hover-opacity:hover {
   opacity: var(--opacity, 0.6);
   transition-duration: var(--duration, 300ms);
 }
 
+.hover-background-color.hovered-all,
+.hover-background-color.hovered-background-color,
 .hover-background-color:hover {
   background-color: var(--background-color, #ddd);
   transition-duration: var(--duration, 300ms);
@@ -71,6 +83,8 @@
   transition-duration: var(--duration, 300ms);
 }
 
+.hover-anim.hovered-all,
+.hover-anim.hovered-anim,
 .hover-anim:hover {
   animation-name: --keyframe-name;
   animation-direction: normal;
@@ -79,6 +93,8 @@
   animation-iteration-count: 1;
 }
 
+.hover-rotate.hovered-all,
+.hover-rotate.hovered-rotate,
 .hover-rotate:hover {
   animation-name: keyframes-rotate;
   animation-direction: normal;
@@ -87,6 +103,8 @@
   animation-iteration-count: 1;
 }
 
+.hover-background-color-to-color.hovered-all,
+.hover-background-color-to-color.hovered-background-color-to-color,
 .hover-background-color-to-color:hover {
   animation-name: keyframes-background-color-to-color;
   animation-direction: normal;
@@ -95,6 +113,8 @@
   animation-iteration-count: 1;
 }
 
+.hover-torque.hovered-all,
+.hover-torque.hovered-torque,
 .hover-torque:hover {
   -webkit-transition: all 0.9s cubic-bezier(0, 0, 0, 3.105);
   -moz-transition: all 0.9s cubic-bezier(0, 0, 0, 3.105);
@@ -104,6 +124,8 @@
   transform: rotate(0deg);
 }
 
+.hover-opacity-pulse.hovered-all,
+.hover-opacity-pulse.hovered-opacity-pulse,
 .hover-opacity-pulse:hover {
   animation-name: keyframes-opacity-pulse;
   animation-direction: normal;
@@ -112,24 +134,34 @@
   animation-iteration-count: 1;
 }
 
+.hover-zoom.hovered-all,
+.hover-zoom.hovered-zoom,
 .hover-zoom:hover {
   -webkit-transform: scale(var(--zoom-scale-x-to, 1.1), var(--zoom-scale-y-to, 1.1));
   -moz-transform: scale(var(--zoom-scale-x-to, 1.1), var(--zoom-scale-y-to, 1.1));
   transform: scale(var(--zoom-scale-x-to, 1.1), var(--zoom-scale-y-to, 1.1));
 }
 
-hover-rotate-x:hover {
+.hover-rotate-x.hovered-all,
+.hover-rotate-x.hovered-rotate-x,
+.hover-rotate-x:hover {
   transform: rotateX(var(--rotate-x,90deg));
 }
 
-hover-rotate-y:hover {
+.hover-rotate-y.hovered-all,
+.hover-rotate-y.hovered-rotate-y,
+.hover-rotate-y:hover {
   transform: rotateY(var(--rotate-y,90deg));
 }
 
-hover-rotate-z:hover {
+.hover-rotate-z.hovered-all,
+.hover-rotate-z.hovered-rotate-z,
+.hover-rotate-z:hover {
   transform: rotateZ(var(--rotate-z,90deg));
 }
 
+.hover-size-pulse.hovered-all,
+.hover-size-pulse.hovered-size-pulse,
 .hover-size-pulse:hover {
   animation-name: keyframes-size-pulse;
   animation-direction: normal;
@@ -138,6 +170,8 @@ hover-rotate-z:hover {
   animation-iteration-count: 1;
 }
 
+.hover-pulse.hovered-all,
+.hover-pulse.hovered-pulse,
 .hover-pulse:hover {
   animation-name: keyframes-size-pulse;
   animation-direction: normal;
@@ -146,6 +180,8 @@ hover-rotate-z:hover {
   animation-iteration-count: 1;
 }
 
+.hover-size-wobble.hovered-all,
+.hover-size-wobble.hovered-size-wobble,
 .hover-size-wobble:hover {
   animation-name: keyframes-size-wobble;
   animation-direction: normal;
@@ -154,6 +190,8 @@ hover-rotate-z:hover {
   animation-iteration-count: 1;
 }
 
+.hover-wobble.hovered-all,
+.hover-wobble.hovered-wobble,
 .hover-wobble:hover {
   animation-name: keyframes-size-wobble;
   animation-direction: normal;
@@ -163,6 +201,8 @@ hover-rotate-z:hover {
   animation-iteration-count: 1;
 }
 
+.hover-font-wobble.hovered-all,
+.hover-font-wobble.hovered-font-wobble,
 .hover-font-wobble:hover {
   animation-name: keyframes-font-wobble;
   animation-direction: normal;
@@ -172,6 +212,8 @@ hover-rotate-z:hover {
   animation-iteration-count: 1;
 }
 
+.hover-bounce-y.hovered-all,
+.hover-bounce-y.hovered-bounce-y,
 .hover-bounce-y:hover {
   animation-name: keyframes-bounce-y;
   animation-direction: normal;
@@ -180,6 +222,8 @@ hover-rotate-z:hover {
   animation-iteration-count: 1;
 }
 
+.hover-bounce-x.hovered-all,
+.hover-bounce-x.hovered-bounce-x,
 .hover-bounce-x:hover {
   animation-name: keyframes-bounce-x;
   animation-direction: normal;
@@ -189,6 +233,8 @@ hover-rotate-z:hover {
   animation-iteration-count: 1;
 }
 
+.hover-slide-x.hovered-all,
+.hover-slide-x.hovered-slide-x,
 .hover-slide-x:hover {
   animation-name: keyframes-slide-x;
   animation-direction: normal;
@@ -199,6 +245,8 @@ hover-rotate-z:hover {
   animation-timing-function: cubic-bezier(0.8,-0.27,0.025,1.105);
 }
 
+.hover-slide-y.hovered-all,
+.hover-slide-y.hovered-slide-y,
 .hover-slide-y:hover {
   animation-name: keyframes-slide-y;
   animation-direction: normal;
@@ -208,6 +256,8 @@ hover-rotate-z:hover {
   animation-timing-function: cubic-bezier(0.8,-0.27,0.025,1.105);
 }
 
+.hover-circle-fill.hovered-all,
+.hover-circle-fill.hovered-circle-fill,
 .hover-circle-fill:hover {
   animation-name: keyframes-circle-fill;
   animation-fill-mode: forwards;
