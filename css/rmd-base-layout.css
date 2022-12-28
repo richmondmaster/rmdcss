@@ -49,21 +49,25 @@
 .site-layout-shift > div[style*="grid-area:left"],
 .site-layout-shift > div[style*="grid-area: left"] {
   width: 0px;
+  overflow: hidden;
 }
 
 .site-layout-shift > div[style*="grid-area:right"],
 .site-layout-shift > div[style*="grid-area: right"] {
   width: 0px;
+  overflow: hidden;
 }
 
 .site-layout-shift > div[style*="grid-area:top"],
 .site-layout-shift > div[style*="grid-area: top"] {
   height: 0px;
+  overflow: hidden;
 }
 
 .site-layout-shift > div[style*="grid-area:bottom"],
 .site-layout-shift > div[style*="grid-area: bottom"] {
   height: 0px;
+  overflow: hidden;
 }
 
 .site-layout-shift > div[style*="grid-area:main"],
