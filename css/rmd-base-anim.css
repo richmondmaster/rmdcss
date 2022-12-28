@@ -64,23 +64,23 @@
 .hover-opacity.hovered-all,
 .hover-opacity.hovered-opacity,
 .hover-opacity:hover {
-  opacity: var(--opacity, 0.6);
-  transition-duration: var(--duration, 300ms);
+  opacity: var(--hover-opacity, 0.6);
+  transition-duration: var(--hover-opacity-duration, 300ms);
 }
 
 .hover-background-color.hovered-all,
 .hover-background-color.hovered-background-color,
 .hover-background-color:hover {
-  background-color: var(--background-color, #ddd);
-  transition-duration: var(--duration, 300ms);
+  background-color: var(--hover-background-color, #ddd);
+  transition-duration: var(--hover-background-color-duration, 300ms);
 }
 
 .hover-children-background-color > div:not([class~="noanim"]):hover,
 .hover-children-background-color > span:not([class~="noanim"]):hover,
 .hover-children-background-color > a:not([class~="noanim"]):hover,
 .hover-children-background-color > p:not([class~="noanim"]):hover {
-  background-color: var(--background-color, #ddd);
-  transition-duration: var(--duration, 300ms);
+  background-color: var(--hover-background-color, #ddd);
+  transition-duration: var(--hover-background-color-duration, 300ms);
 }
 
 .hover-anim.hovered-all,
@@ -151,13 +151,13 @@
 .hover-rotate-y.hovered-all,
 .hover-rotate-y.hovered-rotate-y,
 .hover-rotate-y:hover {
-  transform: rotateY(var(--rotate-y,90deg));
+  transform: rotateY(var(--hover-rotate-y,90deg));
 }
 
 .hover-rotate-z.hovered-all,
 .hover-rotate-z.hovered-rotate-z,
 .hover-rotate-z:hover {
-  transform: rotateZ(var(--rotate-z,90deg));
+  transform: rotateZ(var(--hover-rotate-z,90deg));
 }
 
 .hover-size-pulse.hovered-all,
@@ -318,8 +318,8 @@
 }
 
 .anim-background-color.run {
-  background-color: var(--background-color, #ddd);
-  transition-duration: var(--duration, 300ms);
+  background-color: var(--anim-background-color, #ddd);
+  transition-duration: var(--anim-duration, 300ms);
 }
 
 .anim-torque.run {
@@ -567,7 +567,7 @@
   }
 
   100% {
-    background-color: var(--background-color-start, initial);
+    background-color: var(--background-color-end, initial);
   }
 }
 

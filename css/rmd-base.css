@@ -420,6 +420,10 @@ p {
     column-gap: 0.5rem;
 }
 
+.inline-grid {
+    display: inline-grid;
+}
+
 .grid {
     display: grid;
 }
