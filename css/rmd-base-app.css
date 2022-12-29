@@ -34,7 +34,11 @@ body {
 .site-header-nav > span,
 .site-header-nav > a,
 .site-header-nav > li,
-.site-header-nav > p {
+.site-header-nav > p,
+.site-header-nav > a > div,
+.site-header-nav > a > span,
+.site-header-nav > a > li,
+.site-header-nav > a > p {
     display: flex;
     width: 100%;
     height: 100%;
