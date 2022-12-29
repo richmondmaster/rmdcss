@@ -3273,11 +3273,11 @@ p {
 }
 
 .show {
-    display: var(--show-display, var(--default-show-display, block));
+    display: var(--show-display, var(--default-show-display, block)) !important;
 }
 
 .hide {
-    display: none;
+    display: none !important;
 }
 
 .invisible {

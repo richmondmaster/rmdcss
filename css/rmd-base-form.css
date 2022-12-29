@@ -294,15 +294,15 @@
   }
 
   /* This is to allow quick ad-hoc form building with no groupings, rows, etc. */
-  .form-body select,
-  .form-body input[type=text],
-  .form-body input[type=password],
-  .form-section select,
-  .form-section input[type=text],
-  .form-section input[type=password],
-  form select,
-  form input[type=text],
-  form input[type=password] {
+  .form-body > select,
+  .form-body > input[type=text],
+  .form-body > input[type=password],
+  .form-section > select,
+  .form-section > input[type=text],
+  .form-section > input[type=password],
+  form > select,
+  form > input[type=text],
+  form > input[type=password] {
     display: block; /* default by browser is inline-block */
     width: 100%;
     min-width: 0;
