@@ -293,13 +293,22 @@
     line-height: 2em;
   }
 
-  /* This is to allow quick ad-hoc form building with no groupings, rows, etc. */
+  /* This is to allow quick ad-hoc form building with no groupings */
   .form-body > select,
   .form-body > input[type=text],
   .form-body > input[type=password],
+  .form-container > select,
+  .form-container > input[type=text],
+  .form-container > input[type=password],
   .form-section > select,
   .form-section > input[type=text],
   .form-section > input[type=password],
+  .form-row > select,
+  .form-row > input[type=text],
+  .form-row > input[type=password],
+  .form-column > select,
+  .form-column > input[type=text],
+  .form-column > input[type=password],
   form > select,
   form > input[type=text],
   form > input[type=password] {
@@ -319,6 +328,21 @@
   .input-group select,
   .input-group input[type=text],
   .input-group input[type=password] {
+    width: 0%; /* needed to allow flex basis to size properly*/
+    min-width: 0;
+    border-style: var(--default-input-border-style, solid);
+    border-width: var(--default-input-border-width, 1px);
+    border-color: var(--default-input-border-color, #ccc);
+    border-radius: var(--default-input-border-radius, 0px);
+    font-size: var(--default-input-font-size, 1em);
+    font-family: var(--default-input-font-family, 'Arial', Helvetica, san-serif);
+    padding: var(--default-input-group-padding, 0.75em 0em);
+    color: var(--default-input-font-color, #000);
+  }
+
+  .input-group-compound select,
+  .input-group-compound input[type=text],
+  .input-group-compound input[type=password] {
     width: 0%; /* needed to allow flex basis to size properly*/
     min-width: 0;
     border-style: var(--default-input-border-style, solid);

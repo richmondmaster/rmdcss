@@ -1209,6 +1209,27 @@ p {
     opacity: 0;
 }
 
+.anchor,
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.anchor-children > div,
+.anchor-children > span,
+.anchor-children > a,
+.anchor-children > p,
+.anchor-children > li,
+.link-children > div,
+.link-children > span,
+.link-children > a,
+.link-children > p,
+.link-children > li
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .clickable {
     cursor: pointer;
 }
@@ -1222,7 +1243,7 @@ p {
 .clickable-children > a,
 .clickable-children > p,
 .clickable-children > li
- {
+{
     cursor: pointer;
 }
 
