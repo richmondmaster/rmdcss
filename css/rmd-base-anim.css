@@ -18,6 +18,12 @@
   transition: width 300ms ease-out;
 }
 
+.anim-color {
+  -webkit-transition: color 300ms ease-out;
+  -moz-transition: color 300ms ease-out;
+  transition: color 300ms ease-out;
+}
+
 .anim-background-color {
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
@@ -73,6 +79,13 @@
 .hover-background-color:hover {
   background-color: var(--hover-background-color, #ddd);
   transition-duration: var(--hover-background-color-duration, 300ms);
+}
+
+.hover-color.hovered-all,
+.hover-color.hovered-background-color,
+.hover-color:hover {
+  color: var(--hover-color, #ddd);
+  transition-duration: var(--hover-color-duration, 300ms);
 }
 
 .hover-children-background-color > div:not([class~="noanim"]):hover,
