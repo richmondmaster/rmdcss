@@ -325,6 +325,56 @@
     color: var(--default-input-font-color, #000);
   }
 
+  /* This is to allow quick ad-hoc form building with no groupings for Base Data elements */
+  .form-body > flex-row-container > flex-row > select,
+  .form-body > flex-row-container > flex-row > input[type=text],
+  .form-body > flex-row-container > flex-row > input[type=password],
+  .form-container > flex-row-container > flex-row > select,
+  .form-container > flex-row-container > flex-row > input[type=text],
+  .form-container > flex-row-container > flex-row > input[type=password],
+  .form-section > flex-row-container > flex-row > select,
+  .form-section > flex-row-container > flex-row > input[type=text],
+  .form-section > flex-row-container > flex-row > input[type=password],
+  .form-row > flex-row-container > flex-row > select,
+  .form-row > flex-row-container > flex-row > input[type=text],
+  .form-row > flex-row-container > flex-row > input[type=password],
+  .form-column > flex-row-container > flex-row > select,
+  .form-column > flex-row-container > flex-row > input[type=text],
+  .form-column > flex-row-container > flex-row > input[type=password],
+  form > flex-row-container > flex-row > select,
+  form > flex-row-container > flex-row > input[type=text],
+  form > flex-row-container > flex-row > input[type=password],
+  .form-body > flex-row-container > flex-column > select,
+  .form-body > flex-row-container > flex-column > input[type=text],
+  .form-body > flex-row-container > flex-column > input[type=password],
+  .form-container > flex-row-container > flex-column > select,
+  .form-container > flex-row-container > flex-column > input[type=text],
+  .form-container > flex-row-container > flex-column > input[type=password],
+  .form-section > flex-row-container > flex-column > select,
+  .form-section > flex-row-container > flex-column > input[type=text],
+  .form-section > flex-row-container > flex-column > input[type=password],
+  .form-row > flex-row-container > flex-column > select,
+  .form-row > flex-row-container > flex-column > input[type=text],
+  .form-row > flex-row-container > flex-column > input[type=password],
+  .form-column > flex-row-container > flex-column > select,
+  .form-column > flex-row-container > flex-column > input[type=text],
+  .form-column > flex-row-container > flex-column > input[type=password],
+  form > flex-row-container > flex-column > select,
+  form > flex-row-container > flex-column > input[type=text],
+  form > flex-row-container > flex-column> input[type=password] {
+    display: block; /* default by browser is inline-block */
+    width: 100%;
+    min-width: 0;
+    border-style: var(--default-input-border-style, solid);
+    border-width: var(--default-input-border-width, 1px);
+    border-color: var(--default-input-border-color, #ccc);
+    border-radius: var(--default-input-border-radius, 0px);
+    font-size: var(--default-input-font-size, 1em);
+    font-family: var(--default-input-font-family, 'Arial', Helvetica, san-serif);
+    padding: var(--default-input-padding, 0.75em 0em);
+    color: var(--default-input-font-color, #000);
+  }
+
   .input-group select,
   .input-group input[type=text],
   .input-group input[type=password] {
