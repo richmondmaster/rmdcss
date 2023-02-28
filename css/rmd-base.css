@@ -258,7 +258,7 @@ p {
 }
 
 .flex-item-5-p {
-    flex-basis: 10% !important;
+    flex-basis: 5% !important;
 }
 
 .flex-item-10-p {
@@ -1203,6 +1203,9 @@ p {
     line-height: 10em;
 }
 
+.opacity {
+    opacity: var(--opacity, 1);
+}
 
 .opacity-0,
 .opacity-zero {
