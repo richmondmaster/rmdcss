@@ -30,6 +30,15 @@
   transition: background-color 300ms ease-out;
 }
 
+.anim-background-color-pulse
+{
+    background: linear-gradient(90deg, #cccccc, #dddddd, #cccccc);
+    background-size: 200% 200%;
+    -webkit-animation: keyframes-background-color-pulse 1200ms none infinite;
+    -moz-animation: keyframes-background-color-pulse 1200ms none infinite;
+    animation: keyframes-background-color-pulse 1200ms none infinite;
+}
+
 .anim-torque-clockwise {
   -webkit-transition: all 0.9s cubic-bezier(0, 0, 0, 3.105);
   -moz-transition: all 0.9s cubic-bezier(0, 0, 0, 3.105);
@@ -982,4 +991,19 @@
     -moz-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
   }
+}
+
+@keyframes keyframes-background-color-pulse { 
+  0%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+
+@-webkit-keyframes keyframes-background-color-pulse {
+  0%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+
+@-moz-keyframes keyframes-background-color-pulse {
+  0%{background-position:91% 100%}
+  100%{background-position:10% 0%}
 }

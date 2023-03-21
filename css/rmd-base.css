@@ -650,8 +650,16 @@ p {
     border-top: 1px solid #e5e5e5;
 }
 
+.border-right {
+    border-right: 1px solid #e5e5e5;
+}
+
 .border-bottom {
     border-bottom: 1px solid #e5e5e5;
+}
+
+.border-left {
+    border-left: 1px solid #e5e5e5;
 }
 
 .border-black {
@@ -2058,6 +2066,8 @@ p {
     background-color: #efefef !important;
 }
 
+.bg-grey,
+.bg-gray,
 .bg-ccc {
     background-color: #ccc !important;
 }
