@@ -32,11 +32,15 @@
 
 .anim-background-color-pulse
 {
-    background: linear-gradient(90deg, #cccccc, #dddddd, #cccccc);
+    background: linear-gradient(
+      var(--anim-gradient-angle, 90deg), 
+      var(--anim-gradient-color-1, #aaaaaa), 
+      var(--anim-gradient-color-2, #dddddd),
+      var(--anim-gradient-color-3, #aaaaaa));
     background-size: 200% 200%;
-    -webkit-animation: keyframes-background-color-pulse 1200ms none infinite;
-    -moz-animation: keyframes-background-color-pulse 1200ms none infinite;
-    animation: keyframes-background-color-pulse 1200ms none infinite;
+    animation-name: keyframes-background-color-pulse;
+    animation-duration: var(--anim-duration, 1200ms);
+    animation-iteration-count: var(--animation-iteration-count, infinite);
 }
 
 .anim-torque-clockwise {
