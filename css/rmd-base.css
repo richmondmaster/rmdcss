@@ -2136,24 +2136,24 @@ p {
     background-color: var(--background-hover-color, #c9dffc) !important;
 }
 
-.bg-alternate:nth-child(odd) > tr,
-.bg-alternate:nth-child(odd) > div,
-.bg-alternate:nth-child(odd) > span,
-.bg-alternate:nth-child(odd) > li,
-.bg-alternate:nth-child(odd) > a,
-.bg-alternate-odd:nth-child(odd) > tr,
-.bg-alternate-odd:nth-child(odd) > div,
-.bg-alternate-odd:nth-child(odd) > span,
-.bg-alternate-odd:nth-child(odd) > li,
-.bg-alternate-odd:nth-child(odd) > a {
+.bg-alternate table:nth-child(odd) > tr,
+.bg-alternate div:nth-child(odd) > div,
+.bg-alternate div:nth-child(odd) > span,
+.bg-alternate div:nth-child(odd) > li,
+.bg-alternate div:nth-child(odd) > a,
+.bg-alternate-odd div:nth-child(odd) > tr,
+.bg-alternate-odd div:nth-child(odd) > div,
+.bg-alternate-odd div:nth-child(odd) > span,
+.bg-alternate-odd div:nth-child(odd) > li,
+.bg-alternate-odd div:nth-child(odd) > a {
     background-color: var(--background-alternate-color, var(--background-alternate-odd-color, #efefef)) !important;
 }
 
-.bg-alternate-even:nth-child(even) > tr,
-.bg-alternate-even:nth-child(even) > div,
-.bg-alternate-even:nth-child(even) > span,
-.bg-alternate-even:nth-child(even) > li,
-.bg-alternate-even:nth-child(even) > a {
+.bg-alternate-even table:nth-child(even) > tr,
+.bg-alternate-even div:nth-child(even) > div,
+.bg-alternate-even div:nth-child(even) > span,
+.bg-alternate-even div:nth-child(even) > li,
+.bg-alternate-even div:nth-child(even) > a {
     background-color: var(--background-alternate-even-color, #efefef) !important;
 }
 
