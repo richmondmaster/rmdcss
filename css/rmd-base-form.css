@@ -653,6 +653,8 @@ input[type="text"]:focus {
 }
 
 input[type="text"] {
+  width: 100%;
+  max-width: 375px;
   font-family: var(--input-text-font-family, var(--default-input-text-font-family, 'Arial', Helvetica, sans-serif));
   font-weight: var(--input-text-font-weight, var(--default-input-text-font-weight, normal));
   font-style: var(--input-text-font-style, var(--default-input-text-font-style, bold));
@@ -669,6 +671,8 @@ input[type="text"] {
 }
 
 input[type="password"] {
+  width: 100%;
+  max-width: 375px;
   font-family: var(--input-password-font-family, var(--default-input-password-font-family, 'Arial', Helvetica, sans-serif));
   font-weight: var(--input-password-font-weight, var(--default-input-password-font-weight, normal));
   font-style: var(--input-password-font-style, var(--default-input-password-font-style, bold));
@@ -709,6 +713,8 @@ input[type="checkbox"] {
 }
 
 select {
+  width: 100%;
+  max-width: 375px;
   font-family: var(--input-select-font-family, var(--default-input-select-font-family, 'Arial', Helvetica, sans-serif));
   font-weight: var(--input-select-font-weight, var(--default-input-select-font-weight, normal));
   font-style: var(--input-select-font-style, var(--default-input-select-font-style, bold));
