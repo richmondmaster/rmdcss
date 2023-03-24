@@ -153,7 +153,7 @@
 }
 
 .mode--layout-shift-right .site-layout-shift {
-  right: 22rem;
+  /* right: 22rem; */
 }
 
 .mode--layout-shift-top .site-layout-shift > div[style*="grid-area:top"],
