@@ -141,10 +141,19 @@
   width: 22rem;
 }
 
+.mode--layout-shift-right .site-layout-shift {
+  right: 0;
+}
+
+/* with a direction of ltr, this produces a -22em right offset for site-layout-shift */
 .mode--layout-shift-right .site-layout-shift > div[style*="grid-area:right"],
 .mode--layout-shift-right .site-layout-shift > div[style*="grid-area: right"] {
   right: 0;
   width: 22rem;
+}
+
+.mode--layout-shift-right .site-layout-shift {
+  right: 22rem;
 }
 
 .mode--layout-shift-top .site-layout-shift > div[style*="grid-area:top"],
@@ -153,10 +162,18 @@
   height: 12rem;
 }
 
+.mode--layout-shift-right .site-layout-shift {
+  top: 12rem;
+}
+
 .mode--layout-shift-bottom .site-layout-shift > div[style*="grid-area:bottom"],
 .mode--layout-shift-bottom .site-layout-shift > div[style*="grid-area: bottom"] {
   bottom: 0;
   height: 12rem;
+}
+
+.mode--layout-shift-right .site-layout-shift {
+  top: 0rem;
 }
 
 .site-header {
