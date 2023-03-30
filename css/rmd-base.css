@@ -2340,6 +2340,10 @@ p {
     justify-content: space-around !important;
 }
 
+.justify-space-evenly {
+    justify-content: space-evenly !important;
+}
+
 .justify-left {
     justify-content: left !important;
 }
@@ -2678,6 +2682,61 @@ p {
         top: 0;
         bottom: 0;
     }
+
+    .cover-width-100-pct-for-medium-up,
+    .cover-width-100-percent-for-medium-up {
+        width: 100%;
+    }
+
+    .cover-width-90-pct-for-medium-up,
+    .cover-width-90-percent-for-medium-up {
+        width: 90%;
+    }
+
+    .cover-width-80-pct-for-medium-up,
+    .cover-width-80-percent-for-medium-up {
+        width: 80%;
+    }
+
+    .cover-width-70-pct-for-medium-up,
+    .cover-width-70-percent-for-medium-up {
+        width: 70%;
+    }
+
+    .cover-width-60-pct-for-medium-up,
+    .cover-width-60-percent-for-medium-up {
+        width: 60%;
+    }
+
+    .cover-width-50-pct-for-medium-up,
+    .cover-width-50-percent-for-medium-up {
+        width: 50%;
+    }
+
+    .cover-width-40-pct-for-medium-up,
+    .cover-width-40-percent-for-medium-up {
+        width: 40%;
+    }
+
+    .cover-width-30-pct-for-medium-up,
+    .cover-width-30-percent-for-medium-up {
+        width: 30%;
+    }
+
+    .cover-width-20-pct-for-medium-up,
+    .cover-width-20-percent-for-medium-up {
+        width: 20%;
+    }
+
+    .cover-width-10-pct-for-medium-up,
+    .cover-width-10-percent-for-medium-up {
+        width: 10%;
+    }
+
+    .cover-width-5-pct-for-medium-up,
+    .cover-width-5-percent-for-medium-up {
+        width: 5%;
+    }
 }
 
 @media only screen and (min-width: 851px) {
@@ -2898,6 +2957,61 @@ p {
         top: 0;
         bottom: 0;
     }
+
+    .cover-width-100-pct-for-large-up,
+    .cover-width-100-percent-for-large-up {
+        width: 100%;
+    }
+
+    .cover-width-90-pct-for-large-up,
+    .cover-width-90-percent-for-large-up {
+        width: 90%;
+    }
+
+    .cover-width-80-pct-for-large-up,
+    .cover-width-80-percent-for-large-up {
+        width: 80%;
+    }
+
+    .cover-width-70-pct-for-xlarge-up,
+    .cover-width-70-percent-for-xlarge-up {
+        width: 70%;
+    }
+
+    .cover-width-60-pct-for-large-up,
+    .cover-width-60-percent-for-large-up {
+        width: 60%;
+    }
+
+    .cover-width-50-pct-for-large-up,
+    .cover-width-50-percent-for-large-up {
+        width: 50%;
+    }
+
+    .cover-width-40-pct-for-large-up,
+    .cover-width-40-percent-for-large-up {
+        width: 40%;
+    }
+
+    .cover-width-30-pct-for-large-up,
+    .cover-width-30-percent-for-large-up {
+        width: 30%;
+    }
+
+    .cover-width-20-pct-for-large-up,
+    .cover-width-20-percent-for-large-up {
+        width: 20%;
+    }
+
+    .cover-width-10-pct-for-large-up,
+    .cover-width-10-percent-for-large-up {
+        width: 10%;
+    }
+
+    .cover-width-5-pct-for-large-up,
+    .cover-width-5-percent-for-large-up {
+        width: 5%;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -2989,6 +3103,61 @@ p {
 
     .show-for-xlarge-up {
         display: block;
+    }
+
+    .cover-width-100-pct-for-xlarge-up,
+    .cover-width-100-percent-for-xlarge-up {
+        width: 100%;
+    }
+
+    .cover-width-90-pct-for-xlarge-up,
+    .cover-width-90-percent-for-xlarge-up {
+        width: 90%;
+    }
+
+    .cover-width-80-pct-for-xlarge-up,
+    .cover-width-80-percent-for-xlarge-up {
+        width: 80%;
+    }
+
+    .cover-width-70-pct-for-xlarge-up,
+    .cover-width-70-percent-for-xlarge-up {
+        width: 70%;
+    }
+
+    .cover-width-60-pct-for-xlarge-up,
+    .cover-width-60-percent-for-xlarge-up {
+        width: 60%;
+    }
+
+    .cover-width-50-pct-for-xlarge-up,
+    .cover-width-50-percent-for-xlarge-up {
+        width: 50%;
+    }
+
+    .cover-width-40-pct-for-xlarge-up,
+    .cover-width-40-percent-for-xlarge-up {
+        width: 40%;
+    }
+
+    .cover-width-30-pct-for-xlarge-up,
+    .cover-width-30-percent-for-xlarge-up {
+        width: 30%;
+    }
+
+    .cover-width-20-pct-for-xlarge-up,
+    .cover-width-20-percent-for-xlarge-up {
+        width: 20%;
+    }
+
+    .cover-width-10-pct-for-xlarge-up,
+    .cover-width-10-percent-for-xlarge-up {
+        width: 10%;
+    }
+
+    .cover-width-5-pct-for-xlarge-up,
+    .cover-width-5-percent-for-xlarge-up {
+        width: 5%;
     }
 }
 
@@ -3109,6 +3278,61 @@ p {
     .absolute-cover-height-for-large-down {
         top: 0;
         bottom: 0;
+    }
+
+    .cover-width-100-pct-for-large-down,
+    .cover-width-100-percent-for-large-down {
+        width: 100%;
+    }
+
+    .cover-width-90-pct-for-large-down,
+    .cover-width-90-percent-for-large-down {
+        width: 90%;
+    }
+
+    .cover-width-80-pct-for-large-down,
+    .cover-width-80-percent-for-large-down {
+        width: 80%;
+    }
+
+    .cover-width-70-pct-for-large-down,
+    .cover-width-70-percent-for-large-down {
+        width: 70%;
+    }
+
+    .cover-width-60-pct-for-large-down,
+    .cover-width-60-percent-for-large-down {
+        width: 60%;
+    }
+
+    .cover-width-50-pct-for-large-down,
+    .cover-width-50-percent-for-large-down {
+        width: 50%;
+    }
+
+    .cover-width-40-pct-for-large-down,
+    .cover-width-40-percent-for-large-down {
+        width: 40%;
+    }
+
+    .cover-width-30-pct-for-large-down,
+    .cover-width-30-percent-for-large-down {
+        width: 30%;
+    }
+
+    .cover-width-20-pct-for-large-down,
+    .cover-width-20-percent-for-large-down {
+        width: 20%;
+    }
+
+    .cover-width-10-pct-for-large-down,
+    .cover-width-10-percent-for-large-down {
+        width: 10%;
+    }
+
+    .cover-width-5-pct-for-large-down,
+    .cover-width-5-percent-for-large-down {
+        width: 5%;
     }
 }
 
@@ -3470,6 +3694,61 @@ p {
     .flex-row-nowrap-medium-down,
     .flex-flow-row-nowrap-medium-down {
         flex-flow: row nowrap;
+    }
+
+    .cover-width-100-pct-for-medium-down,
+    .cover-width-100-percent-for-medium-down {
+        width: 100%;
+    }
+
+    .cover-width-90-pct-for-medium-down,
+    .cover-width-90-percent-for-medium-down {
+        width: 90%;
+    }
+
+    .cover-width-80-pct-for-medium-down,
+    .cover-width-80-percent-for-medium-down {
+        width: 80%;
+    }
+
+    .cover-width-70-pct-for-medium-down,
+    .cover-width-70-percent-for-medium-down {
+        width: 70%;
+    }
+
+    .cover-width-60-pct-for-medium-down,
+    .cover-width-60-percent-for-medium-down {
+        width: 60%;
+    }
+
+    .cover-width-50-pct-for-medium-down,
+    .cover-width-50-percent-for-medium-down {
+        width: 50%;
+    }
+
+    .cover-width-40-pct-for-medium-down,
+    .cover-width-40-percent-for-medium-down {
+        width: 40%;
+    }
+
+    .cover-width-30-pct-for-medium-down,
+    .cover-width-30-percent-for-medium-down {
+        width: 30%;
+    }
+
+    .cover-width-20-pct-for-medium-down,
+    .cover-width-20-percent-for-medium-down {
+        width: 20%;
+    }
+
+    .cover-width-10-pct-for-medium-down,
+    .cover-width-10-percent-for-medium-down {
+        width: 10%;
+    }
+
+    .cover-width-5-pct-for-medium-down,
+    .cover-width-5-percent-for-medium-down {
+        width: 5%;
     }
 }
 
@@ -3876,6 +4155,61 @@ p {
     .flex-row-nowrap-for-small-down,
     .flex-flow-row-nowrap-for-small-down {
         flex-flow: row nowrap;
+    }
+
+    .cover-width-100-pct-for-small-down,
+    .cover-width-100-percent-for-small-down {
+        width: 100%;
+    }
+
+    .cover-width-90-pct-for-small-down,
+    .cover-width-90-percent-for-small-down {
+        width: 90%;
+    }
+
+    .cover-width-80-pct-for-small-down,
+    .cover-width-80-percent-for-small-down {
+        width: 80%;
+    }
+
+    .cover-width-70-pct-for-small-down,
+    .cover-width-70-percent-for-small-down {
+        width: 70%;
+    }
+
+    .cover-width-60-pct-for-small-down,
+    .cover-width-60-percent-for-small-down {
+        width: 60%;
+    }
+
+    .cover-width-50-pct-for-small-down,
+    .cover-width-50-percent-for-small-down {
+        width: 50%;
+    }
+
+    .cover-width-40-pct-for-small-down,
+    .cover-width-40-percent-for-small-down {
+        width: 40%;
+    }
+
+    .cover-width-30-pct-for-small-down,
+    .cover-width-30-percent-for-small-down {
+        width: 30%;
+    }
+
+    .cover-width-20-pct-for-small-down,
+    .cover-width-20-percent-for-small-down {
+        width: 20%;
+    }
+
+    .cover-width-10-pct-for-small-down,
+    .cover-width-10-percent-for-small-down {
+        width: 10%;
+    }
+
+    .cover-width-5-pct-for-small-down,
+    .cover-width-5-percent-for-small-down {
+        width: 5%;
     }
 }
 

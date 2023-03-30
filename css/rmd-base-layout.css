@@ -143,6 +143,7 @@
 
 .mode--layout-shift-right .site-layout-shift {
   right: 0;
+  /* width: 22rem; */
 }
 
 /* with a direction of ltr, this produces a -22em right offset for site-layout-shift */
