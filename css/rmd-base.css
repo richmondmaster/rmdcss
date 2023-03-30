@@ -94,13 +94,28 @@ p {
     display: inline-flex; /* stretches for padded elements */
 }
 
-.flex-item,
-.flex-item-grow {
+.flex-item {
     flex: auto 1 1;
 }
 
+.shrink,
+.flex-item-shrink{
+    flex-shrink: 1 !important;
+}
+
+.no-shrink,
+.flex-item-no-shrink {
+    flex-shrink: 0 !important;
+}
+
+.grow,
+.flex-item-grow {
+    flex-grow: 1 !important;
+}
+
+.no-grow,
 .flex-item-no-grow {
-    flex: auto 0 1;
+    flex-grow: 0 !important;
 }
 
 .list-item {
