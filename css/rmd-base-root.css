@@ -92,6 +92,8 @@
      --default-input-text-font-weight: normal;
      --default-input-text-font-style: normal;
 
+     --default-input-text-padding: 0.5em 0.25em;
+
      --default-input-text-focus-background-color: rgb(228, 243, 250);
      --default-input-text-focus-outline-style: solid;
      --default-input-text-focus-outline-width: 1px;
@@ -157,7 +159,7 @@
      --default-input-select-focus-outline-width: 1px;
      --default-input-select-focus-outline-color: #888;
 
-     --default-input-padding: 0.5em 0em;
+     --default-input-padding: 0.5em 0.25em;
      --default-input-sizing-factor: 2;
 
      --default-form-section-background-color: rgb(243, 243, 243);
