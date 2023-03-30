@@ -496,20 +496,54 @@ p {
     height: var(--cover-height, 100%);
 }
 
+.cover-width-100-pct,
+.cover-width-100-percent {
+    width: 100%;
+}
+
+.cover-width-95-pct,
 .cover-width-95-percent {
     width: 95%;
 }
 
+.cover-width-90-pct,
 .cover-width-90-percent {
     width: 90%;
 }
 
+.cover-width-85-pct,
 .cover-width-85-percent {
     width: 85%;
 }
 
+.cover-width-50-pct
 .cover-width-50-percent {
     width: 50%;
+}
+
+.cover-width-40-pct
+.cover-width-40-percent {
+    width: 40%;
+}
+
+.cover-width-30-pct
+.cover-width-30-percent {
+    width: 30%;
+}
+
+.cover-width-20-pct
+.cover-width-20-percent {
+    width: 20%;
+}
+
+.cover-width-10-pct
+.cover-width-10-percent {
+    width: 10%;
+}
+
+.cover-width-5-pct
+.cover-width-5-percent {
+    width: 5%;
 }
 
 .cover-8x8 {
@@ -2685,57 +2719,57 @@ p {
 
     .cover-width-100-pct-for-medium-up,
     .cover-width-100-percent-for-medium-up {
-        width: 100%;
+        width: 100% !important;
     }
 
     .cover-width-90-pct-for-medium-up,
     .cover-width-90-percent-for-medium-up {
-        width: 90%;
+        width: 90% !important;
     }
 
     .cover-width-80-pct-for-medium-up,
     .cover-width-80-percent-for-medium-up {
-        width: 80%;
+        width: 80% !important;
     }
 
     .cover-width-70-pct-for-medium-up,
     .cover-width-70-percent-for-medium-up {
-        width: 70%;
+        width: 70% !important;
     }
 
     .cover-width-60-pct-for-medium-up,
     .cover-width-60-percent-for-medium-up {
-        width: 60%;
+        width: 60% !important;
     }
 
     .cover-width-50-pct-for-medium-up,
     .cover-width-50-percent-for-medium-up {
-        width: 50%;
+        width: 50% !important;
     }
 
     .cover-width-40-pct-for-medium-up,
     .cover-width-40-percent-for-medium-up {
-        width: 40%;
+        width: 40% !important;
     }
 
     .cover-width-30-pct-for-medium-up,
     .cover-width-30-percent-for-medium-up {
-        width: 30%;
+        width: 30% !important;
     }
 
     .cover-width-20-pct-for-medium-up,
     .cover-width-20-percent-for-medium-up {
-        width: 20%;
+        width: 20% !important;
     }
 
     .cover-width-10-pct-for-medium-up,
     .cover-width-10-percent-for-medium-up {
-        width: 10%;
+        width: 10% !important;
     }
 
     .cover-width-5-pct-for-medium-up,
     .cover-width-5-percent-for-medium-up {
-        width: 5%;
+        width: 5% !important;
     }
 }
 
@@ -2960,57 +2994,57 @@ p {
 
     .cover-width-100-pct-for-large-up,
     .cover-width-100-percent-for-large-up {
-        width: 100%;
+        width: 100% !important;
     }
 
     .cover-width-90-pct-for-large-up,
     .cover-width-90-percent-for-large-up {
-        width: 90%;
+        width: 90% !important;
     }
 
     .cover-width-80-pct-for-large-up,
     .cover-width-80-percent-for-large-up {
-        width: 80%;
+        width: 80% !important;
     }
 
     .cover-width-70-pct-for-xlarge-up,
     .cover-width-70-percent-for-xlarge-up {
-        width: 70%;
+        width: 70% !important;
     }
 
     .cover-width-60-pct-for-large-up,
     .cover-width-60-percent-for-large-up {
-        width: 60%;
+        width: 60% !important;
     }
 
     .cover-width-50-pct-for-large-up,
     .cover-width-50-percent-for-large-up {
-        width: 50%;
+        width: 50% !important;
     }
 
     .cover-width-40-pct-for-large-up,
     .cover-width-40-percent-for-large-up {
-        width: 40%;
+        width: 40% !important;
     }
 
     .cover-width-30-pct-for-large-up,
     .cover-width-30-percent-for-large-up {
-        width: 30%;
+        width: 30% !important;
     }
 
     .cover-width-20-pct-for-large-up,
     .cover-width-20-percent-for-large-up {
-        width: 20%;
+        width: 20% !important;
     }
 
     .cover-width-10-pct-for-large-up,
     .cover-width-10-percent-for-large-up {
-        width: 10%;
+        width: 10% !important;
     }
 
     .cover-width-5-pct-for-large-up,
     .cover-width-5-percent-for-large-up {
-        width: 5%;
+        width: 5% !important;
     }
 }
 
@@ -3107,17 +3141,17 @@ p {
 
     .cover-width-100-pct-for-xlarge-up,
     .cover-width-100-percent-for-xlarge-up {
-        width: 100%;
+        width: 100% !important;
     }
 
     .cover-width-90-pct-for-xlarge-up,
     .cover-width-90-percent-for-xlarge-up {
-        width: 90%;
+        width: 90% !important;
     }
 
     .cover-width-80-pct-for-xlarge-up,
     .cover-width-80-percent-for-xlarge-up {
-        width: 80%;
+        width: 80% !important;
     }
 
     .cover-width-70-pct-for-xlarge-up,
@@ -3127,37 +3161,37 @@ p {
 
     .cover-width-60-pct-for-xlarge-up,
     .cover-width-60-percent-for-xlarge-up {
-        width: 60%;
+        width: 60% !important;
     }
 
     .cover-width-50-pct-for-xlarge-up,
     .cover-width-50-percent-for-xlarge-up {
-        width: 50%;
+        width: 50% !important;
     }
 
     .cover-width-40-pct-for-xlarge-up,
     .cover-width-40-percent-for-xlarge-up {
-        width: 40%;
+        width: 40% !important;
     }
 
     .cover-width-30-pct-for-xlarge-up,
     .cover-width-30-percent-for-xlarge-up {
-        width: 30%;
+        width: 30% !important;
     }
 
     .cover-width-20-pct-for-xlarge-up,
     .cover-width-20-percent-for-xlarge-up {
-        width: 20%;
+        width: 20% !important;
     }
 
     .cover-width-10-pct-for-xlarge-up,
     .cover-width-10-percent-for-xlarge-up {
-        width: 10%;
+        width: 10% !important;
     }
 
     .cover-width-5-pct-for-xlarge-up,
     .cover-width-5-percent-for-xlarge-up {
-        width: 5%;
+        width: 5% !important;
     }
 }
 
@@ -3282,57 +3316,57 @@ p {
 
     .cover-width-100-pct-for-large-down,
     .cover-width-100-percent-for-large-down {
-        width: 100%;
+        width: 100% !important;
     }
 
     .cover-width-90-pct-for-large-down,
     .cover-width-90-percent-for-large-down {
-        width: 90%;
+        width: 90% !important;
     }
 
     .cover-width-80-pct-for-large-down,
     .cover-width-80-percent-for-large-down {
-        width: 80%;
+        width: 80% !important;
     }
 
     .cover-width-70-pct-for-large-down,
     .cover-width-70-percent-for-large-down {
-        width: 70%;
+        width: 70% !important;
     }
 
     .cover-width-60-pct-for-large-down,
     .cover-width-60-percent-for-large-down {
-        width: 60%;
+        width: 60% !important;
     }
 
     .cover-width-50-pct-for-large-down,
     .cover-width-50-percent-for-large-down {
-        width: 50%;
+        width: 50% !important;
     }
 
     .cover-width-40-pct-for-large-down,
     .cover-width-40-percent-for-large-down {
-        width: 40%;
+        width: 40% !important;
     }
 
     .cover-width-30-pct-for-large-down,
     .cover-width-30-percent-for-large-down {
-        width: 30%;
+        width: 30% !important;
     }
 
     .cover-width-20-pct-for-large-down,
     .cover-width-20-percent-for-large-down {
-        width: 20%;
+        width: 20% !important;
     }
 
     .cover-width-10-pct-for-large-down,
     .cover-width-10-percent-for-large-down {
-        width: 10%;
+        width: 10% !important;
     }
 
     .cover-width-5-pct-for-large-down,
     .cover-width-5-percent-for-large-down {
-        width: 5%;
+        width: 5% !important;
     }
 }
 
@@ -3698,57 +3732,57 @@ p {
 
     .cover-width-100-pct-for-medium-down,
     .cover-width-100-percent-for-medium-down {
-        width: 100%;
+        width: 100% !important;
     }
 
     .cover-width-90-pct-for-medium-down,
     .cover-width-90-percent-for-medium-down {
-        width: 90%;
+        width: 90% !important;
     }
 
     .cover-width-80-pct-for-medium-down,
     .cover-width-80-percent-for-medium-down {
-        width: 80%;
+        width: 80% !important;
     }
 
     .cover-width-70-pct-for-medium-down,
     .cover-width-70-percent-for-medium-down {
-        width: 70%;
+        width: 70% !important;
     }
 
     .cover-width-60-pct-for-medium-down,
     .cover-width-60-percent-for-medium-down {
-        width: 60%;
+        width: 60% !important;
     }
 
     .cover-width-50-pct-for-medium-down,
     .cover-width-50-percent-for-medium-down {
-        width: 50%;
+        width: 50% !important;
     }
 
     .cover-width-40-pct-for-medium-down,
     .cover-width-40-percent-for-medium-down {
-        width: 40%;
+        width: 40% !important;
     }
 
     .cover-width-30-pct-for-medium-down,
     .cover-width-30-percent-for-medium-down {
-        width: 30%;
+        width: 30% !important;
     }
 
     .cover-width-20-pct-for-medium-down,
     .cover-width-20-percent-for-medium-down {
-        width: 20%;
+        width: 20% !important;
     }
 
     .cover-width-10-pct-for-medium-down,
     .cover-width-10-percent-for-medium-down {
-        width: 10%;
+        width: 10% !important;
     }
 
     .cover-width-5-pct-for-medium-down,
     .cover-width-5-percent-for-medium-down {
-        width: 5%;
+        width: 5% !important;
     }
 }
 
@@ -4159,57 +4193,57 @@ p {
 
     .cover-width-100-pct-for-small-down,
     .cover-width-100-percent-for-small-down {
-        width: 100%;
+        width: 100% !important;
     }
 
     .cover-width-90-pct-for-small-down,
     .cover-width-90-percent-for-small-down {
-        width: 90%;
+        width: 90% !important;
     }
 
     .cover-width-80-pct-for-small-down,
     .cover-width-80-percent-for-small-down {
-        width: 80%;
+        width: 80% !important;
     }
 
     .cover-width-70-pct-for-small-down,
     .cover-width-70-percent-for-small-down {
-        width: 70%;
+        width: 70% !important;
     }
 
     .cover-width-60-pct-for-small-down,
     .cover-width-60-percent-for-small-down {
-        width: 60%;
+        width: 60% !important;
     }
 
     .cover-width-50-pct-for-small-down,
     .cover-width-50-percent-for-small-down {
-        width: 50%;
+        width: 50% !important;
     }
 
     .cover-width-40-pct-for-small-down,
     .cover-width-40-percent-for-small-down {
-        width: 40%;
+        width: 40% !important;
     }
 
     .cover-width-30-pct-for-small-down,
     .cover-width-30-percent-for-small-down {
-        width: 30%;
+        width: 30% !important;
     }
 
     .cover-width-20-pct-for-small-down,
     .cover-width-20-percent-for-small-down {
-        width: 20%;
+        width: 20% !important;
     }
 
     .cover-width-10-pct-for-small-down,
     .cover-width-10-percent-for-small-down {
-        width: 10%;
+        width: 10% !important;
     }
 
     .cover-width-5-pct-for-small-down,
     .cover-width-5-percent-for-small-down {
-        width: 5%;
+        width: 5% !important;
     }
 }
 
