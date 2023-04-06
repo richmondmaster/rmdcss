@@ -378,6 +378,28 @@
   animation-duration: 1s;
 }
 
+.anim-opacity-pulse.run {
+  animation-name: keyframes-opacity-pulse;
+  animation-direction: normal;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.anim-opacity-in-out.run {
+  animation-name: keyframes-opacity-in-out;
+  animation-direction: normal;
+  animation-duration: var(--anim-duration, 5000ms);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.anim-size-pulse.run {
+  animation-name: keyframes-size-pulse;
+  animation-direction: normal;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
 .anim-fade-in.run {
   --opacity-start: 0;
   animation-name: keyframes-opacity;
@@ -389,20 +411,6 @@
   animation-name: keyframes-opacity-out;
   animation-direction: normal;
   animation-duration: 1s;
-}
-
-.anim-opacity-pulse.run {
-  animation-name: keyframes-opacity-pulse;
-  animation-direction: normal;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-
-.anim-size-pulse.run {
-  animation-name: keyframes-size-pulse;
-  animation-direction: normal;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
 }
 
 .anim-pulse.run {
@@ -750,6 +758,20 @@
 
   100% {
     opacity: 0.75;
+  }
+}
+
+@keyframes keyframes-opacity-in-out {
+  0% {
+    opacity: var(--anim-opacity-start, 0);
+  }
+
+  50% {
+    opacity: var(--anim-opacity-end, 1);
+  }
+
+  100% {
+    opacity: var(--anim-opacity-start, 0);
   }
 }
 

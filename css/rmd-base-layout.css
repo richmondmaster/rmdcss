@@ -188,7 +188,7 @@
 }
 
 .site-body {
-  display: flex;
+  display: inline-block;
   grid-area: body;
   width: 100%;
   height: 100%;
