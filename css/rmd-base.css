@@ -1290,6 +1290,10 @@ p {
     cursor: pointer;
 }
 
+.moveable {
+    position: var(--moveable-position, fixed);
+}
+
 .clickable {
     cursor: pointer;
 }

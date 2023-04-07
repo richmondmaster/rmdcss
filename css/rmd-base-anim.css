@@ -404,19 +404,19 @@
   --opacity-start: 0;
   animation-name: keyframes-opacity;
   animation-direction: normal;
-  animation-duration: 1s;
+  animation-duration: var(--anim-fade-in-duration, var(--anim-duration, 1s));
 }
 
 .anim-fade-out.run {
   animation-name: keyframes-opacity-out;
   animation-direction: normal;
-  animation-duration: 1s;
+  animation-duration: var(--anim-fade-out-duration, var(--anim-duration, 1s));
 }
 
 .anim-pulse.run {
   animation-name: keyframes-size-pulse;
   animation-direction: normal;
-  animation-duration: 750ms;
+  animation-duration: var(--anim-pulse-duration, var(--anim-duration, 0.75s));
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
 }
@@ -425,7 +425,7 @@
   animation-name: keyframes-size-opacity-pulse;
   animation-direction: normal;
   animation-fill-mode: forwards;
-  animation-duration: 700ms;
+  animation-duration: var(--anim-size-opacity-pulse-duration, var(--anim-duration, 0.7s));
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
 }
@@ -433,7 +433,7 @@
 .anim-bounce-y.run {
   animation-name: keyframes-bounce-y;
   animation-direction: normal;
-  animation-duration: 3s;
+  animation-duration: var(--anim-bounce-y-duration, var(--anim-duration, 3s));
   animation-iteration-count: 1;
   animation-delay: 1s;
   animation-timing-function: ease-in-out;
@@ -442,7 +442,7 @@
 .anim-bounce-x.run {
   animation-name: keyframes-bounce-x;
   animation-direction: normal;
-  animation-duration: 3s;
+  animation-duration: var(--anim-bounce-x-duration, var(--anim-duration, 3s));
   animation-iteration-count: 1;
   animation-delay: 1s;
   animation-timing-function: ease-in-out;
@@ -452,7 +452,7 @@
   --bounce-y-direction: 1;
   animation-name: keyframes-bounce-y;
   animation-direction: normal;
-  animation-duration: 3s;
+  animation-duration: var(--anim-bounce-down-duration, var(--anim-duration, 3s));
   animation-iteration-count: 1;
   animation-delay: 1s;
   animation-timing-function: ease-out;
@@ -462,7 +462,7 @@
   --bounce-y-direction: -1;
   animation-name: keyframes-bounce-y;
   animation-direction: normal;
-  animation-duration: 3s;
+  animation-duration: var(--anim-bounce-up-duration, var(--anim-duration, 3s));
   animation-iteration-count: 1;
   animation-delay: 1s;
   animation-timing-function: ease-in-out;
@@ -472,7 +472,7 @@
   --bounce-x-direction: -1;
   animation-name: keyframes-bounce-x;
   animation-direction: normal;
-  animation-duration: 3s;
+  animation-duration: var(--anim-bounce-left-duration, var(--anim-duration, 3s));
   animation-iteration-count: 1;
   animation-delay: 1s;
   animation-timing-function: ease-in-out;
@@ -482,7 +482,7 @@
   --bounce-x-direction: 1;
   animation-name: keyframes-bounce-x;
   animation-direction: normal;
-  animation-duration: 3s;
+  animation-duration: var(--anim-bounce-right-duration, var(--anim-duration, 3s));
   animation-iteration-count: 1;
   animation-delay: 1s;
   animation-timing-function: ease-in-out;
@@ -501,7 +501,7 @@
   animation-name: keyframes-slide-y;
   animation-direction: normal;
   animation-fill-mode: forwards;
-  animation-duration: 0.25s;
+  animation-duration: var(--anim-slide-down-duration, var(--anim-duration, 0.25s));
   animation-iteration-count: 1;
   animation-delay: 0.1s;
   animation-timing-function: ease-out;
@@ -512,18 +512,18 @@
   animation-name: keyframes-slide-y;
   animation-direction: normal;
   animation-fill-mode: forwards;
-  animation-duration: 0.25s;
+  animation-duration: var(--anim-slide-up-duration, var(--anim-duration, 0.25s));
   animation-iteration-count: 1;
   animation-delay: 0.1s;
   animation-timing-function: ease-in-out;
 }
 
 .anim-slide-left.run {
-  --slide-x-direction: -1;
+  --slide-x-direction: 1;
   animation-name: keyframes-slide-x;
   animation-direction: normal;
   animation-fill-mode: forwards;
-  animation-duration: 0.25s;
+  animation-duration: var(--anim-slide-left-duration, var(--anim-duration, 0.25s));
   animation-iteration-count: 1;
   animation-delay: 0.1s;
   animation-timing-function: cubic-bezier(0.8,-0.27,0.025,1.105);
@@ -531,11 +531,11 @@
 }
 
 .anim-slide-right.run {
-  --slide-x-direction: 1;
+  --slide-x-direction: -1;
   animation-name: keyframes-slide-x;
   animation-direction: normal;
   animation-fill-mode: forwards;
-  animation-duration: 0.25s;
+  animation-duration: var(--anim-slide-right, var(--anim-duration, 0.25s));
   animation-iteration-count: 1;
   animation-delay: 0.1s;
   animation-timing-function: cubic-bezier(0.8,-0.27,0.025,1.105);
