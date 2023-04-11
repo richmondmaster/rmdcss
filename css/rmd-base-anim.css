@@ -544,26 +544,21 @@
 
 .anim-slide-left-fade-in.run {
   --slide-x-direction: 1;
-  animation-name: keyframes-slide-x-opacity-in;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
-  animation-duration: var(--anim-slide-left-duration, var(--anim-duration, 0.25s));
-  animation-iteration-count: 1;
+  animation: keyframes-slide-x var(--anim-slide-left-duration, var(--anim-duration, 0.25s)) forwards, keyframes-opacity-in var(--anim-opacity-duration, var(--anim-duration, 1s)) forwards;
+  /* -webkit-animation: keyframes-slide-x-opacity-in 5s forwards, keyframes-opacity-out 5s forwards; */
+  /* animation-name: keyframes-slide-x-opacity-in; */
+  /* animation-direction: normal;
+  /* animation-fill-mode: forwards;
+  animation-duration: var(--anim-slide-left-duration, var(--anim-duration, 0.25s)); */
+  /* animation-iteration-count: 1;
   animation-delay: 0.1s;
   animation-timing-function: cubic-bezier(0.8,-0.27,0.025,1.105);
-  -animation-timing-function: ease-in-out;
+  -animation-timing-function: ease-in-out; */
 }
 
 .anim-slide-right-fade-in.run {
   --slide-x-direction: -1;
-  animation-name: keyframes-slide-x-opacity-in;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
-  animation-duration: var(--anim-slide-right, var(--anim-duration, 0.25s));
-  animation-iteration-count: 1;
-  animation-delay: 0.1s;
-  animation-timing-function: cubic-bezier(0.8,-0.27,0.025,1.105);
-  -animation-timing-function: ease-in-out;
+  animation: keyframes-slide-x var(--anim-slide-right-duration, var(--anim-duration, 0.25s)) forwards, keyframes-opacity-in var(--anim-opacity-duration, var(--anim-duration, 1s)) forwards;
 }
 
 .anim-expand.run {
@@ -696,22 +691,6 @@
   }
 }
 
-@keyframes keyframes-slide-x-opacity-in {
-  0% {
-    opacity: var(--anim-opacity-start, 0);
-    -webkit-transform: translate(calc(var(--slide-x-start, var(--default-slide-x-start, 0px)) * var(--slide-x-direction, 1) * 1.8), 0px);
-    -moz-transform: translate(calc(var(--slide-x-start, var(--default-slide-x-start, 0px)) * var(--slide-x-direction, 1) * 1.8), 0px);
-    transform: translate(calc(var(--slide-x-start, var(--default-slide-x-start, 0px)) * var(--slide-x-direction, 1) * 1.8), 0px);
-  }
-
-  100% {
-    opacity: var(--anim-opacity-end, 1);
-    -webkit-transform: translate(calc(var(--slide-x-end, 60px) * var(--slide-x-direction, 1)), 0px);
-    -moz-transform: translate(calc(var(--slide-x-end, 60px) * var(--slide-x-direction, 1)), 0px);
-    transform: translate(calc(var(--slide-x-end, 60px) * var(--slide-x-direction, 1)), 0px);
-  }
-}
-
 @keyframes keyframes-slide-x {
   0% {
     -webkit-transform: translate(calc(var(--slide-x-start, var(--default-slide-x-start, 0px)) * var(--slide-x-direction, 1) * 1.8), 0px);
@@ -723,23 +702,6 @@
     -webkit-transform: translate(calc(var(--slide-x-end, 60px) * var(--slide-x-direction, 1)), 0px);
     -moz-transform: translate(calc(var(--slide-x-end, 60px) * var(--slide-x-direction, 1)), 0px);
     transform: translate(calc(var(--slide-x-end, 60px) * var(--slide-x-direction, 1)), 0px);
-  }
-}
-
-
-@keyframes keyframes-slide-y-opacity-in {
-  0% {
-    opacity: var(--anim-opacity-start, 0);
-    -webkit-transform: translate(0px, calc(var(--slide-y-start, var(--default-slide-y-start, 0px)) * var(--slide-y-direction, 1) * 1.8));
-    -moz-transform: translate(0px, calc(var(--slide-y-start, var(--default-slide-y-start, 0px)) * var(--slide-y-direction, 1) * 1.8));
-    transform: translate(0px, calc(var(--slide-y-start, var(--default-slide-y-start, 0px)) * var(--slide-y-direction, 1) * 1.8));
-  }
-
-  100% {
-    opacity: var(--anim-opacity-end, 1);
-    -webkit-transform: translate(0px, calc(var(--slide-y-end, 60px) * var(--slide-y-direction, 1)));
-    -moz-transform: translate(0px, calc(var(--slide-y-end, 60px) * var(--slide-y-direction, 1)));
-    transform: translate(0px, calc(var(--slide-y-end, 60px) * var(--slide-y-direction, 1)));
   }
 }
 
