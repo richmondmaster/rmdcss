@@ -68,6 +68,7 @@ p {
     display: block;
 }
 
+.tbl,
 .table {
     display: table;
 }
