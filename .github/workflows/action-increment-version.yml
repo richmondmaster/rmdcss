@@ -25,7 +25,7 @@ jobs:
         
     - uses: ncipollo/release-action@v1
       with:
-        tag: echo 'v${{ steps.version.outputs.version }}'
+        tag: 'v${{ steps.version.outputs.version }}'
         commit: 'main'
         artifacts: "v{{ steps.version.outputs.version }}.tar.gz,v{{ steps.version.outputs.version }}.zip"
         
