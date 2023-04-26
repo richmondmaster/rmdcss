@@ -543,14 +543,60 @@ p {
     width: 85%;
 }
 
+.cover-width-80-pct,
+.cover-width-80-percent {
+    width: 80%;
+}
+
+.cover-width-75-pct,
+.cover-width-75-percent {
+    width: 75%;
+}
+
+.cover-width-70-pct,
+.cover-width-70-percent {
+    width: 70%;
+}
+
+.cover-width-65-pct,
+.cover-width-65-percent {
+    width: 65%;
+}
+
+.cover-width-60-pct,
+.cover-width-60-percent {
+    width: 60%;
+}
+
+.cover-width-55-pct,
+.cover-width-55-percent {
+    width: 55%;
+}
+
 .cover-width-50-pct
 .cover-width-50-percent {
     width: 50%;
 }
 
+.cover-width-45-pct,
+.cover-width-45-percent {
+    width: 45%;
+}
+
+
 .cover-width-40-pct
 .cover-width-40-percent {
     width: 40%;
+}
+
+.cover-width-33-pct,
+.cover-width-33-percent {
+    width: 33%;
+}
+
+.cover-width-35-pct,
+.cover-width-35-percent {
+    width: 35%;
 }
 
 .cover-width-30-pct
@@ -558,9 +604,19 @@ p {
     width: 30%;
 }
 
+.cover-width-25-pct,
+.cover-width-25-percent {
+    width: 25%;
+}
+
 .cover-width-20-pct
 .cover-width-20-percent {
     width: 20%;
+}
+
+.cover-width-15-pct,
+.cover-width-15-percent {
+    width: 15%;
 }
 
 .cover-width-10-pct
@@ -733,19 +789,130 @@ p {
     height: 250px;
 }
 
+.cover-5-pct,
+.cover-5-percent {
+    width: 5%;
+    height: 5%;
+}
+
+.cover-10-pct,
+.cover-10-percent {
+    width: 10%;
+    height: 10%;
+}
+
+.cover-15-pct,
+.cover-15-percent {
+    width: 15%;
+    height: 15%;
+}
+
+.cover-20-pct,
+.cover-20-percent {
+    width: 20%;
+    height: 20%;
+}
+
+.cover-25-pct,
+.cover-25-percent {
+    width: 25%;
+    height: 25%;
+}
+
+.cover-30-pct,
+.cover-30-percent {
+    width: 30%;
+    height: 30%;
+}
+
+.cover-33-pct,
+.cover-33-percent {
+    width: 33%;
+    height: 33%;
+}
+
+.cover-35-pct,
+.cover-35-percent {
+    width: 35%;
+    height: 35%;
+}
+
+.cover-40-pct,
+.cover-40-percent {
+    width: 40%;
+    height: 40%;
+}
+
+.cover-45-pct,
+.cover-45-percent {
+    width: 45%;
+    height: 45%;
+}
+
+.cover-50-pct,
+.cover-50-percent {
+    width: 50%;
+    height: 50%;
+}
+
+.cover-55-pct,
+.cover-55-percent {
+    width: 55%;
+    height: 55%;
+}
+
+.cover-60-pct,
+.cover-60-percent {
+    width: 60%;
+    height: 60%;
+}
+
+.cover-65-pct,
+.cover-65-percent {
+    width: 65%;
+    height: 65%;
+}
+
+.cover-70-pct,
+.cover-70-percent {
+    width: 70%;
+    height: 70%;
+}
+
+.cover-75-pct,
+.cover-75-percent {
+    width: 75%;
+    height: 75%;
+}
+
+.cover-80-pct,
+.cover-80-percent {
+    width: 80%;
+    height: 80%;
+}
+
+.cover-85-pct,
 .cover-85-percent {
     width: 85%;
     height: 85%;
 }
 
+.cover-90-pct,
 .cover-90-percent {
     width: 90%;
     height: 90%;
 }
 
+.cover-95-pct,
 .cover-95-percent {
     width: 95%;
     height: 95%;
+}
+
+.cover-100-pct,
+.cover-100-percent {
+    width: 100%;
+    height: 100%;
 }
 
 .border {
