@@ -5431,7 +5431,6 @@ p {
         width: 100% !important;
     }
 
-    
     .mgn-for-medium-down,
     .margin-for-medium-down {
         margin: var(--margin, 0.5rem);
@@ -5980,6 +5979,34 @@ p {
 
     .padding-b-xxxsm-for-medium-down {
         padding-bottom: 0.0625em;
+    }
+
+    .no-margin-for-medium-down {
+        margin: 0px !important;
+    }
+
+    .no-margin-lr-for-medium-down {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    .no-margin-tb-for-medium-down {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .no-padding-for-medium-down {
+        padding: 0px !important;
+    }
+
+    .no-padding-lr-for-medium-down  {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .no-padding-tb-for-medium-down  {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
     }
 
     .border-xxxxlg-for-medium-down {
@@ -7509,8 +7536,28 @@ p {
         margin: 0px !important;
     }
 
+    .no-margin-lr-for-small-down {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    .no-margin-tb-for-small-down {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
     .no-padding-for-small-down {
         padding: 0px !important;
+    }
+
+    .no-padding-lr-for-small-down  {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .no-padding-tb-for-small-down  {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
     }
 
     .hide-for-small-down {
@@ -7878,6 +7925,7 @@ p {
     clear: none !important;
 }
 
+.no-bx,
 .no-box,
 .no-box-sizing {
     box-sizing: unset !important;
@@ -7885,6 +7933,16 @@ p {
 
 .no-margin {
     margin: 0px !important;
+}
+
+.no-margin-lr {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.no-margin-tb {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .no-scrollbar {
@@ -7897,7 +7955,17 @@ p {
 }
 
 .no-padding {
-    padding: 0px !important;
+    padding: 0 !important;
+}
+
+.no-padding-lr {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.no-padding-tb {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .no-bold,
