@@ -1174,51 +1174,51 @@ p {
 }
 
 .shadowed-sm-dark {
-    -webkit-box-shadow: 0px 1px 9px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-    -moz-box-shadow: 0px 1px 9px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-    box-shadow: 0px 1px 9px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    -webkit-box-shadow: 0px 1px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    -moz-box-shadow: 0px 1px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    box-shadow: 0px 1px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
 }
 
 .shadowed-sm-light{
-    -webkit-box-shadow: 0px 1px 9px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-    -moz-box-shadow: 0px 1px 9px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-    box-shadow: 0px 1px 9px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    -webkit-box-shadow: 0px 1px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    -moz-box-shadow: 0px 1px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    box-shadow: 0px 1px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
 }
 
 .shadowed-md {
-    -webkit-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.5)));
-    -moz-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.5)));
-    box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.5)));
+    -webkit-box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.5)));
+    -moz-box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.5)));
+    box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.5)));
 }
 
 .shadowed-md-dark {
-    -webkit-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-    -moz-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-    box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-}
-
-.shadowed-md-light {
-    -webkit-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-    -moz-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-    box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-}
-
-.shadowed-lg {
-    -webkit-box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
-    -moz-box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
-    box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
-}
-
-.shadowed-lg-dark {
     -webkit-box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
     -moz-box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
     box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
 }
 
-.shadowed-lg-light {
+.shadowed-md-light {
     -webkit-box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
     -moz-box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
     box-shadow: 0px 0px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+}
+
+.shadowed-lg {
+    -webkit-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
+    -moz-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
+    box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
+}
+
+.shadowed-lg-dark {
+    -webkit-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    -moz-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+}
+
+.shadowed-lg-light {
+    -webkit-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    -moz-box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    box-shadow: 0px 0px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
 }
 
 .shadowed-top {
@@ -1246,51 +1246,51 @@ p {
 }
 
 .shadowed-top-sm-dark {
-    -webkit-box-shadow: 0px -2px 0.5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-    -moz-box-shadow: 0px -2px 0.5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-    box-shadow: 0px -2px 0.5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    -webkit-box-shadow: 0px -2px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    -moz-box-shadow: 0px -2px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    box-shadow: 0px -2px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
 }
 
 .shadowed-top-sm-light {
-    -webkit-box-shadow: 0px -2px 0.5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-    -moz-box-shadow: 0px -2px 0.5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-    box-shadow: 0px -2px 0.5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    -webkit-box-shadow: 0px -2px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    -moz-box-shadow: 0px -2px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    box-shadow: 0px -2px 5px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
 }
 
 .shadowed-top-md {
-    -webkit-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
-    -moz-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
-    box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
-}
-
-.shadowed-top-md-dark {
-    -webkit-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-    -moz-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-    box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-}
-
-.shadowed-top-md-light {
-    -webkit-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-    -moz-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-    box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-}
-
-.shadowed-top-lg {
     -webkit-box-shadow: 0px -2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
     -moz-box-shadow: 0px -2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
     box-shadow: 0px -2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
 }
 
-.shadowed-top-lg-dark {
+.shadowed-top-md-dark {
     -webkit-box-shadow: 0px -2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
     -moz-box-shadow: 0px -2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
     box-shadow: 0px -2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
 }
 
-.shadowed-top-lg-light {
+.shadowed-top-md-light {
     -webkit-box-shadow: 0px -2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
     -moz-box-shadow: 0px -2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
     box-shadow: 0px -2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+}
+
+.shadowed-top-lg {
+    -webkit-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
+    -moz-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
+    box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
+}
+
+.shadowed-top-lg-dark {
+    -webkit-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    -moz-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+}
+
+.shadowed-top-lg-light {
+    -webkit-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    -moz-box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    box-shadow: 0px -2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
 }
 
 .shadowed-bottom {
@@ -1330,39 +1330,39 @@ p {
 }
 
 .shadowed-bottom-md {
-    -webkit-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
-    -moz-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
-    box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
-}
-
-.shadowed-bottom-md-dark {
-    -webkit-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-    -moz-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-    box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
-}
-
-.shadowed-bottom-md-light {
-    -webkit-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-    -moz-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-    box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
-}
-
-.shadowed-bottom-lg {
     -webkit-box-shadow: 0px 2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
     -moz-box-shadow: 0px 2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
     box-shadow: 0px 2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
 }
 
-.shadowed-bottom-lg-dark {
+.shadowed-bottom-md-dark {
     -webkit-box-shadow: 0px 2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
     -moz-box-shadow: 0px 2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
     box-shadow: 0px 2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
 }
 
-.shadowed-bottom-lg-light {
+.shadowed-bottom-md-light {
     -webkit-box-shadow: 0px 2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
     -moz-box-shadow: 0px 2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
     box-shadow: 0px 2px 10px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+}
+
+.shadowed-bottom-lg {
+    -webkit-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
+    -moz-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
+    box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.45)));
+}
+
+.shadowed-bottom-lg-dark {
+    -webkit-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    -moz-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+    box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.75)));
+}
+
+.shadowed-bottom-lg-light {
+    -webkit-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    -moz-box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
+    box-shadow: 0px 2px 15px var(--shadow-color, var(--default-shadow-color,rgba(0, 0, 0, 0.25)));
 }
 
 .no-shadow {
