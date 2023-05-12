@@ -73,6 +73,7 @@ p {
     display: table;
 }
 
+.tbl-cell,
 .table-cell {
     display: table-cell;
 }
@@ -528,9 +529,49 @@ p {
     width: 100%;
 }
 
+.cover-width-99-pct,
+.cover-width-99-percent {
+    width: 99%;
+}
+
+.cover-width-98-pct,
+.cover-width-98-percent {
+    width: 98%;
+}
+
+.cover-width-97-pct,
+.cover-width-97-percent {
+    width: 97%;
+}
+
+.cover-width-96-pct,
+.cover-width-96-percent {
+    width: 96%;
+}
+
 .cover-width-95-pct,
 .cover-width-95-percent {
     width: 95%;
+}
+
+.cover-width-94-pct,
+.cover-width-94-percent {
+    width: 94%;
+}
+
+.cover-width-93-pct,
+.cover-width-93-percent {
+    width: 93%;
+}
+
+.cover-width-92-pct,
+.cover-width-92-percent {
+    width: 92%;
+}
+
+.cover-width-91-pct,
+.cover-width-91-percent {
+    width: 91%;
 }
 
 .cover-width-90-pct,
@@ -903,10 +944,58 @@ p {
     height: 90%;
 }
 
+.cover-91-pct,
+.cover-91-percent {
+    width: 91%;
+    height: 91%;
+}
+
+.cover-92-pct,
+.cover-92-percent {
+    width: 92%;
+    height: 92%;
+}
+
+.cover-93-pct,
+.cover-93-percent {
+    width: 93%;
+    height: 93%;
+}
+
+.cover-94-pct,
+.cover-94-percent {
+    width: 94%;
+    height: 94%;
+}
+
 .cover-95-pct,
 .cover-95-percent {
     width: 95%;
     height: 95%;
+}
+
+.cover-96-pct,
+.cover-96-percent {
+    width: 96%;
+    height: 96%;
+}
+
+.cover-97-pct,
+.cover-97-percent {
+    width: 97%;
+    height: 97%;
+}
+
+.cover-98-pct,
+.cover-98-percent {
+    width: 98%;
+    height: 98%;
+}
+
+.cover-99-pct,
+.cover-99-percent {
+    width: 99%;
+    height: 99%;
 }
 
 .cover-100-pct,
