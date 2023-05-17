@@ -1862,7 +1862,7 @@ p {
 }
 
 .font-md {
-    font-size: 0.85rem !important;
+    font-size: 1rem !important;
 }
 
 .font-sm {
@@ -3233,7 +3233,7 @@ p {
     }
 
     .font-md-for-medium-up {
-        font-size: 0.85rem !important;
+        font-size: 1rem !important;
     }
 
     .font-sm-for-medium-up {
@@ -3487,7 +3487,7 @@ p {
     }
 
     .font-md-for-large-up {
-        font-size: 0.85rem !important;
+        font-size: 1rem !important;
     }
 
     .font-sm-for-large-up {
@@ -5635,7 +5635,7 @@ p {
     }
 
     .font-md-for-medium-down {
-        font-size: 0.85rem !important;
+        font-size: 1rem !important;
     }
 
     .font-sm-for-medium-down {
@@ -6903,7 +6903,7 @@ p {
     }
 
     .font-md-for-small-down {
-        font-size: 0.85rem !important;
+        font-size: 1rem !important;
     }
 
     .font-sm-for-small-down {
