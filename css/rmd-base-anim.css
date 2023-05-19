@@ -7,27 +7,59 @@
 
 /* animate keyframes (style transitions) */
 .anim-opacity {
-  -webkit-transition: opacity 300ms ease-out;
-  -moz-transition: opacity 300ms ease-out;
-  transition: opacity 300ms ease-out;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: var(--anim-opacity-duration, 300ms);
+  -webkit-transition-timing-function: var(--anim-opacity-timing-function, ease-out);
+
+  -moz-transition-property: opacity;
+  -moz-transition-duration: var(--anim-opacity-duration, 300ms);
+  -moz-transition-timing-function: var(--anim-opacity-timing-function, ease-out);
+
+  transition-property: opacity;
+  transition-duration: var(--anim-opacity-duration, 300ms);
+  transition-timing-function: var(--anim-opacity-timing-function, ease-out);
 }
 
 .anim-width {
-  -webkit-transition: width 300ms ease-out;
-  -moz-transition: width 300ms ease-out;
-  transition: width 300ms ease-out;
+  -webkit-transition-property: width;
+  -webkit-transition-duration: var(--anim-width-duration, 300ms);
+  -webkit-transition-timing-function: var(--anim-width-timing-function, ease-out);
+
+  -moz-transition-property: width;
+  -moz-transition-duration: var(--anim-width-duration, 300ms);
+  -moz-transition-timing-function: var(--anim-width-timing-function, ease-out);
+
+  transition-property: width;
+  transition-duration: var(--anim-width-duration, 300ms);
+  transition-timing-function: var(--anim-width-timing-function, ease-out);
 }
 
 .anim-color {
-  -webkit-transition: color 300ms ease-out;
-  -moz-transition: color 300ms ease-out;
-  transition: color 300ms ease-out;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: var(--anim-color-duration, 300ms);
+  -webkit-transition-timing-function: var(--anim-color-timing-function, ease-out);
+
+  -moz-transition-property: color;
+  -moz-transition-duration: var(--anim-color-duration, 300ms);
+  -moz-transition-timing-function: var(--anim-color-timing-function, ease-out);
+
+  transition-property: color;
+  transition-duration: var(--anim-color-duration, 300ms);
+  transition-timing-function: var(--anim-color-timing-function, ease-out);
 }
 
 .anim-background-color {
-  -webkit-transition: background-color 300ms ease-out;
-  -moz-transition: background-color 300ms ease-out;
-  transition: background-color 300ms ease-out;
+  -webkit-transition-property: background-colorh;
+  -webkit-transition-duration: var(--anim-background-color-duration, 300ms);
+  -webkit-transition-timing-function: var(--anim-background-color-timing-function, ease-out);
+
+  -moz-transition-property: background-color;
+  -moz-transition-duration: var(--anim-background-color-duration, 300ms);
+  -moz-transition-timing-function: var(--anim-background-color-timing-function, ease-out);
+
+  transition-property: background-color;
+  transition-duration: var(--anim-background-color-duration, 300ms);
+  transition-timing-function: var(--anim-background-color-timing-function, ease-out);
 }
 
 .anim-background-color-pulse
