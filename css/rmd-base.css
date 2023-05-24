@@ -1608,6 +1608,14 @@ p {
     overflow: hidden !important;
 }
 
+.overflow-auto {
+    overflow: auto !important;
+}
+
+.overflow-scroll {
+    overflow: scroll !important;
+}
+
 .scrl,
 .scroll {
     overflow: scroll;

@@ -130,16 +130,16 @@
 .hover-color.hovered-background-color,
 .hover-color:hover {
   color: var(--hover-color, #ddd) !important; /* colors are set on-the-fly a lot, via the style attribute */
-  transition-duration: var(--hover-color-duration, 500ms);
-  transition-timing-function: ease-in-out;
+  transition-duration: var(--hover-color-duration, 300ms);
+  transition-timing-function: ease-out;
 }
 
 .hover-saturate.hovered-all,
 .hover-saturate.hovered-saturate,
 .hover-saturate:hover {
   filter: saturate(var(--hover-saturate, 5));
-  transition-duration: var(--hover-saturate-duration, 500ms);
-  transition-timing-function: ease-in-out;
+  transition-duration: var(--hover-saturate-duration, 300ms);
+  transition-timing-function: ease-out;
 }
 
 .hover-children-background-color > div:not([class~="noanim"]):hover,
