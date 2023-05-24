@@ -8498,8 +8498,24 @@ p {
     margin-right: 0 !important;
 }
 
+.no-margin-l {
+    margin-left: 0 !important;
+}
+
+.no-margin-r {
+    margin-right: 0 !important;
+}
+
 .no-margin-tb {
     margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.no-margin-t {
+    margin-top: 0 !important;
+}
+
+.no-margin-b {
     margin-bottom: 0 !important;
 }
 
@@ -8521,8 +8537,24 @@ p {
     padding-right: 0 !important;
 }
 
+.no-padding-l {
+    padding-left: 0 !important;
+}
+
+.no-padding-r {
+    padding-right: 0 !important;
+}
+
 .no-padding-tb {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.no-padding-t {
+    padding-top: 0 !important;
+}
+
+.no-padding-b {
     padding-bottom: 0 !important;
 }
 

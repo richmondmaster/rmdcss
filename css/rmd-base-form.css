@@ -668,6 +668,7 @@ input[type="text"] {
   outline-style: var(--input-text-outline-style, var(--default-input-text-outline-style, initial));
   outline-width: var(--input-text-outline-width, var(--default-input-text-outline-width, initial));
   outline-color: var(--input-text-outline-color, var(--default-input-text-outline-color, initial));
+  border-style: var(--input-text-border-style, var(--default-input-text-border-style, initial));
   border-color: var(--input-text-border-color, var(--default-input-text-border-color, initial));
   border-width: var(--input-text-border-width, var(--default-input-text-border-width, initial));
   border-color: var(--input-text-border-color, var(--default-input-text-border-color, initial));
@@ -689,6 +690,7 @@ input[type="password"] {
   outline-style: var(--input-password-outline-style, var(--default-input-password-outline-style, initial));
   outline-width: var(--input-password-outline-width, var(--default-input-password-outline-width, initial));
   outline-color: var(--input-password-outline-color, var(--default-input-password-outline-color, initial));
+  border-style: var(--input-password-border-style, var(--default-input-password-border-style, initial));
   border-color: var(--input-password-border-color, var(--default-input-password-border-color, initial));
   border-width: var(--input-password-border-width, var(--default-input-password-border-width, initial));
   border-color: var(--input-password-border-color, var(--default-input-password-border-color, initial));
@@ -734,7 +736,7 @@ select {
   outline-style: var(--input-select-outline-style, var(--default-input-select-outline-style, initial));
   outline-width: var(--input-select-outline-width, var(--default-input-select-outline-width, initial));
   outline-color: var(--input-select-outline-color, var(--default-input-select-outline-color, initial));
-  border-color: var(--input-select-border-color, var(--default-input-select-border-color, initial));
+  border-style: var(--input-select-border-style, var(--default-input-select-border-style, initial));
   border-width: var(--input-select-border-width, var(--default-input-select-border-width, initial));
   border-color: var(--input-select-border-color, var(--default-input-select-border-color, initial));
   border-radius: var(--input-select-border-radius, var(--default-input-select-border-radius, 0));
