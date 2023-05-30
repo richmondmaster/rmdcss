@@ -8667,6 +8667,7 @@ p {
 
 .no-background-image {
     background-image: unset !important;
+}
 
 .shw,
 .show {
