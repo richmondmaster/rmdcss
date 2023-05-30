@@ -63,6 +63,7 @@
     border-style: var(--button-border-style, var(--default-button-border-style, solid));
     border-width: var(--button-border-width, var(--default-button-border-width, 0px));
     border-color: var(--button-border-color, var(--default-button-border-color, #5b9bd5));
+    border-radius: var(--button-border-radius, var(--default-button-border-radius), initial);
     cursor: pointer;
 }
 
