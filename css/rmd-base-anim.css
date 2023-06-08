@@ -49,7 +49,7 @@
 }
 
 .anim-background-color {
-  -webkit-transition-property: background-colorh;
+  -webkit-transition-property: background-color;
   -webkit-transition-duration: var(--anim-background-color-duration, 300ms);
   -webkit-transition-timing-function: var(--anim-background-color-timing-function, ease-out);
 
@@ -382,14 +382,14 @@
   animation-name: keyframes-background-color-to-color;
   animation-direction: normal;
   animation-fill-mode: forwards;
-  animation-duration: 750ms;
-  animation-timing-function: ease-out;
+  animation-duration: var(--anim-background-color-to-color-duration, 750ms);
+  animation-timing-function: var(--anim-background-color-to-color-timing-function, ease-out);
   animation-iteration-count: 1;
 }
 
 .anim-background-color.run {
   background-color: var(--anim-background-color, #ddd);
-  transition-duration: var(--anim-duration, 300ms);
+  transition-duration: var(--anim-background-color-duration, 300ms);
 }
 
 .anim-torque.run {
