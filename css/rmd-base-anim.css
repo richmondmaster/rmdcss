@@ -340,7 +340,8 @@
 }
 
 /* animation */
-.anim-width.run {
+.anim-width.run,
+.anim-width.run-anim-width {
   animation-name: keyframes-width;
   animation-direction: normal;
   animation-duration: 1.5s;
@@ -350,7 +351,8 @@
   animation-timing-function: cubic-bezier(0.8,-0.27,0.025,1.105);
 }
 
-.anim-width-reverse.run {
+.anim-width-reverse.run,
+.anim-width-reverse.run-width-reverse {
   animation-name: keyframes-width;
   animation-direction: alternate;
   animation-duration: 5.5s;
@@ -360,7 +362,8 @@
   animation-timing-function: cubic-bezier(0.8,-0.27,0.025,1.105);
 }
 
-.anim.run {
+.anim.run,
+.anim.run-anim {
   --animation-name: keyframes-slide-x;
   animation-name: --animation-name;
   animation-direction: normal;
@@ -370,7 +373,8 @@
   animation-timing-function: ease-in-out;
 }
 
-.anim-rotate.run {
+.anim-rotate.run,
+.anim-rotate.run-anim-rotate {
   animation-name: keyframes-rotate;
   animation-direction: normal;
   animation-duration: 750ms;
@@ -378,7 +382,8 @@
   animation-iteration-count: 1;
 }
 
-.anim-background-color-to-color.run {
+.anim-background-color-to-color.run,
+.anim-background-color-to-color.run-anim-background-color-to-color {
   animation-name: keyframes-background-color-to-color;
   animation-direction: normal;
   animation-fill-mode: forwards;
@@ -387,18 +392,21 @@
   animation-iteration-count: 1;
 }
 
-.anim-background-color.run {
+.anim-background-color.run,
+.anim-background-color.run-anim-background-color {
   background-color: var(--anim-background-color-color, #ddd) !important;
   transition-duration: var(--anim-background-color-duration, 300ms);
 }
 
-.anim-torque.run {
+.anim-torque.run,
+.anim-torque.run-anim-torque {
   -webkit-transform: rotate(540deg);
   -moz-transform: rotate(540deg);
   transform: rotate(540deg);
 }
 
-.anim-fidget-rotate.run {
+.anim-fidget-rotate.run,
+.anim-fidget-rotate.run-anim-fidget-rotate {
   animation-name: keyframes-fidget-rotate;
   animation-direction: normal;
   animation-duration: 7.5s;
@@ -407,26 +415,30 @@
   animation-iteration-count: infinite;
 }
 
-.anim-opacity-in.run {
+.anim-opacity-in.run,
+.anim-opacity-in.run-anim-opacity-in {
   animation-name: keyframes-opacity-in;
   animation-direction: normal;
   animation-duration: 1s;
 }
 
-.anim-opacity-out.run {
+.anim-opacity-out.run,
+.anim-opacity-out.run-anim-opacity-out {
   animation-name: keyframes-opacity-out;
   animation-direction: normal;
   animation-duration: 1s;
 }
 
-.anim-opacity-pulse.run {
+.anim-opacity-pulse.run,
+.anim-opacity-pulse.run-anim-opacity-pulse {
   animation-name: keyframes-opacity-pulse;
   animation-direction: normal;
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
 
-.anim-opacity-in-out.run {
+.anim-opacity-in-out.run,
+.anim-opacity-in-out.run-anim-opacity-in-out {
   animation-name: keyframes-opacity-in-out;
   animation-direction: normal;
   animation-duration: var(--anim-duration, 5000ms);
