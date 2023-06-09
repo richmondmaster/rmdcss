@@ -394,6 +394,12 @@
 
 .anim-background-color.run,
 .anim-background-color.run-anim-background-color {
+  background-color: var(--anim-background-color-color, #ddd);
+  transition-duration: var(--anim-background-color-duration, 300ms);
+}
+
+.anim-background-color-important.run,
+.anim-background-color-important.run-anim-background-color {
   background-color: var(--anim-background-color-color, #ddd) !important;
   transition-duration: var(--anim-background-color-duration, 300ms);
 }
