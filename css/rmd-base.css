@@ -6488,6 +6488,10 @@ p {
         background-color: unset !important;
     }
 
+    .no-scrollbar-for-large-down::-webkit-scrollbar {
+        display: none;
+    }
+
     .no-scrollbar-for-large-down {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
