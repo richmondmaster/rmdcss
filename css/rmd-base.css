@@ -4651,6 +4651,226 @@ p {
         width: 5% !important;
     }
 
+    .flex-item-1-for-large-up {
+        flex-basis: 100% !important;
+    }
+    
+    .flex-item-2-for-large-up {
+        flex-basis: 50% !important;
+    }
+    
+    .flex-item-3-for-large-up {
+        flex-basis: 33.333% !important;
+    }
+    
+    .flex-item-4-for-large-up {
+        flex-basis: 25% !important;
+    }
+    
+    .flex-item-5-for-large-up {
+        flex-basis: 20% !important;
+    }
+    
+    .flex-item-6-for-large-up {
+        flex-basis: 16.667% !important;
+    }
+    
+    .flex-item-7-for-large-up {
+        flex-basis: 14.286% !important;
+    }
+    
+    .flex-item-8-for-large-up {
+        flex-basis: 12.5% !important;
+    }
+    
+    .flex-item-9-for-large-up {
+        flex-basis: 11.111% !important;
+    }
+    
+    .flex-item-10-for-large-up {
+        flex-basis: 10% !important;
+    }
+    
+    .flex-item-p5-pct-for-large-up,
+    .flex-item-p5-percent-for-large-up,
+    .flex-item-p5-p-for-large-up {
+        flex-basis: 0.5% !important;
+    }
+    
+    .flex-item-2p5-pct-for-large-up,
+    .flex-item-2p5-percent-for-large-up,
+    .flex-item-2p5-p-for-large-up {
+        flex-basis: 2.5% !important;
+    }
+    
+    .flex-item-5-pct-for-large-up,
+    .flex-item-5-percent-for-large-up,
+    .flex-item-5-p-for-large-up {
+        flex-basis: 10% !important;
+    }
+    
+    .flex-item-10-pct-for-large-up,
+    .flex-item-10-percent-for-large-up,
+    .flex-item-10-p-for-large-up {
+        flex-basis: 10% !important;
+    }
+
+    .flex-item-15-pct-for-large-up,
+    .flex-item-15-percent-for-large-up,
+    .flex-item-15-p-for-large-up {
+        flex-basis: 15% !important;
+    }
+    
+    .flex-item-20-pct-for-large-up,
+    .flex-item-20-percent-for-large-up,
+    .flex-item-20-p-for-large-up {
+        flex-basis: 20% !important;
+    }
+    
+    .flex-item-25-pct-for-large-up,
+    .flex-item-25-percent-for-large-up,
+    .flex-item-25-p-for-large-up {
+        flex-basis: 25% !important;
+    }
+    
+    .flex-item-33-pct-for-large-up,
+    .flex-item-33-percent-for-large-up,
+    .flex-item-33-p-for-large-up {
+        flex-basis: 33.333% !important;
+    }
+    
+    .flex-item-50-pct-for-large-up,
+    .flex-item-50-percent-for-large-up,
+    .flex-item-50-p-for-large-up {
+        flex-basis: 50% !important;
+    }
+    
+    .flex-item-67-pct-for-large-up,
+    .flex-item-67-percent-for-large-up,
+    .flex-item-67-p-for-large-up {
+        flex-basis: 67.667% !important;
+    }
+    
+    .flex-item-70-pct-for-large-up,
+    .flex-item-70-percent-for-large-up,
+    .flex-item-70-p-for-large-up {
+        flex-basis: 70% !important;
+    }
+    
+    .flex-item-75-pct-for-large-up,
+    .flex-item-75-percent-for-large-up,
+    .flex-item-75-p-for-large-up {
+        flex-basis: 75% !important;
+    }
+    
+    .flex-item-80-pct-for-large-up,
+    .flex-item-80-percent-for-large-up,
+    .flex-item-80-p-for-large-up {
+        flex-basis: 80% !important;
+    }
+
+    .flex-item-85-pct-for-large-up,
+    .flex-item-85-percent-for-large-up,
+    .flex-item-85-p-for-large-up {
+        flex-basis: 85% !important;
+    }
+    
+    .flex-item-90-pct-for-large-up,
+    .flex-item-90-percent-for-large-up,
+    .flex-item-90-p-for-large-up {
+        flex-basis: 90% !important;
+    }
+    
+    .flex-item-91-pct-for-large-up,
+    .flex-item-91-percent-for-large-up,
+    .flex-item-91-p-for-large-up {
+        flex-basis: 91% !important;
+    }
+
+    .flex-item-92-pct-for-large-up,
+    .flex-item-92-percent-for-large-up,
+    .flex-item-92-p-for-large-up {
+        flex-basis: 92% !important;
+    }
+
+    .flex-item-93-pct-for-large-up,
+    .flex-item-93-percent-for-large-up,
+    .flex-item-93-p-for-large-up {
+        flex-basis: 93% !important;
+    }
+
+    .flex-item-94-pct-for-large-up,
+    .flex-item-94-percent-for-large-up,
+    .flex-item-94-p-for-large-up {
+        flex-basis: 94% !important;
+    }
+
+    .flex-item-95-pct-for-large-up,
+    .flex-item-95-percent-for-large-up,
+    .flex-item-95-p-for-large-up {
+        flex-basis: 95% !important;
+    }
+
+    .flex-item-96-pct-for-large-up,
+    .flex-item-96-percent-for-large-up,
+    .flex-item-96-p-for-large-up {
+        flex-basis: 96% !important;
+    }
+
+    .flex-item-97-pct-for-large-up,
+    .flex-item-97-percent-for-large-up,
+    .flex-item-97-p-for-large-up {
+        flex-basis: 97% !important;
+    }
+    
+    .flex-item-98-pct-for-large-up,
+    .flex-item-98-percent-for-large-up,
+    .flex-item-98-p-for-large-up {
+        flex-basis: 98% !important;
+    }
+
+    .flex-item-99-pct-for-large-up,
+    .flex-item-99-percent-for-large-up,
+    .flex-item-99-p-for-large-up {
+        flex-basis: 99% !important;
+    }
+    
+    .flex-item-100-pct-for-large-up,
+    .flex-item-100-percent-for-large-up,
+    .flex-item-100-p-for-large-up {
+        flex-basis: 100% !important;
+    }
+
+    .flex-column-for-large-up,
+    .flex-flow-column-for-large-up {
+        flex-flow: column;
+    }
+
+    .flex-column-wrap-for-large-up,
+    .flex-flow-column-wrap-for-large-up {
+        flex-flow: column wrap;
+    }
+
+    .flex-column-nowrap-for-large-up,
+    .flex-flow-column-nowrap-for-large-up {
+        flex-flow: column nowrap;
+    }
+
+    .flex-row-for-large-up,
+    .flex-flow-row-for-large-up {
+        flex-flow: row;
+    }
+
+    .flex-row-wrap-for-large-up,
+    .flex-flow-row-wrap-for-largedown {
+        flex-flow: row wrap;
+    }
+
+    .flex-row-nowrap-for-large-up,
+    .flex-flow-row-nowrap-for-large-up {
+        flex-flow: row nowrap;
+    }
+
     .no-background-image-for-large-up {
         background-image: unset !important;
     }
@@ -5895,59 +6115,129 @@ p {
     .flex-item-10-p-for-large-down {
         flex-basis: 10% !important;
     }
-    
+
+    .flex-item-15-pct-for-large-down,
+    .flex-item-15-percent-for-large-down,
     .flex-item-15-p-for-large-down {
         flex-basis: 15% !important;
     }
     
+    .flex-item-20-pct-for-large-down,
+    .flex-item-20-percent-for-large-down,
     .flex-item-20-p-for-large-down {
         flex-basis: 20% !important;
     }
     
+    .flex-item-25-pct-for-large-down,
+    .flex-item-25-percent-for-large-down,
     .flex-item-25-p-for-large-down {
         flex-basis: 25% !important;
     }
     
+    .flex-item-33-pct-for-large-down,
+    .flex-item-33-percent-for-large-down,
     .flex-item-33-p-for-large-down {
         flex-basis: 33.333% !important;
     }
     
+    .flex-item-50-pct-for-large-down,
+    .flex-item-50-percent-for-large-down,
     .flex-item-50-p-for-large-down {
         flex-basis: 50% !important;
     }
     
+    .flex-item-67-pct-for-large-down,
+    .flex-item-67-percent-for-large-down,
     .flex-item-67-p-for-large-down {
         flex-basis: 67.667% !important;
     }
     
+    .flex-item-70-pct-for-large-down,
+    .flex-item-70-percent-for-large-down,
     .flex-item-70-p-for-large-down {
         flex-basis: 70% !important;
     }
     
+    .flex-item-75-pct-for-large-down,
+    .flex-item-75-percent-for-large-down,
     .flex-item-75-p-for-large-down {
         flex-basis: 75% !important;
     }
     
+    .flex-item-80-pct-for-large-down,
+    .flex-item-80-percent-for-large-down,
     .flex-item-80-p-for-large-down {
         flex-basis: 80% !important;
     }
 
+    .flex-item-85-pct-for-large-down,
+    .flex-item-85-percent-for-large-down,
     .flex-item-85-p-for-large-down {
         flex-basis: 85% !important;
     }
     
+    .flex-item-90-pct-for-large-down,
+    .flex-item-90-percent-for-large-down,
     .flex-item-90-p-for-large-down {
         flex-basis: 90% !important;
     }
     
+    .flex-item-91-pct-for-large-down,
+    .flex-item-91-percent-for-large-down,
+    .flex-item-91-p-for-large-down {
+        flex-basis: 91% !important;
+    }
+
+    .flex-item-92-pct-for-large-down,
+    .flex-item-92-percent-for-large-down,
+    .flex-item-92-p-for-large-down {
+        flex-basis: 92% !important;
+    }
+
+    .flex-item-93-pct-for-large-down,
+    .flex-item-93-percent-for-large-down,
+    .flex-item-93-p-for-large-down {
+        flex-basis: 93% !important;
+    }
+
+    .flex-item-94-pct-for-large-down,
+    .flex-item-94-percent-for-large-down,
+    .flex-item-94-p-for-large-down {
+        flex-basis: 94% !important;
+    }
+
+    .flex-item-95-pct-for-large-down,
+    .flex-item-95-percent-for-large-down,
     .flex-item-95-p-for-large-down {
         flex-basis: 95% !important;
     }
+
+    .flex-item-96-pct-for-large-down,
+    .flex-item-96-percent-for-large-down,
+    .flex-item-96-p-for-large-down {
+        flex-basis: 96% !important;
+    }
+
+    .flex-item-97-pct-for-large-down,
+    .flex-item-97-percent-for-large-down,
+    .flex-item-97-p-for-large-down {
+        flex-basis: 97% !important;
+    }
     
+    .flex-item-98-pct-for-large-down,
+    .flex-item-98-percent-for-large-down,
+    .flex-item-98-p-for-large-down {
+        flex-basis: 98% !important;
+    }
+
+    .flex-item-99-pct-for-large-down,
+    .flex-item-99-percent-for-large-down,
     .flex-item-99-p-for-large-down {
         flex-basis: 99% !important;
     }
     
+    .flex-item-100-pct-for-large-down,
+    .flex-item-100-percent-for-large-down,
     .flex-item-100-p-for-large-down {
         flex-basis: 100% !important;
     }
