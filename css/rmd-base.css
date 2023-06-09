@@ -3686,6 +3686,11 @@ p {
     .flex-item-1-for-medium-up {
         flex-basis: 100% !important;
     }
+
+    .no-scrollbar-for-medium-up {
+        -ms-overflow-style: none;  /* IE and Edge */
+         scrollbar-width: 0.1px;  /* Firefox */
+    }
 }
 
 @media only screen and (min-width: 851px) {
@@ -4882,6 +4887,11 @@ p {
     .no-background-color-for-large-up {
         background-color: unset !important;
     }
+
+    .no-scrollbar-for-large-up {
+        -ms-overflow-style: none;  /* IE and Edge */
+         scrollbar-width: 0.1px;  /* Firefox */
+    }
 }
 
 @media only screen and (min-width: 1601px) {
@@ -5071,6 +5081,11 @@ p {
     .flex-item-1-for-xlarge-up {
         flex-basis: 100% !important;
     }
+
+    .no-scrollbar-for-xlarge-up {
+        -ms-overflow-style: none;  /* IE and Edge */
+         scrollbar-width: 0.1px;  /* Firefox */
+    }
 }
 
 @media only screen and (min-width: 2049px) {
@@ -5132,6 +5147,11 @@ p {
 
     .font-xxsm-for-xxlarge-up {
         font-size: 0.5rem !important;
+    }
+
+    .no-scrollbar-for-xxlarge-up {
+        -ms-overflow-style: none;  /* IE and Edge */
+         scrollbar-width: 0.1px;  /* Firefox */
     }
 }
 
@@ -6403,6 +6423,11 @@ p {
     .no-background-color-for-large-down {
         background-color: unset !important;
     }
+
+    .no-scrollbar-for-large-down {
+        -ms-overflow-style: none;  /* IE and Edge */
+         scrollbar-width: 0.1px;  /* Firefox */
+    }
 }
 
 @media only screen and (max-width: 1600px) {
@@ -6465,6 +6490,11 @@ p {
     .flex-item-1-for-xlarge-down {
         flex-basis: 100% !important;
     }
+
+    .no-scrollbar-for-xlarge-down {
+        -ms-overflow-style: none;  /* IE and Edge */
+         scrollbar-width: 0.1px;  /* Firefox */
+    }
 }
 
 @media only screen and (max-width: 2048px) {
@@ -6526,6 +6556,11 @@ p {
 
     .flex-item-1-for-xxlarge-down {
         flex-basis: 100% !important;
+    }
+
+    .no-scrollbar-for-xxlarge-down {
+        -ms-overflow-style: none;  /* IE and Edge */
+         scrollbar-width: 0.1px;  /* Firefox */
     }
 }
 
@@ -7774,6 +7809,11 @@ p {
 
     .no-background-color-for-medium-down {
         background-color: unset !important;
+    }
+
+    .no-scrollbar-for-medium-down {
+        -ms-overflow-style: none;  /* IE and Edge */
+         scrollbar-width: 0.1px;  /* Firefox */
     }
 }
 
@@ -9040,6 +9080,11 @@ p {
 
     .no-background-color-for-small-down {
         background-color: unset !important;
+    }
+
+    .no-scrollbar-for-small-down {
+        -ms-overflow-style: none;  /* IE and Edge */
+         scrollbar-width: 0.1px;  /* Firefox */
     }
 }
 
