@@ -3679,6 +3679,10 @@ p {
         background-image: unset !important;
     }
 
+    .no-background-color-for-medium-up {
+        background-color: unset !important;
+    }
+
     .flex-item-1-for-medium-up {
         flex-basis: 100% !important;
     }
@@ -4874,6 +4878,10 @@ p {
     .no-background-image-for-large-up {
         background-image: unset !important;
     }
+
+    .no-background-color-for-large-up {
+        background-color: unset !important;
+    }
 }
 
 @media only screen and (min-width: 1601px) {
@@ -5001,6 +5009,10 @@ p {
         background-image: unset !important;
     }
 
+    .no-background-color-for-xlarge-up {
+        background-color: unset !important;
+    }
+
     .cover-width-100-pct-for-xlarge-up,
     .cover-width-100-percent-for-xlarge-up {
         width: 100% !important;
@@ -5072,6 +5084,10 @@ p {
 
     .no-background-image-for-xxlarge-up {
         background-image: unset !important;
+    }
+
+    .no-background-color-for-xxlarge-up {
+        background-color: unset !important;
     }
 
     .flex-item-1-for-xxlarge-up {
@@ -6383,6 +6399,10 @@ p {
     .no-background-image-for-large-down {
         background-image: unset !important;
     }
+
+    .no-background-color-for-large-down {
+        background-color: unset !important;
+    }
 }
 
 @media only screen and (max-width: 1600px) {
@@ -6436,6 +6456,10 @@ p {
 
     .no-background-image-for-xlarge-down {
         background-image: unset !important;
+    }
+
+    .no-background-color-for-xlarge-down {
+        background-color: unset !important;
     }
 
     .flex-item-1-for-xlarge-down {
@@ -6494,6 +6518,10 @@ p {
 
     .no-background-image-for-xxlarge-down {
         background-image: unset !important;
+    }
+
+    .no-background-color-for-xxlarge-down {
+        background-color: unset !important;
     }
 
     .flex-item-1-for-xxlarge-down {
@@ -7742,6 +7770,10 @@ p {
 
     .no-background-image-for-medium-down {
         background-image: unset !important;
+    }
+
+    .no-background-color-for-medium-down {
+        background-color: unset !important;
     }
 }
 
@@ -9004,6 +9036,10 @@ p {
 
     .no-background-image-for-small-down {
         background-image: unset !important;
+    }
+
+    .no-background-color-for-small-down {
+        background-color: unset !important;
     }
 }
 
