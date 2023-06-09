@@ -6386,6 +6386,46 @@ p {
 }
 
 @media only screen and (max-width: 1600px) {
+    .font-xxxxxlg-for-large-down {
+        font-size: 4rem !important;
+    }
+
+    .font-xxxxlg-for-xlarge-down {
+        font-size: 3rem !important;
+    }
+
+    .font-xxxlg-for-xlarge-down {
+        font-size: 2.5rem !important;
+    }
+
+    .font-xxlg-for-xlarge-down {
+        font-size: 2.0rem !important;
+    }
+
+    .font-xlg-for-xlarge-down {
+        font-size: 1.5rem !important;
+    }
+
+    .font-lg-for-xlarge-down {
+        font-size: 1.25rem !important;
+    }
+
+    .font-md-for-xlarge-down {
+        font-size: 1rem !important;
+    }
+
+    .font-sm-for-xlarge-down{
+        font-size: 0.75rem !important;
+    }
+
+    .font-xsm-for-xlarge-down {
+        font-size: 0.6rem !important;
+    }
+
+    .font-xxsm-for-xlarge-down {
+        font-size: 0.5rem !important;
+    }
+
     .hide-for-xlarge-down {
         display: none !important;
     }
@@ -6404,6 +6444,46 @@ p {
 }
 
 @media only screen and (max-width: 2048px) {
+    .font-xxxxxlg-for-xxlarge-down {
+        font-size: 4rem !important;
+    }
+
+    .font-xxxxlg-for-xxlarge-down {
+        font-size: 3rem !important;
+    }
+
+    .font-xxxlg-for-xxlarge-down {
+        font-size: 2.5rem !important;
+    }
+
+    .font-xxlg-for-xxlarge-down {
+        font-size: 2.0rem !important;
+    }
+
+    .font-xlg-for-xxlarge-down {
+        font-size: 1.5rem !important;
+    }
+
+    .font-lg-for-xxlarge-down {
+        font-size: 1.25rem !important;
+    }
+
+    .font-md-for-xxlarge-down {
+        font-size: 1rem !important;
+    }
+
+    .font-sm-for-xxlarge-down{
+        font-size: 0.75rem !important;
+    }
+
+    .font-xsm-for-xxlarge-down {
+        font-size: 0.6rem !important;
+    }
+
+    .font-xxsm-for-xxlarge-down {
+        font-size: 0.5rem !important;
+    }
+
     .hide-for-xxlarge-down {
         display: none !important;
     }
