@@ -3691,6 +3691,18 @@ p {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
     }
+
+    .overflow-auto-for-medium-up {
+        overflow: auto !important;
+    }
+
+    .overflow-hidden-for-medium-up {
+        overflow: hidden !important;
+    }
+
+    .no-overflow-for-medium-up {
+        overflow: unset !important;
+    }
 }
 
 @media only screen and (min-width: 851px) {
@@ -4892,6 +4904,18 @@ p {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
     }
+
+    .overflow-auto-for-large-up {
+        overflow: auto !important;
+    }
+
+    .overflow-hidden-for-large-up {
+        overflow: hidden !important;
+    }
+
+    .no-overflow-for-large-up {
+        overflow: unset !important;
+    }
 }
 
 @media only screen and (min-width: 1601px) {
@@ -5086,6 +5110,18 @@ p {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
     }
+
+    .overflow-auto-for-xlarge-up {
+        overflow: auto !important;
+    }
+
+    .overflow-hidden-for-xlarge-up {
+        overflow: hidden !important;
+    }
+
+    .no-overflow-for-xlarge-up {
+        overflow: unset !important;
+    }
 }
 
 @media only screen and (min-width: 2049px) {
@@ -5152,6 +5188,18 @@ p {
     .no-scrollbar-for-xxlarge-up {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
+    }
+
+    .overflow-auto-for-xxlarge-up {
+        overflow: auto !important;
+    }
+
+    .overflow-hidden-for-xxlarge-up {
+        overflow: hidden !important;
+    }
+
+    .no-overflow-for-xxlarge-up {
+        overflow: unset !important;
     }
 }
 
@@ -6428,10 +6476,22 @@ p {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
     }
+
+    .overflow-auto-for-large-down {
+        overflow: auto !important;
+    }
+
+    .overflow-hidden-for-large-down {
+        overflow: hidden !important;
+    }
+
+    .no-overflow-for-large-down {
+        overflow: unset !important;
+    }
 }
 
 @media only screen and (max-width: 1600px) {
-    .font-xxxxxlg-for-large-down {
+    .font-xxxxxlg-for-xlarge-down {
         font-size: 4rem !important;
     }
 
@@ -6494,6 +6554,14 @@ p {
     .no-scrollbar-for-xlarge-down {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
+    }
+
+    .overflow-auto-for-xlarge-down {
+        overflow: auto !important;
+    }
+
+    .no-overflow-for-xlarge-down {
+        overflow: unset !important;
     }
 }
 
@@ -6561,6 +6629,14 @@ p {
     .no-scrollbar-for-xxlarge-down {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
+    }
+
+    .overflow-auto-for-xxlarge-down {
+        overflow: auto !important;
+    }
+
+    .no-overflow-for-xxlarge-down {
+        overflow: unset !important;
     }
 }
 
@@ -7814,6 +7890,18 @@ p {
     .no-scrollbar-for-medium-down {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
+    }
+
+    .overflow-auto-for-medium-down {
+        overflow: auto !important;
+    }
+
+    .overflow-hidden-for-medium-down {
+        overflow: hidden !important;
+    }
+
+    .no-overflow-for-medium-down {
+        overflow: unset !important;
     }
 }
 
@@ -9085,6 +9173,18 @@ p {
     .no-scrollbar-for-small-down {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
+    }
+
+    .overflow-auto-for-small-down {
+        overflow: auto !important;
+    }
+
+    .overflow-hidden-for-small-down {
+        overflow: hidden !important;
+    }
+
+    .no-overflow-for-small-down {
+        overflow: unset !important;
     }
 }
 
