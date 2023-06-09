@@ -3687,6 +3687,10 @@ p {
         flex-basis: 100% !important;
     }
 
+    .no-scrollbar-for-medium-up::-webkit-scrollbar {
+        display: none;
+    }
+
     .no-scrollbar-for-medium-up {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
@@ -4900,6 +4904,10 @@ p {
         background-color: unset !important;
     }
 
+    .no-scrollbar-for-large-up::-webkit-scrollbar {
+        display: none;
+    }
+
     .no-scrollbar-for-large-up {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
@@ -5106,6 +5114,10 @@ p {
         flex-basis: 100% !important;
     }
 
+    .no-scrollbar-for-xlarge-up::-webkit-scrollbar {
+        display: none;
+    }
+
     .no-scrollbar-for-xlarge-up {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
@@ -5183,6 +5195,10 @@ p {
 
     .font-xxsm-for-xxlarge-up {
         font-size: 0.5rem !important;
+    }
+
+    .no-scrollbar-for-xxlarge-up::-webkit-scrollbar {
+        display: none;
     }
 
     .no-scrollbar-for-xxlarge-up {
@@ -6551,6 +6567,10 @@ p {
         flex-basis: 100% !important;
     }
 
+    .no-scrollbar-for-xlarge-down::-webkit-scrollbar {
+        display: none;
+    }
+
     .no-scrollbar-for-xlarge-down {
         -ms-overflow-style: none;  /* IE and Edge */
          scrollbar-width: 0.1px;  /* Firefox */
@@ -6624,6 +6644,10 @@ p {
 
     .flex-item-1-for-xxlarge-down {
         flex-basis: 100% !important;
+    }
+
+    .no-scrollbar-for-xxlarge-down::-webkit-scrollbar {
+        display: none;
     }
 
     .no-scrollbar-for-xxlarge-down {
@@ -7885,6 +7909,10 @@ p {
 
     .no-background-color-for-medium-down {
         background-color: unset !important;
+    }
+
+    .no-scrollbar-for-medium-down::-webkit-scrollbar {
+        display: none;
     }
 
     .no-scrollbar-for-medium-down {
@@ -9168,6 +9196,10 @@ p {
 
     .no-background-color-for-small-down {
         background-color: unset !important;
+    }
+
+    .no-scrollbar-for-small-down::-webkit-scrollbar {
+        display: none;
     }
 
     .no-scrollbar-for-small-down {
