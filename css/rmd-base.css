@@ -4611,8 +4611,8 @@ p {
         width: 80% !important;
     }
 
-    .cover-width-70-pct-for-xlarge-up,
-    .cover-width-70-percent-for-xlarge-up {
+    .cover-width-70-pct-for-large-up,
+    .cover-width-70-percent-for-large-up {
         width: 70% !important;
     }
 
@@ -4656,7 +4656,47 @@ p {
     }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1601px) {
+    .font-xxxxxlg-for-xlarge-up {
+        font-size: 4rem !important;
+    }
+
+    .font-xxxxlg-for-xlarge-up {
+        font-size: 3rem !important;
+    }
+
+    .font-xxxlg-for-xlarge-up {
+        font-size: 2.5rem !important;
+    }
+
+    .font-xxlg-for-xlarge-up {
+        font-size: 2.0rem !important;
+    }
+
+    .font-xlg-for-xlarge-up {
+        font-size: 1.5rem !important;
+    }
+
+    .font-lg-for-xlarge-up {
+        font-size: 1.25rem !important;
+    }
+
+    .font-md-for-xlarge-up {
+        font-size: 1rem !important;
+    }
+
+    .font-sm-for-xlarge-up {
+        font-size: 0.75rem !important;
+    }
+
+    .font-xsm-for-xlarge-up {
+        font-size: 0.6rem !important;
+    }
+
+    .font-xxsm-for-xlarge-up {
+        font-size: 0.5rem !important;
+    }
+
     .padding-md-for-xlarge-up {
         padding: 0.5rem;
     }
@@ -4740,16 +4780,6 @@ p {
     .no-background-image-for-xlarge-up {
         background-image: unset !important;
     }
-}
-
-@media only screen and (min-width: 1601px) {
-    .hide-for-xlarge-up {
-        display: none !important;
-    }
-
-    .show-for-xlarge-up {
-        display: block;
-    }
 
     .cover-width-100-pct-for-xlarge-up,
     .cover-width-100-percent-for-xlarge-up {
@@ -4827,6 +4857,46 @@ p {
     .flex-item-1-for-xxlarge-up {
         flex-basis: 100% !important;
     }
+
+    .font-xxxxxlg-for-xxlarge-up {
+        font-size: 4rem !important;
+    }
+
+    .font-xxxxlg-for-xxlarge-up {
+        font-size: 3rem !important;
+    }
+
+    .font-xxxlg-for-xxlarge-up {
+        font-size: 2.5rem !important;
+    }
+
+    .font-xxlg-for-xxlarge-up {
+        font-size: 2.0rem !important;
+    }
+
+    .font-xlg-for-xxlarge-up {
+        font-size: 1.5rem !important;
+    }
+
+    .font-lg-for-xxlarge-up {
+        font-size: 1.25rem !important;
+    }
+
+    .font-md-for-xxlarge-up {
+        font-size: 1rem !important;
+    }
+
+    .font-sm-for-xxlarge-up {
+        font-size: 0.75rem !important;
+    }
+
+    .font-xsm-for-xxlarge-up {
+        font-size: 0.6rem !important;
+    }
+
+    .font-xxsm-for-xxlarge-up {
+        font-size: 0.5rem !important;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -4834,6 +4904,46 @@ p {
         font-size: 100%;
     }
     
+    .font-xxxxxlg-for-large-down {
+        font-size: 4rem !important;
+    }
+
+    .font-xxxxlg-for-large-down {
+        font-size: 3rem !important;
+    }
+
+    .font-xxxlg-for-large-down {
+        font-size: 2.5rem !important;
+    }
+
+    .font-xxlg-for-large-down {
+        font-size: 2.0rem !important;
+    }
+
+    .font-xlg-for-large-down {
+        font-size: 1.5rem !important;
+    }
+
+    .font-lg-for-large-down {
+        font-size: 1.25rem !important;
+    }
+
+    .font-md-for-large-down {
+        font-size: 1rem !important;
+    }
+
+    .font-sm-for-large-down{
+        font-size: 0.75rem !important;
+    }
+
+    .font-xsm-for-large-down {
+        font-size: 0.6rem !important;
+    }
+
+    .font-xxsm-for-large-down {
+        font-size: 0.5rem !important;
+    }
+
     .hide-for-large-down {
         display: none !important;
     }
