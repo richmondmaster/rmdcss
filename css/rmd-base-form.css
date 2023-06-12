@@ -93,9 +93,32 @@
 
   .form-group {
     display: inline-flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     padding: 0.5em 0.5em; /* indents */
     box-sizing: border-box;
+  }
+
+  .form-container {
+    display: inline-flex;
+    flex-flow: column wrap;
+    padding: 0.5em 0.5em; /* indents */
+    box-sizing: border-box;
+  }
+
+  .form-content {
+    display: inline-flex;
+    flex-flow: row wrap;
+    flex: 1 1 var(--flex-basis, min-content);
+    width: 100%;
+    height: fit-content;
+    word-wrap: normal;
+    -word-break: break-all; /* affects text alignments negatively */
+    white-space: normal;
+    padding: 0.5em 0.5em;
+    gap: 0.25rem;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    line-height: 1.5em;
   }
 
   .form-column { /* synonym for .form-group */
