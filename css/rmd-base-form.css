@@ -152,7 +152,7 @@
   .input-group {
     display: inline-flex;
     flex-direction: row;
-    gap: var(--default-form-input-gap, 0em 0.5em);
+    gap: var(--default-form-input-gap, 0.5em 0.5em);
     padding: 0.25em 0em;
     box-sizing: border-box;
   }
@@ -206,6 +206,7 @@
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: var(--default-form-input-gap, 0em 0.5em);
     font-size: 100%;
   }
 
