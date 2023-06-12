@@ -204,6 +204,8 @@
 
   .input-container {
     display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-size: 100%;
   }
 
@@ -576,7 +578,8 @@
 
   .form-body > .input-group,
   .form-group > .input-group,
-  .form-row > .input-group {
+  .form-row > .input-group,
+  .form-section > .input-group {
     flex-flow: column;
   }
 
