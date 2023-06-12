@@ -401,7 +401,7 @@
   .input-group select,
   .input-group input[type=text],
   .input-group input[type=password] {
-    width: 0%; /* needed to allow flex basis to size properly*/
+    -width: 0%; /* needed to allow flex basis to size properly*/
     min-width: 0;
     border-style: var(--default-input-border-style, solid);
     border-width: var(--default-input-border-width, 1px);
@@ -416,7 +416,7 @@
   .input-group-compound select,
   .input-group-compound input[type=text],
   .input-group-compound input[type=password] {
-    width: 0%; /* needed to allow flex basis to size properly*/
+    -width: 0%; /* needed to allow flex basis to size properly*/
     min-width: 0;
     border-style: var(--default-input-border-style, solid);
     border-width: var(--default-input-border-width, 1px);
