@@ -9469,6 +9469,22 @@ p {
     height: unset !important;
 }
 
+.no-max-width {
+    max-width: unset !important;
+}
+
+.no-max-height {
+    max-height: unset !important;
+}
+
+.no-min-width {
+    min-width: unset !important;
+}
+
+.no-min-height {
+    min-height: unset !important;
+}
+
 .no-float {
     float: var(--no-float-float, unset) !important;
 }
