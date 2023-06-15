@@ -7,6 +7,10 @@ body {
     background-color: #e6e6e6;
 }
 
+.site-header-inner {
+    text-align: center;
+}
+
 .site-header-nav-container {
     display: inline-flex;
     width: 100%;
@@ -157,53 +161,63 @@ body {
 
 @media only screen and (max-width: 850px) {
     .site-header {
-        display: var(--for-medium-down-display, inline-flex);
-        height: var(--for-medium-down-height, unset);
-        flex-direction: var(--for-medium-down-flex-direction, column);
-        flex-wrap: var(--for-medium-down-flex-wrap, nowrap);
-        gap: var(--for-medium-down-gap, initial);
-        text-align: var(--for-medium-down-text-align, center);
+        display: var(--site-header-for-medium-down-display, inline-flex);
+        height: var(--site-header-for-medium-down-height, unset);
+        flex-direction: var(--site-header-for-medium-down-flex-direction, row);
+        flex-wrap: var(--site-header-for-medium-down-flex-wrap, nowrap);
+        gap: var(--site-header-for-medium-down-gap, initial);
+        text-align: var(--site-header-for-medium-down-text-align, center);
+    }
+
+    .site-header-inner {        
+        flex-direction: var(--site-header-inner-for-medium-down-flex-direction, column);
+        flex-wrap: var(--site-header-inner-for-medium-down-flex-wrap, nowrap);
     }
 
     .site-header > div {
-        margin: var(--for-medium-down-margin, 0rem auto);
-        text-align: var(--for-medium-down-text-align, center);
+        margin: var(--site-header-for-medium-down-margin, 0rem auto);
+        text-align: var(--site-header-for-medium-down-text-align, center);
+    }
+
+    .site-header-inner > div {
+        margin: var(--site-header-inner-for-medium-down-margin, 0rem auto);
+        text-align: var(--site-header-inner-for-medium-down-text-align, center);
     }
 
     .site-header-logo {
-        text-align: var(--for-medium-down-text-align, center);
+        text-align: var(--site-header-for-medium-down-text-align, center);
     }
 
     .site-footer {
-        display: var(--for-medium-down-display, table);
-        flex-direction: var(--for-medium-down-flex-direction, column);
-        flex-wrap: var(--for-medium-down-flex-wrap, nowrap);
-        text-align: var(--for-medium-down-text-align, center);
+        display: var(--site-footer-for-medium-down-display, table);
+        flex-direction: var(--site-footer-for-medium-down-flex-direction, column);
+        flex-wrap: var(--site-footer-for-medium-down-flex-wrap, nowrap);
+        text-align: var(--site-footer-for-medium-down-text-align, center);
     }
 
     .site-footer > div {
-        width: var(--for-medium-down-width, 100%);
-        text-align: var(--for-medium-down-text-align, center);
+        width: var(--site-footer-for-medium-down-width, 100%);
+        text-align: var(--site-footer-for-medium-down-text-align, center);
     }
 
     .site-footer-title {
-        text-align: var(--for-medium-down-text-align, center);
+        text-align: var(--site-footer-for-medium-down-text-align, center);
     }
 
     .site-footer-nav {
-        display: var(--for-medium-down-display, table);
-        flex-direction: var(--for-medium-down-flex-direction, column);
-        flex-wrap: var(--for-medium-down-flex-wrap, nowrap);
-        padding: var(--for-medium-down-padding, 0rem);
-        text-align: var(--for-medium-down-text-align, center);
-        font-size: var(--for-medium-down-padding, 1rem);
+        display: var(--site-footer-for-medium-down-display, table);
+        flex-direction: var(--site-footer-for-medium-down-flex-direction, column);
+        flex-wrap: var(--site-footer-for-medium-down-flex-wrap, nowrap);
+        padding: var(--site-footer-for-medium-down-padding, 0rem);
+        text-align: var(--site-footer-for-medium-down-text-align, center);
+        font-size: var(--site-footer-for-medium-down-padding, 1rem);
     }
 
     .site-footer-nav div {
-        padding: var(--for-medium-down-padding, 1rem 0rem);
-        border-bottom: var(--for-medium-down-border-bottom-color, #ccc);
-        border-bottom-style: var(--for-medium-down-border-bottom-style, solid);
-        border-bottom-width: var(--for-medium-down-border-bottom-width, 1px);
+        padding: var(--site-footer-for-medium-down-padding, 1rem 0rem);
+        border-bottom: var(--site-footer-for-medium-down-border-bottom-color, #ccc);
+        border-bottom-style: var(--site-footer-for-medium-down-border-bottom-style, solid);
+        border-bottom-width: var(--site-footer-for-medium-down-border-bottom-width, 1px);
     }
 }
 
