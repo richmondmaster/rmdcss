@@ -1360,6 +1360,11 @@ p {
     border-bottom-right-radius: 2%;
 }
 
+/* Fix for Chrome; enforces a rounded border, preventing pixel leak */
+.border-round-mask {
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
 .transition {
     -webkit-transition: var(--transition-property, all) var(--transition-duration, 500ms) var(--transition-timing-function, linear);
     -moz-transition: var(--transition-property, all) var(--transition-duration, 500ms) var(--transition-timing-function, linear);
