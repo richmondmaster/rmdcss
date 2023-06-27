@@ -557,12 +557,33 @@ p[class*="flex-row-item-"] {
 
 /* large down */
 @media only screen and (max-width: 1024px) {
+    .flex-column-for-large-down {
+        flex-flow: column;
+    }
+
+    .flex-row-large-down {
+        flex-flow: row;
+    }
 }
 
 /* xlarge down */
 @media only screen and (max-width: 1600px) {
+    .flex-column-for-xlarge-down {
+        flex-flow: column;
+    }
+
+    .flex-row-xlarge-down {
+        flex-flow: row;
+    }
 }
 
 /* xxlarge down */
 @media only screen and (max-width: 2048px) {
+    .flex-column-for-xxlarge-down {
+        flex-flow: column;
+    }
+
+    .flex-row-xxlarge-down {
+        flex-flow: row;
+    }
 }
