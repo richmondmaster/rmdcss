@@ -1389,6 +1389,18 @@ p {
     border-bottom-style: var(--rule-bottom-border-style, var(--default-rule-bottom-border-style, solid));
 }
 
+.rule-left {
+    border-left-width: var(--rule-left-border-width, var(--default-rule-left-border-width, 1px));
+    border-left-color: var(--rule-left-border-color, var(--default-rule-left-border-color, #ccc));
+    border-left-style: var(--rule-left-border-style, var(--default-rule-left-border-style, solid));
+}
+
+.rule-right {
+    border-right-width: var(--rule-right-border-width, var(--default-rule-right-border-width, 1px));
+    border-right-color: var(--rule-right-border-color, var(--default-rule-right-border-color, #ccc));
+    border-right-style: var(--rule-right-border-style, var(--default-rule-right-border-style, solid));
+}
+
 .shdw,
 .shdwd,
 .shadow,
@@ -9838,6 +9850,10 @@ p {
 
 .no-float {
     float: var(--no-float-float, unset) !important;
+}
+
+.no-line-height {
+    line-height: unset !important;
 }
 
 .no-text-align {

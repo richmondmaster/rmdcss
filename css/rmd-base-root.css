@@ -48,6 +48,8 @@
 
     --default-rule-top-border-color: #ccc;
     --default-rule-bottom-border-color: #ccc;
+    --default-rule-left-border-color: #ccc;
+    --default-rule-right-border-color: #ccc;
 
     --default-z-index: 1000;
 
