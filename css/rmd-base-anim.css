@@ -34,6 +34,20 @@
   transition-timing-function: var(--anim-width-timing-function, ease-out);
 }
 
+.anim-height {
+  -webkit-transition-property: height;
+  -webkit-transition-duration: var(--anim-height-duration, 300ms);
+  -webkit-transition-timing-function: var(--anim-height-timing-function, ease-out);
+
+  -moz-transition-property: height;
+  -moz-transition-duration: var(--anim-height-duration, 300ms);
+  -moz-transition-timing-function: var(--anim-height-timing-function, ease-out);
+
+  transition-property: height;
+  transition-duration: var(--anim-height-duration, 300ms);
+  transition-timing-function: var(--anim-height-timing-function, ease-out);
+}
+
 .anim-color {
   -webkit-transition-property: color;
   -webkit-transition-duration: var(--anim-color-duration, 300ms);
