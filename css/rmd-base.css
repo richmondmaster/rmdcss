@@ -3954,6 +3954,10 @@ p {
         flex-basis: 100% !important;
     }
 
+    .justify-center-for-medium-up {
+        justify-content: center;
+    }
+
     .no-scrollbar-for-medium-up::-webkit-scrollbar {
         display: none;
     }
@@ -5175,6 +5179,10 @@ p {
         flex-wrap: nowrap !important;
     }
 
+    .justify-center-for-large-up {
+        justify-content: center;
+    }
+
     .no-background-image-for-large-up {
         background-image: unset !important;
     }
@@ -5405,6 +5413,10 @@ p {
         flex-wrap: nowrap !important;
     }
 
+    .justify-center-for-xlarge-up {
+        justify-content: center;
+    }
+
     .no-scrollbar-for-xlarge-up::-webkit-scrollbar {
         display: none;
     }
@@ -5498,6 +5510,10 @@ p {
 
     .font-xxsm-for-xxlarge-up {
         font-size: 0.5rem !important;
+    }
+
+    .justify-center-for-xxlarge-up {
+        justify-content: center;
     }
 
     .no-scrollbar-for-xxlarge-up::-webkit-scrollbar {
@@ -6872,6 +6888,10 @@ p {
         flex-wrap: nowrap !important;
     }
 
+    .justify-center-for-large-down {
+        justify-content: center;
+    }
+
     .overflow-auto-for-large-down {
         overflow: auto !important;
     }
@@ -6956,6 +6976,10 @@ p {
 
     .flex-no-wrap-for-xlarge-down {
         flex-wrap: nowrap !important;
+    }
+
+    .justify-center-for-xlarge-down {
+        justify-content: center;
     }
 
     .no-scrollbar-for-xlarge-down::-webkit-scrollbar {
@@ -7049,6 +7073,10 @@ p {
         flex-wrap: nowrap !important;
     }
 
+    .justify-center-for-xxlarge-down {
+        justify-content: center;
+    }
+
     .no-scrollbar-for-xxlarge-down::-webkit-scrollbar {
         display: none;
     }
@@ -7129,7 +7157,7 @@ p {
         margin: auto;
     }
 
-    .justify-center-medium-down {
+    .justify-center-for-medium-down {
         justify-content: center;
     }
 
@@ -9729,6 +9757,10 @@ p {
         -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
         -moz-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
         box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .justify-center-for-small-down {
+        justify-content: center;
     }
 
     .no-shadow-for-small-down {
