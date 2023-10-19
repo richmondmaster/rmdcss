@@ -353,6 +353,25 @@
   /* background-image: radial-gradient(circle, #3498db 99%,transparent 100%); */
 }
 
+.hover-border.hovered-all,
+.hover-border.hovered-border,
+.hover-border:hover {
+  border-top-color: var(--hover-border-color, var(--hover-border-top-color,#ddd)) !important;
+  border-bottom-color: var(--hover-border-color, var(--hover-border-bottom-color,#ddd)) !important;
+  border-left-color: var(--hover-border-color, var(--hover-border-left-color,#ddd)) !important;
+  border-right-color: var(--hover-border-color, var(--hover-border-right-color,#ddd)) !important;
+  border-top-width: var(--hover-border-width, var(--hover-border-top-width, 2px)) !important;
+  border-bottom-width: var(--hover-border-width, var(--hover-border-bottom-width, 2px)) !important;
+  border-left-width: var(--hover-border-width, var(--hover-border-left-width, 2px)) !important;
+  border-right-width: var(--hover-border-width, var(--hover-border-right-width, 2px)) !important;
+  border-top-style: var(--hover-border-style, var(--hover-border-top-style, solid)) !important;
+  border-bottom-style: var(--hover-border-style, var(--hover-border-bottom-style, solid)) !important;
+  border-left-style: var(--hover-border-style, var(--hover-border-left-style, solid)) !important;
+  border-right-style: var(--hover-border-style, var(--hover-border-right-style, solid)) !important;
+  transition-duration: var(--hover-border-duration, 300ms);
+  transition-timing-function: ease-out;
+}
+
 /* animation */
 .anim-width.run,
 .anim-width.run-anim-width {
