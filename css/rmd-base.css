@@ -134,7 +134,52 @@ p {
 .abs,
 .absolute {
     position: absolute;
-    z-index: var(--absolute-z-index, var(--default-z-index, 1));
+    z-index: var(--absolute-z-index, var(--default-absolute-z-index, 1));
+}
+
+.zidx,
+.zindex {
+    z-index: var(--z-index, var(--default-z-index, 1));
+}
+
+.zindex-1 {
+    z-index: 1;
+}
+
+.zindex-2 {
+    z-index: 2;
+}
+
+.zindex-3 {
+    z-index: 3;
+}
+
+.zindex-4 {
+    z-index: 4;
+}
+
+.zindex-5 {
+    z-index: 5;
+}
+
+.zindex-6 {
+    z-index: 6;
+}
+
+.zindex-7 {
+    z-index: 7;
+}
+
+.zindex-8 {
+    z-index: 8;
+}
+
+.zindex-9 {
+    z-index: 9;
+}
+
+.zindex-10 {
+    z-index: 10;
 }
 
 .rltv,
@@ -1753,15 +1798,6 @@ p {
     white-space: nowrap;
 }
 
-.brk-all,
-.break-all {
-    word-break: break-all;
-}
-
-.keep-all {
-    word-break: keep-all;
-}
-
 .l,
 .left {
     float: left;
@@ -3133,11 +3169,11 @@ p {
 }
 
 .orange {
-    color: #ee7d32 !important;
+    color: #e96c19 !important;
 }
 
 .orange-light {
-    color: #ecab80 !important;
+    color: #e9b28e !important;
 }
 
 .orange-lighter {
@@ -3187,7 +3223,7 @@ p {
 }
 
 .bg-blue-light {
-    background-color: #d0eefe !important;
+    background-color: #83a0d6 !important;
 }
 
 .bg-blue-lighter {
@@ -3207,7 +3243,7 @@ p {
 }
 
 .bg-green-light {
-    background-color: #1DD878 !important;
+    background-color: #61d89a !important;
 }
 
 .bg-green-lighter {
@@ -3228,10 +3264,6 @@ p {
 
 .bg-red-lighter {
     background-color: #ebd1cc !important;
-}
-
-.bg-white {
-    background-color: #fff !important;
 }
 
 .bg-fafafa {
@@ -3301,15 +3333,19 @@ p {
     background-color: #ccc !important;
 }
 
-.bg-ddd {
+.bg-ddd,
+.bg-grey-light {
     background-color: #ddd !important;
 }
 
-.bg-eee {
+.bg-eee,
+.bg-grey-lighter {
     background-color: #eee !important;
 }
 
-.bg-fff {
+.bg-white,
+.bg-fff,
+.bg-ffffff {
     background-color: #fff !important;
 }
 
@@ -9995,6 +10031,18 @@ p {
 
 .no-overflow {
     overflow: unset !important;
+}
+
+.no-nbsp,
+.brk-all,
+.break-all {
+    word-break: break-all;
+}
+
+.no-wrap,
+.keep-all {
+    word-break: keep-all;
+    white-space: nowrap;
 }
 
 .no-resize {
