@@ -372,6 +372,16 @@
   transition-timing-function: ease-out;
 }
 
+.hover-outline.hovered-all,
+.hover-outline.hovered-outline,
+.hover-outline:hover {
+  outline-color: var(--hover-outline-color, var(--hover-outline-default-color,#ddd)) !important;
+  outline-width: var(--hover-outline-width, var(--hover-outline-default-width, 2px)) !important;
+  outline-style: var(--hover-outline-style, var(--hover-outline-default-style, solid)) !important;
+  transition-duration: var(--hover-outline-duration, 300ms);
+  transition-timing-function: ease-out;
+}
+
 /* animation */
 .anim-width.run,
 .anim-width.run-anim-width {
